@@ -1,4 +1,5 @@
-﻿{
+
+{
 	"rarity":{
 		"N":"1",
 		"N+":"2",
@@ -15,6 +16,9 @@
 		"회복":"spr"
 	},
 	"skill":{
+		"AE":"AE36 Collapse",
+		"He":"HelloWorld",
+		"KA":"KANGTA",
 		"갈취":"Extortion",
 		"강타":"Smite",
 		"격노":"Rage",
@@ -62,6 +66,7 @@
 		"철벽":"Fortify",
 		"회피":"Evade",
 
+		"Me":"Mercury",
 		"검은":"Wolf",
 		"격려":"Encourage",
 		"기도":"Prayer",
