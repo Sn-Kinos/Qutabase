@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>811</width>
+    <height>796</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>811</width>
+    <height>796</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>811</width>
+    <height>796</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>나눔스퀘어 Bold</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>QutaBase</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #E3E4EE;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>65</y>
+      <width>411</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>나눔스퀘어 Bold,맑은 고딕</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: '나눔스퀘어 Bold', '맑은 고딕';
+font-size: 21px;
+background: white;
+border: none;</string>
+    </property>
+    <property name="text">
+     <string>셀라</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>나눔스퀘어 Bold,맑은 고딕</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: '나눔스퀘어 Bold', '맑은 고딕';
+font-size: 28px;
+color: #0A1533;</string>
+    </property>
+    <property name="text">
+     <string>QutaBase</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>60</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>나눔스퀘어 Bold,맑은 고딕</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: '나눔스퀘어 Bold', '맑은 고딕';
+font-size: 28px;
+color: #0A1533;</string>
+    </property>
+    <property name="text">
+     <string>Kodex_Name: </string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>100</y>
+      <width>813</width>
+      <height>696</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>0</y>
+       <width>561</width>
+       <height>67</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>나눔스퀘어 Bold,맑은 고딕</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: '나눔스퀘어 Bold', '맑은 고딕';
+font-size: 28px;
+color: white;
+background: #E10044;
+border: 1px solid #DDDDDD;</string>
+     </property>
+     <property name="text">
+      <string>셀라</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>161</width>
+       <height>67</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>나눔스퀘어 Bold,맑은 고딕</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: '나눔스퀘어 Bold', '맑은 고딕';
+font-size: 28px;
+color: white;
+background: #E10044;
+border: 1px solid #DDDDDD;</string>
+     </property>
+     <property name="text">
+      <string>SSR</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>0</y>
+       <width>91</width>
+       <height>67</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>나눔스퀘어 Bold,맑은 고딕</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: '나눔스퀘어 Bold', '맑은 고딕';
+font-size: 28px;
+color: white;
+background: #E10044;
+border: 1px solid #DDDDDD;</string>
+     </property>
+     <property name="text">
+      <string>셀라</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>66</y>
+       <width>268</width>
+       <height>86</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>나눔스퀘어 Bold,맑은 고딕</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: '나눔스퀘어 Bold', '맑은 고딕';
+font-size: 28px;
+color: white;
+background: #E10044;
+border: 1px solid #DDDDDD;</string>
+     </property>
+     <property name="text">
+      <string>SSR</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>267</x>
+       <y>66</y>
+       <width>87</width>
+       <height>44</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>나눔스퀘어 Bold,맑은 고딕</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: '나눔스퀘어 Bold', '맑은 고딕';
+font-size: 28px;
+color: white;
+background: #E10044;
+border: 1px solid #DDDDDD;</string>
+     </property>
+     <property name="text">
+      <string>SSR</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>267</x>
+       <y>109</y>
+       <width>87</width>
+       <height>43</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>나눔스퀘어 Bold,맑은 고딕</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: '나눔스퀘어 Bold', '맑은 고딕';
+font-size: 28px;
+color: white;
+background: #E10044;
+border: 1px solid #DDDDDD;</string>
+     </property>
+     <property name="text">
+      <string>SSR</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>353</x>
+       <y>109</y>
+       <width>86</width>
+       <height>43</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>나눔스퀘어 Bold,맑은 고딕</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: '나눔스퀘어 Bold', '맑은 고딕';
+font-size: 28px;
+color: white;
+background: #E10044;
+border: 1px solid #DDDDDD;</string>
+     </property>
+     <property name="text">
+      <string>SSR</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>353</x>
+       <y>66</y>
+       <width>86</width>
+       <height>44</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>나눔스퀘어 Bold,맑은 고딕</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: '나눔스퀘어 Bold', '맑은 고딕';
+font-size: 28px;
+color: white;
+background: #E10044;
+border: 1px solid #DDDDDD;</string>
+     </property>
+     <property name="text">
+      <string>SSR</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>110</y>
+       <width>86</width>
+       <height>42</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>나눔스퀘어 Bold,맑은 고딕</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: '나눔스퀘어 Bold', '맑은 고딕';
+font-size: 28px;
+color: white;
+background: #E10044;
+border: 1px solid #DDDDDD;</string>
+     </property>
+     <property name="text">
+      <string>SSR</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>66</y>
+       <width>86</width>
+       <height>44</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>나눔스퀘어 Bold,맑은 고딕</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: '나눔스퀘어 Bold', '맑은 고딕';
+font-size: 28px;
+color: white;
+background: #E10044;
+border: 1px solid #DDDDDD;</string>
+     </property>
+     <property name="text">
+      <string>SSR</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>109</y>
+       <width>91</width>
+       <height>43</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>나눔스퀘어 Bold,맑은 고딕</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: '나눔스퀘어 Bold', '맑은 고딕';
+font-size: 28px;
+color: white;
+background: #E10044;
+border: 1px solid #DDDDDD;</string>
+     </property>
+     <property name="text">
+      <string>SSR</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>66</y>
+       <width>91</width>
+       <height>44</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>나눔스퀘어 Bold,맑은 고딕</family>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: '나눔스퀘어 Bold', '맑은 고딕';
+font-size: 28px;
+color: white;
+background: #E10044;
+border: 1px solid #DDDDDD;</string>
+     </property>
+     <property name="text">
+      <string>SSR</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
