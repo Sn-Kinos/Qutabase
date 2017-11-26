@@ -15,6 +15,9 @@
 		"회복":"spr"
 	},
 	"skill":{
+		"AE":"AE36 Collapse",
+		"HE":"HelloWorld",
+		"KA":"KANGTA",
 		"갈취":"Extortion",
 		"강타":"Smite",
 		"격노":"Rage",
@@ -62,6 +65,7 @@
 		"철벽":"Fortify",
 		"회피":"Evade",
 
+		"ME":"Mercury",
 		"격려":"Encourage",
 		"기도":"Prayer",
 		"매직":"Hopeginger",
