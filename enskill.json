@@ -1,4 +1,4 @@
-﻿{
+{
 	"rarity":{
 		"N":"1",
 		"N+":"2",
@@ -15,7 +15,7 @@
 		"회복":"spr"
 	},
 	"skill":{
-		"AE":"AE36 Collapse",
+		"AE":"AE36",
 		"HE":"HelloWorld",
 		"KA":"KANGTA",
 		"갈취":"Extortion",
