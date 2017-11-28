@@ -1,4 +1,4 @@
-{
+﻿{
 	"rarity":{
 		"N":"1",
 		"N+":"2",
@@ -16,7 +16,7 @@
 	},
 	"skill":{
 		"AE":"AE36",
-		"HE":"HelloWorld",
+		"He":"HelloWorld",
 		"KA":"KANGTA",
 		"갈취":"Extortion",
 		"강타":"Smite",

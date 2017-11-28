@@ -12,7 +12,7 @@
     <OutputPath>.</OutputPath>
     <Name>Project QA</Name>
     <RootNamespace>Project QA</RootNamespace>
-    <InterpreterId>Global|PythonCore|3.6-32</InterpreterId>
+    <InterpreterId>Global|PythonCore|3.6</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,7 +23,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <InterpreterReference Include="Global|PythonCore|3.6-32" />
+    <InterpreterReference Include="Global|PythonCore|3.6" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Qutabase.py" />

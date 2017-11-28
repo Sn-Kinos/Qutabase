@@ -208,9 +208,10 @@ def func_aw_write():
 					path = 'd:/Documents/Visual Studio 2017/Projects/Project QA/Project QA/Kodex/' + enrole[int(Kodex['role'])] + '/' + enskill[Kodex['skill'][:2]] + '/' + Kodex['rarity'] + '/' + Kodex['id']
 					if not os.path.exists(path):
 						os.makedirs(path)
-					urllib.request.urlretrieve("http://static.inven.co.kr/image_2011/site_image/qurare/cardimage/" + Kodex['id'] + "an.jpg", path + '/' + Kodex['id'] + "an.jpg")
-					urllib.request.urlretrieve("http://static.inven.co.kr/image_2011/site_image/qurare/cardimage/" + Kodex['id'] + "bn.jpg", path + '/' + Kodex['id'] + "bn.jpg")
-					urllib.request.urlretrieve("http://static.inven.co.kr/image_2011/site_image/qurare/cardimage/" + Kodex['id'] + "cn.jpg", path + '/' + Kodex['id'] + "cn.jpg")
+					#urllib.request.urlretrieve("http://static.inven.co.kr/image_2011/site_image/qurare/cardimage/" + Kodex['id'] + "an.jpg", path + '/' + Kodex['id'] + "an.jpg")
+					#urllib.request.urlretrieve("http://static.inven.co.kr/image_2011/site_image/qurare/cardimage/" + Kodex['id'] + "bn.jpg", path + '/' + Kodex['id'] + "bn.jpg")
+					#urllib.request.urlretrieve("http://static.inven.co.kr/image_2011/site_image/qurare/cardimage/" + Kodex['id'] + "cn.jpg", path + '/' + Kodex['id'] + "cn.jpg")
+					urllib.request.urlretrieve("http://static.inven.co.kr/image_2011/site_image/qurare/cardicon/+" + Kodex['id'] + "an.jpg", path + "/small.jpg")
 					print(Kodex['name'])
 				except :
 				    pass
