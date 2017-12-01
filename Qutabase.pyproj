@@ -2,17 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{1fffa217-2493-45ca-83bd-22f13adadeb8}</ProjectGuid>
+    <ProjectGuid>3fcf752f-0a77-4900-ad16-6385de5b8bbe</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>Qutabase.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Project QA</Name>
-    <RootNamespace>Project QA</RootNamespace>
-    <InterpreterId>Global|PythonCore|3.6</InterpreterId>
+    <Name>Qutabase</Name>
+    <RootNamespace>Qutabase</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,9 +20,6 @@
     <DebugSymbols>true</DebugSymbols>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
-  <ItemGroup>
-    <InterpreterReference Include="Global|PythonCore|3.6" />
-  </ItemGroup>
   <ItemGroup>
     <Compile Include="Qutabase.py" />
   </ItemGroup>

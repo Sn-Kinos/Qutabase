@@ -34,6 +34,24 @@ def func_db_get(input):
 
 def func_db_data():
 
+	level_rare = 3
+	rarity = ['N, N+, R, R+, SR, SR+, SSR, QR', 'N', 'N+', 'R', 'R+', 'SR', 'SR+', 'SSR', 'QR']
+	rareColor = ['BRONZE, BRONZE, SILVER, SILVER, GOLD, GOLD, RED', '#DDBC8B', '#DDBC8B', '#B6D8F5', '#B6D8F5', '#FFE746', '#FFE746', '#E10044', '#03C0DA']
+	rarefont = ['W, W, B, B, B, B, W, W', 'white', 'white', '#0A1533', '#0A1533', '#0A1533', '#0A1533', 'white', 'white']
+	roleColor = ['BLUE, GREEN, RED', 'blue', 'green', 'red']
+	role = ['DEF, SPR, ATK', '방어', '회복', '공격']
+	enrole = ['DEF, SPR, ATK', 'hp', 'spr', 'atk']
+	skilltype = ['ACT, PAS', '액티브', '패시브']
+	faction = ['ORI, FAN, SF, MIS', '오리엔탈', '판타지', 'SF', '미스터리']
+
+	def maxfind(stat, lv):
+		if yourData["max" + stat + str(lv)] != '-':
+			cachestat = yourData['max' + stat + str(lv)]
+			return int(cachestat)
+		else:
+			level_rare = lv - 1
+			return maxfind(stat, level_rare)
+
 	dic_kodex_data = {'Developer':'Sn Kinos'}
 	dic_kodex_key = []
 	arr_kodex_names = []
@@ -51,9 +69,14 @@ def func_db_data():
 		yourId = Kodex_ID.search(result_idName[i]).group()
 		yourName = name.search(result_idName[i]).group()[1:-1]
 		yourData = eval(data.search(result_data[i]).group())
+		yourData['max'] = str( maxfind('hp', level_rare) + maxfind('atk', level_rare) )
 		yourData['id'] = yourId
 		yourData['name'] = yourName
-		yourData['skill'] = func_db_get(yourId)
+		yourData['role'] = role[yourData['role']]
+		yourData['skilltype'] = skilltype[yourData['skilltype']]
+		yourData['faction'] = faction[yourData['faction']]
+
+		#yourData['skill'] = func_db_get(yourId)
 		del yourData['lv0']
 		del yourData['lv1']
 		del yourData['lv2']
@@ -78,7 +101,7 @@ def func_db_data():
 			writer.writerow(dic_kodex_data[i])
 
 def func_db_load(name):
-	with open('qurare.csv', 'rt') as qurare:
+	with open('qurareasdasd.csv', 'rt') as qurare:
 		cache = {}
 		reader = csv.DictReader(qurare)
 		for row in reader:
@@ -97,8 +120,6 @@ def func_skill_get(args):
 
 def func_aw_write():
 
-	level_rare = 3
-
 	def maxfind(stat, lv):
 		if Kodex["max" + stat + str(lv)] != '-':
 			cachestat = Kodex['max' + stat + str(lv)]
@@ -110,10 +131,8 @@ def func_aw_write():
 	rarity = ['N, N+, R, R+, SR, SR+, SSR, QR', 'N', 'N+', 'R', 'R+', 'SR', 'SR+', 'SSR', 'QR']
 	rareColor = ['BRONZE, BRONZE, SILVER, SILVER, GOLD, GOLD, RED', '#DDBC8B', '#DDBC8B', '#B6D8F5', '#B6D8F5', '#FFE746', '#FFE746', '#E10044', '#03C0DA']
 	rarefont = ['W, W, B, B, B, B, W, W', 'white', 'white', '#0A1533', '#0A1533', '#0A1533', '#0A1533', 'white', 'white']
-	roleColor = ['BLUE, GREEN, RED', 'blue', 'green', 'red']
-	role = ['DEF, SPR, ATK', '방어', '회복', '공격']
-	enrole = ['DEF, SPR, ATK', 'hp', 'spr', 'atk']
-	skilltype = ['ACT, PAS', '액티브', '패시브']
+	roleColor = {'MAIN':'BLUE, GREEN, RED', '방어':'#264BCC', '회복':'#20AD20', '공격':'#E62E2E'}
+	enrole = {'MAIN':'DEF, SPR, ATK', '방어':'hp', '회복':'spr', '공격':'atk'}
 	faction = ['ORI, FAN, SF, MIS', '오리엔탈', '판타지', 'SF', '미스터리']
 	bind = ['+5%, +5%, +6%, +6%, +7%, +8%, +9%, +8%', 0.05, 0.05, 0.06, 0.06, 0.07, 0.08, 0.09, 0.08]
 	enskill = {
@@ -124,6 +143,7 @@ def func_aw_write():
 		"강타":"Smite",
 		"격노":"Rage",
 		"격분":"Frenzy",
+		"격앙":"Warmth",
 		"격정":"Passion",
 		"고냥":"EnNyance",
 		"고양":"Enhance",
@@ -205,20 +225,21 @@ def func_aw_write():
 			for row in reader:
 				Kodex = dict(row)
 				try:
-					path = 'd:/Documents/Visual Studio 2017/Projects/Project QA/Project QA/Kodex/' + enrole[int(Kodex['role'])] + '/' + enskill[Kodex['skill'][:2]] + '/' + Kodex['rarity'] + '/' + Kodex['id']
+					path = 'd:/Documents/Visual Studio 2017/Projects/Qutabase/Qutabase/Kodex/' + enrole[Kodex['role']] + '/' + enskill[Kodex['skill'][:2]] + '/' + Kodex['rarity'] + '/' + Kodex['id']
 					if not os.path.exists(path):
 						os.makedirs(path)
 					#urllib.request.urlretrieve("http://static.inven.co.kr/image_2011/site_image/qurare/cardimage/" + Kodex['id'] + "an.jpg", path + '/' + Kodex['id'] + "an.jpg")
 					#urllib.request.urlretrieve("http://static.inven.co.kr/image_2011/site_image/qurare/cardimage/" + Kodex['id'] + "bn.jpg", path + '/' + Kodex['id'] + "bn.jpg")
 					#urllib.request.urlretrieve("http://static.inven.co.kr/image_2011/site_image/qurare/cardimage/" + Kodex['id'] + "cn.jpg", path + '/' + Kodex['id'] + "cn.jpg")
-					urllib.request.urlretrieve("http://static.inven.co.kr/image_2011/site_image/qurare/cardicon/+" + Kodex['id'] + "an.jpg", path + "/small.jpg")
+					urllib.request.urlretrieve("http://static.inven.co.kr/image_2011/site_image/qurare/cardicon/" + Kodex['id'] + "an.jpg", path + "/small.jpg")
 					print(Kodex['name'])
-				except :
-				    pass
+				except:
+				    print(".",end='')
 
 		elif var_str_input == '1':
 			dic_kodex = {}
 			for row in reader:
+				level_rare = 3
 				maxhp_bind = ['']
 				maxatk_bind = ['']
 				maxspr_bind = ['']
@@ -233,17 +254,17 @@ def func_aw_write():
 				dic_kodex[Kodex['name']] = {}
 				data = dic_kodex[Kodex['name']]
 				data['id'] = Kodex['id']
+				data['rarity'] = rarity[int(Kodex['rarity'])]
+				data['role'] = Kodex['role']
+				data['skilltype'] = Kodex['skilltype']
+				data['faction'] = Kodex['faction']
 				data['name'] = Kodex['name']
 				data['rareColor'] = rareColor[int(Kodex['rarity'])]
 				data['rarefont'] = rarefont[int(Kodex['rarity'])]
-				data['rarity'] = rarity[int(Kodex['rarity'])]
 				data['cost'] = Kodex['cost']
 				data['skill'] = Kodex['skill']
 				data['enskill'] = enskill[Kodex['skill'][:2]]
-				data['role'] = role[int(Kodex['role'])]
-				data['roleColor'] = roleColor[int(Kodex['role'])]
-				data['skilltype'] = skilltype[int(Kodex['skilltype'])]
-				data['faction'] = faction[int(Kodex['faction'])]
+				data['roleColor'] = roleColor[Kodex['role']]
 				data['illustrator'] = Kodex['illustrator']
 				data['hp0'] = Kodex['hp0']
 				data['atk0'] = Kodex['atk0']
