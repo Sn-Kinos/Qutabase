@@ -116,7 +116,7 @@ def func_db_skill():
 	skType = re.compile('".+"')
 	data = re.compile('>.+<')
 
-	for skroll in ['atk', 'def', 'heal']:
+	for skroll in ['atk', 'hp', 'spr']:
 		result_skName = raw_skName.findall(html)
 		result_skType = raw_skType.findall(html)
 		result_skDes = raw_skDes.findall(html)
@@ -126,6 +126,10 @@ def func_db_skill():
 			for i in range(0, len(result_skName)):
 				sklass = skType.search(result_skType[i]).group()[1:-1]
 				sklass = sklass.split()
+				if sklass[2] == 'def':
+					sklass[2] = 'hp'
+				elif sklass[2] == 'heal':
+					sklass[2] = 'spr'
 				if sklass[2] != skroll:
 				    continue
 				skName = data.search(result_skName[i]).group()[1:-1]
