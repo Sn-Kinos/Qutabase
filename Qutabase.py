@@ -11,20 +11,16 @@ def func_db_get(input):
 
 	global html
 	global htmls
-	global htmlatk
-	global htmlhp
-	global htmlspr
+	#global htmlatk
+	#global htmlhp
+	#global htmlspr
 
 	if input == '1':
 		r = requests.get('http://qurare.inven.co.kr/dataninfo/card/#.')
 		html = r.text
 	elif input == '123':
-		r = requests.get('https://qutabase.000webhostapp.com/Kodex/atk/')
-		htmlatk = r.text
-		r = requests.get('https://qutabase.000webhostapp.com/Kodex/hp/')
-		htmlhp = r.text
-		r = requests.get('https://qutabase.000webhostapp.com/Kodex/spr/')
-		htmlspr = r.text
+		r = requests.get('http://qurare.inven.co.kr/dataninfo/skill/')
+		html = r.text
 	else:
 		r = requests.get('http://qurare.inven.co.kr/dataninfo/card/detail.php?code=' + input)
 		htmls = r.text
@@ -93,7 +89,7 @@ def func_db_data():
 
 	dic_kodex_key = list(dic_kodex_data['루시퍼'].keys())
 
-	with open('qurare.csv', 'w') as qurare:
+	with open('qurare.csv', 'w', newline='') as qurare:
 		fields = list(dic_kodex_key)
 		writer = csv.DictWriter(qurare, fieldnames = fields)
 		writer.writeheader()
@@ -109,13 +105,34 @@ def func_db_load(name):
 			if name == cache['name']:
 				print(cache)
 
-def func_skill_get(args):
-	func_db_get('123')
-	arr_skill = ['atk', 'hp', 'spr']
-	for sk in arr_skill:
-		raw_skill = re.compile('<a href=".+">')
-		skill = re.compile('".+"')
+def func_db_skill():
+
+	global html
 	
+	raw_skName = re.compile('<td class="name">.+<\/td>')
+	raw_skType = re.compile('<tr class=".+">')
+	raw_skDes= re.compile('<span class="basic">.+<\/span>')
+
+	skType = re.compile('".+"')
+	data = re.compile('>.+<')
+
+	for skroll in ['atk', 'def', 'heal']:
+		result_skName = raw_skName.findall(html)
+		result_skType = raw_skType.findall(html)
+		result_skDes = raw_skDes.findall(html)
+		with open('skill_' + skroll + '.csv', 'wt', newline='') as qurare:
+			writer = csv.DictWriter(qurare, fieldnames = ['Name', 'skilltype', 'role', 'Basic', 'Bonus'])
+			writer.writeheader()
+			for i in range(0, len(result_skName)):
+				sklass = skType.search(result_skType[i]).group()[1:-1]
+				sklass = sklass.split()
+				if sklass[2] != skroll:
+				    continue
+				skName = data.search(result_skName[i]).group()[1:-1]
+				skDes = data.search(result_skDes[i]).group()[1:-1]
+				banus = skDes.split('</span><span class="leader">')
+				writer.writerow({'Name':skName, 'skilltype':sklass[0], 'role':sklass[2], 'Basic':banus[0], 'Bonus':banus[1]})
+
 
 
 def func_aw_write():
@@ -416,6 +433,9 @@ def func_menu():
 		func_db_data()
 	elif var_input == '3':
 		func_aw_write()
+	elif var_input == '123':
+		func_db_get('123')
+		func_db_skill()
 	else:
 		func_db_load(var_input)
 
