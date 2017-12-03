@@ -65,7 +65,7 @@ def func_db_data():
 		yourId = Kodex_ID.search(result_idName[i]).group()
 		yourName = name.search(result_idName[i]).group()[1:-1]
 		yourData = eval(data.search(result_data[i]).group())
-		yourData['max'] = str( maxfind('hp', level_rare) + maxfind('atk', level_rare) )
+		yourData['max'] = str(maxfind('hp', level_rare) + maxfind('atk', level_rare))
 		yourData['id'] = yourId
 		yourData['name'] = yourName
 		yourData['role'] = role[yourData['role']]
@@ -105,13 +105,15 @@ def func_db_load(name):
 			if name == cache['name']:
 				print(cache)
 
+
+
 def func_db_skill():
 
 	global html
 	
 	raw_skName = re.compile('<td class="name">.+<\/td>')
 	raw_skType = re.compile('<tr class=".+">')
-	raw_skDes= re.compile('<span class="basic">.+<\/span>')
+	raw_skDes = re.compile('<span class="basic">.+<\/span>')
 
 	skType = re.compile('".+"')
 	data = re.compile('>.+<')
@@ -240,7 +242,7 @@ def func_aw_write():
 	with open('qurare.csv', 'rt') as qurare:
 		Kodex = {}
 		reader = csv.DictReader(qurare)
-		var_str_input = input("1. json 2. awiki\n\n >>>")
+		var_str_input = input("0. img get 1. json 2. thumbnail moving 3. awiki \n\n >>>")
 
 		if var_str_input == '0':
 			for row in reader:
@@ -249,9 +251,12 @@ def func_aw_write():
 					path = 'd:/Documents/Visual Studio 2017/Projects/Qutabase/Qutabase/Kodex/' + enrole[Kodex['role']] + '/' + enskill[Kodex['skill'][:2]] + '/' + Kodex['rarity'] + '/' + Kodex['id']
 					if not os.path.exists(path):
 						os.makedirs(path)
-					#urllib.request.urlretrieve("http://static.inven.co.kr/image_2011/site_image/qurare/cardimage/" + Kodex['id'] + "an.jpg", path + '/' + Kodex['id'] + "an.jpg")
-					#urllib.request.urlretrieve("http://static.inven.co.kr/image_2011/site_image/qurare/cardimage/" + Kodex['id'] + "bn.jpg", path + '/' + Kodex['id'] + "bn.jpg")
-					#urllib.request.urlretrieve("http://static.inven.co.kr/image_2011/site_image/qurare/cardimage/" + Kodex['id'] + "cn.jpg", path + '/' + Kodex['id'] + "cn.jpg")
+					#urllib.request.urlretrieve("http://static.inven.co.kr/image_2011/site_image/qurare/cardimage/"
+					#+ Kodex['id'] + "an.jpg", path + '/' + Kodex['id'] + "an.jpg")
+					#urllib.request.urlretrieve("http://static.inven.co.kr/image_2011/site_image/qurare/cardimage/"
+					#+ Kodex['id'] + "bn.jpg", path + '/' + Kodex['id'] + "bn.jpg")
+					#urllib.request.urlretrieve("http://static.inven.co.kr/image_2011/site_image/qurare/cardimage/"
+					#+ Kodex['id'] + "cn.jpg", path + '/' + Kodex['id'] + "cn.jpg")
 					urllib.request.urlretrieve("http://static.inven.co.kr/image_2011/site_image/qurare/cardicon/" + Kodex['id'] + "an.jpg", path + "/small.jpg")
 					print(Kodex['name'])
 				except:
@@ -289,14 +294,26 @@ def func_aw_write():
 				data['illustrator'] = Kodex['illustrator']
 				data['hp0'] = Kodex['hp0']
 				data['atk0'] = Kodex['atk0']
-				data['spr0'] = str( round( (int(Kodex['hp0']) + int(Kodex['atk0'])) / 2 ) )
+				data['spr0'] = str(round((int(Kodex['hp0']) + int(Kodex['atk0'])) / 2))
 				data['HP'] = maxhp_bind
 				data['ATK'] = maxatk_bind
 				data['SPR'] = maxspr_bind
 			with open('qurare.json', 'w', encoding="utf-8") as Jurare:
 				json.dump(dic_kodex, Jurare, ensure_ascii=False, indent="\t")
-	
+
 		elif var_str_input == '2':
+			thumb_path = 'd:\\Documents\\MOMO PLAYER\\Misc\\files\\files\\Documents\\assetbundles\\Android\\CardNew\\Thumb\\Thumb\\'
+			dest_path = 'd:\\Documents\\Visual Studio 2017\\Projects\\Qutabase\\Qutabase\\Kodex\\'
+			list_thumb = os.listdir(thumb_path)
+			for row in reader:
+				Kodex = dict(row)
+				for cache in list_thumb:
+					if cache[:-6] == Kodex['id']:
+						os.renames(thumb_path+cache, dest_path+enrole[Kodex['role']]+'/'+enskill[Kodex['skill'][:2]]+'/'+Kodex['rarity']+'/'+Kodex['id']+'/small.png')
+
+
+
+		elif var_str_input == '3':
 			for row in reader:
 				maxhp_bind = ['']
 				maxatk_bind = ['']
@@ -310,7 +327,7 @@ def func_aw_write():
 					maxatk_bind.append(str(round(maxatk_bind[0] * (1 + x * bind[int(Kodex['rarity'])]))))
 					maxspr_bind.append(str(int(maxspr_bind[0] * (1 + x * bind[int(Kodex['rarity'])]))))
 
-				path = 'd:/Documents/Visual Studio 2017/Projects/Project QA/Project QA/Kodex/' +role[int(Kodex['role'])] + '/' + enskill[Kodex['skill'][:2]] + '/' + Kodex['rarity']
+				path = 'd:/Documents/Visual Studio 2017/Projects/Qutabase/Qutabase/Kodex/' + role[int(Kodex['role'])] + '/' + enskill[Kodex['skill'][:2]] + '/' + Kodex['rarity']
 				if not os.path.exists(path):
 					os.makedirs(path)
 				with open(path + '/' + Kodex['id'] + ' - ' + Kodex['name'] + '.txt', 'w') as Adex:
@@ -379,7 +396,7 @@ MAX
 MAX+
 </span>}}}
 ||
-||||||[[파일:"""+Kodex['id']+"""an.jpg|width=250]]||||||[[파일:"""+Kodex['id']+"""bn.jpg|width=250]]||||||[[파일:"""+Kodex['id']+"""cn.jpg|width=250]]
+||||||[[파일:""" + Kodex['id'] + """an.jpg|width=250]]||||||[[파일:""" + Kodex['id'] + """bn.jpg|width=250]]||||||[[파일:""" + Kodex['id'] + """cn.jpg|width=250]]
 ||
 ||||<:><bgcolor=#5A688A>{{{#!html
 <span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: white;">
@@ -416,10 +433,12 @@ MAX
 ||
 ||||<bgcolor=#5A688A>{{{#white HP}}}||<:>""" + Kodex['hp0'] + """||<:>""" + str(maxhp_bind[0]) + """||<:>""" + maxhp_bind[1] + """||<:>""" + maxhp_bind[2] + """||<:>""" + maxhp_bind[3] + """||<:>""" + maxhp_bind[4] + """||<:>""" + maxhp_bind[5] + """||
 ||||<bgcolor=#5A688A>{{{#white ATK}}}||<:>""" + Kodex['atk0'] + """||<:>""" + str(maxatk_bind[0]) + """||<:>""" + maxatk_bind[1] + """||<:>""" + maxatk_bind[2] + """||<:>""" + maxatk_bind[3] + """||<:>""" + maxatk_bind[4] + """||<:>""" + maxatk_bind[5] + """||
-||||<bgcolor=#5A688A>{{{#white SPR}}}||<:>""" + str( round( (int(Kodex['hp0']) + int(Kodex['atk0'])) / 2 ) ) + """||<:>""" + str(maxspr_bind[0]) + """||<:>""" + maxspr_bind[1] + """||<:>""" + maxspr_bind[2] + """||<:>""" + maxspr_bind[3] + """||<:>""" + maxspr_bind[4] + """||<:>""" + maxspr_bind[5] + """||
+||||<bgcolor=#5A688A>{{{#white SPR}}}||<:>""" + str(round((int(Kodex['hp0']) + int(Kodex['atk0'])) / 2)) + """||<:>""" + str(maxspr_bind[0]) + """||<:>""" + maxspr_bind[1] + """||<:>""" + maxspr_bind[2] + """||<:>""" + maxspr_bind[3] + """||<:>""" + maxspr_bind[4] + """||<:>""" + maxspr_bind[5] + """||
 
 """
 					Adex.write(var_str_form)
+
+
 
 def func_menu():
 	var_input = input("""
@@ -432,7 +451,7 @@ def func_menu():
 	elif var_input == '1':
 		var_input = input("1. ALL (id). search")
 		func_db_get(var_input)
-	elif var_input == '2':
+	elif var_input == '3213213232121322': # We didn't need inven data
 		func_db_get('1')
 		func_db_data()
 	elif var_input == '3':
