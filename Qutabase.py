@@ -207,6 +207,7 @@ def func_aw_write():
 		"응원":"Support",
 		"인내":"Fortitude",
 		"재생":"Regenerate",
+		"종소":"Jingle",
 		"철벽":"Fortify",
 		"회피":"Evade",
 
