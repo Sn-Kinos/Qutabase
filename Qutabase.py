@@ -4,6 +4,7 @@ import re
 import csv
 import os
 import json
+import shutil
 
 from bs4 import BeautifulSoup as bs
 
@@ -243,7 +244,7 @@ def func_aw_write():
 	with open('qurare.csv', 'rt') as qurare:
 		Kodex = {}
 		reader = csv.DictReader(qurare)
-		var_str_input = input("0. img get 1. json 2. thumbnail moving 3. awiki \n\n >>>")
+		var_str_input = input("0. img get 1. json 2.1. thumbnail moving 2.2 small image moving 3. awiki \n\n >>>")
 
 		if var_str_input == '0':
 			for row in reader:
@@ -302,7 +303,9 @@ def func_aw_write():
 			with open('qurare.json', 'w', encoding="utf-8") as Jurare:
 				json.dump(dic_kodex, Jurare, ensure_ascii=False, indent="\t")
 
-		elif var_str_input == '2':
+
+
+		elif var_str_input == '2.1':
 			thumb_path = 'd:\\Documents\\MOMO PLAYER\\Misc\\files\\files\\Documents\\assetbundles\\Android\\CardNew\\Thumb\\Thumb\\'
 			dest_path = 'd:\\Documents\\Visual Studio 2017\\Projects\\Qutabase\\Qutabase\\Kodex\\'
 			list_thumb = os.listdir(thumb_path)
@@ -311,6 +314,18 @@ def func_aw_write():
 				for cache in list_thumb:
 					if cache[:-6] == Kodex['id']:
 						os.renames(thumb_path+cache, dest_path+enrole[Kodex['role']]+'/'+enskill[Kodex['skill'][:2]]+'/'+Kodex['rarity']+'/'+Kodex['id']+'/small.png')
+
+
+
+		elif var_str_input == '2.2':
+			thumb_path = 'd:\\Documents\\MOMO PLAYER\\Misc\\files\\files\\Documents\\assetbundles\\Android\\CardNew\\Small\\Small\\'
+			dest_path = 'd:\\Documents\\Visual Studio 2017\\Projects\\Qutabase\\Qutabase\\Kodex\\'
+			list_thumb = os.listdir(thumb_path)
+			for row in reader:
+				Kodex = dict(row)
+				for cache in list_thumb:
+					if cache[:-6] == Kodex['id']:
+						os.renames(thumb_path+cache, dest_path+enrole[Kodex['role']]+'/'+enskill[Kodex['skill'][:2]]+'/'+Kodex['rarity']+'/'+Kodex['id']+'/'+cache[:-4]+'.jpg')
 
 
 
