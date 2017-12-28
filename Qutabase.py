@@ -22,6 +22,7 @@ def func_db_get(input):
 	elif input == '123':
 		r = requests.get('http://qurare.inven.co.kr/dataninfo/skill/')
 		html = r.text
+		print(html)
 	else:
 		r = requests.get('http://qurare.inven.co.kr/dataninfo/card/detail.php?code=' + input)
 		htmls = r.text
@@ -246,7 +247,7 @@ def func_aw_write():
 		reader = csv.DictReader(qurare)
 		var_str_input = input("0. img get 1. json 2.1. thumbnail moving 2.2 small image moving 3. awiki \n\n >>>")
 
-		if var_str_input == '0':
+		if var_str_input == '0123121312312312': # don't need inven data
 			for row in reader:
 				Kodex = dict(row)
 				try:
@@ -306,7 +307,8 @@ def func_aw_write():
 
 
 		elif var_str_input == '2.1':
-			thumb_path = 'd:\\Documents\\MOMO PLAYER\\Misc\\files\\files\\Documents\\assetbundles\\Android\\CardNew\\Thumb\\Thumb\\'
+			thumb_raw_path = 'd:\\Documents\\MOMO PLAYER\\Misc\\files\\files\\Documents\\assetbundles\\Android\\CardNew\\Thumb\\Thumb\\raw\\'
+			thumb_small_path = 'd:\\Documents\\MOMO PLAYER\\Misc\\files\\files\\Documents\\assetbundles\\Android\\CardNew\\Thumb\\Thumb\\small\\'
 			dest_path = 'd:\\Documents\\Visual Studio 2017\\Projects\\Qutabase\\Qutabase\\Kodex\\'
 			list_thumb = os.listdir(thumb_path)
 			for row in reader:
