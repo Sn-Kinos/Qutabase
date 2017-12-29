@@ -310,12 +310,16 @@ def func_aw_write():
 			thumb_raw_path = 'd:\\Documents\\MOMO PLAYER\\Misc\\files\\files\\Documents\\assetbundles\\Android\\CardNew\\Thumb\\Thumb\\raw\\'
 			thumb_small_path = 'd:\\Documents\\MOMO PLAYER\\Misc\\files\\files\\Documents\\assetbundles\\Android\\CardNew\\Thumb\\Thumb\\small\\'
 			dest_path = 'd:\\Documents\\Visual Studio 2017\\Projects\\Qutabase\\Qutabase\\Kodex\\'
-			list_thumb = os.listdir(thumb_path)
+			list_thumb = os.listdir(thumb_raw_path)
 			for row in reader:
 				Kodex = dict(row)
 				for cache in list_thumb:
 					if cache[:-6] == Kodex['id']:
-						os.renames(thumb_path+cache, dest_path+enrole[Kodex['role']]+'/'+enskill[Kodex['skill'][:2]]+'/'+Kodex['rarity']+'/'+Kodex['id']+'/small.png')
+						if not os.path.exists(dest_path+enrole[Kodex['role']]+'/'+enskill[Kodex['skill'][:2]]+'/'+Kodex['rarity']+'/'+Kodex['id']):
+							os.makedirs(dest_path+enrole[Kodex['role']]+'/'+enskill[Kodex['skill'][:2]]+'/'+Kodex['rarity']+'/'+Kodex['id'])
+						shutil.copy(thumb_raw_path+cache, dest_path+enrole[Kodex['role']]+'/'+enskill[Kodex['skill'][:2]]+'/'+Kodex['rarity']+'/'+Kodex['id']+'/raw.png')
+						shutil.copy(thumb_small_path+cache, dest_path+enrole[Kodex['role']]+'/'+enskill[Kodex['skill'][:2]]+'/'+Kodex['rarity']+'/'+Kodex['id']+'/small.png')
+						print(cache+" Done")
 
 
 
