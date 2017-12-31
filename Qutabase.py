@@ -317,9 +317,10 @@ def func_aw_write():
 					if cache[:-6] == Kodex['id']:
 						if not os.path.exists(dest_path+enrole[Kodex['role']]+'/'+enskill[Kodex['skill'][:2]]+'/'+Kodex['rarity']+'/'+Kodex['id']):
 							os.makedirs(dest_path+enrole[Kodex['role']]+'/'+enskill[Kodex['skill'][:2]]+'/'+Kodex['rarity']+'/'+Kodex['id'])
-						shutil.copy(thumb_raw_path+cache, dest_path+enrole[Kodex['role']]+'/'+enskill[Kodex['skill'][:2]]+'/'+Kodex['rarity']+'/'+Kodex['id']+'/raw.png')
-						shutil.copy(thumb_small_path+cache, dest_path+enrole[Kodex['role']]+'/'+enskill[Kodex['skill'][:2]]+'/'+Kodex['rarity']+'/'+Kodex['id']+'/small.png')
-						print(cache+" Done")
+						if not os.path.isfile(dest_path+enrole[Kodex['role']]+'/'+enskill[Kodex['skill'][:2]]+'/'+Kodex['rarity']+'/'+Kodex['id']+'/raw.png') or not os.path.isfile(dest_path+enrole[Kodex['role']]+'/'+enskill[Kodex['skill'][:2]]+'/'+Kodex['rarity']+'/'+Kodex['id']+'/small.png'):
+							shutil.copy(thumb_raw_path+cache, dest_path+enrole[Kodex['role']]+'/'+enskill[Kodex['skill'][:2]]+'/'+Kodex['rarity']+'/'+Kodex['id']+'/raw.png')
+							shutil.copy(thumb_small_path+cache, dest_path+enrole[Kodex['role']]+'/'+enskill[Kodex['skill'][:2]]+'/'+Kodex['rarity']+'/'+Kodex['id']+'/small.png')
+							print(cache+" Done")
 
 
 
