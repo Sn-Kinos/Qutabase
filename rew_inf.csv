@@ -1,0 +1,201 @@
+num,reward,quan,img
+1,인쇄 티켓,1,tik_pri
+2,SP 포션,1,pot_sp
+3,지식의 파편,1,kno_p
+4,3성 마도서,1,kod_ran
+5,마력석,1,Cash
+6,일반 해석서,1,nor_int
+7,지식의 파편,2,kno_p
+8,일반 재화서,1,nor_mny
+9,3성 마도서,1,kod_ran
+10,일반 성장서,1,nor_exp
+11,인쇄 티켓,1,tik_pri
+12,SP 포션,2,pot_sp
+13,지식의 파편,3,kno_p
+14,3성 마도서,1,kod_ran
+15,마력석,1,Cash
+16,일반 해석서,2,nor_int
+17,일반 재화서,2,nor_mny
+18,환상석,1,illusion
+19,3성 마도서,1,kod_ran
+20,일반 성장서,2,nor_exp
+21,인쇄 티켓,1,tik_pri
+22,SP 포션,3,pot_sp
+23,지식의 결정,1,kno_c
+24,환상석,1,illusion
+25,레어 성장서,2,rar_exp
+26,인쇄 티켓,1,tik_pri
+27,전투 부활 포션,1,pot_rev
+28,우주의 파편,1,uni_p
+29,4성 마도서,1,kod_ran
+30,마력석,2,Cash
+31,지식의 결정,2,kno_c
+32,레어 해석서,1,rar_int
+33,레어 재화서,1,rar_mny
+34,4성 마도서,1,kod_ran
+35,레어 성장서,1,rar_exp
+36,인쇄 티켓,1,tik_pri
+37,전투 부활 포션,2,pot_rev
+38,우주의 파편,2,uni_p
+39,4성 마도서,1,kod_ran
+40,마력석,2,Cash
+41,레어 해석서,1,rar_int
+42,레어 재화서,1,rar_mny
+43,우주의 결정,1,uni_c
+44,환상석,1,illusion
+45,레어 성장서,2,rar_exp
+46,마력석,6,Cash
+47,인쇄 티켓,2,tik_pri
+48,우주의 파편,3,uni_p
+49,레어 해석서,2,rar_int
+50,마력석,3,Cash
+51,프리미엄 SR손상서,1,5_ran
+52,우주의 결정,2,uni_c
+53,레어 재화서,2,rar_mny
+54,레어 성장서,2,rar_exp
+55,초차원의 파편,1,dim_p
+56,인쇄 티켓,2,tik_pri
+57,레어 해석서,2,rar_int
+58,레어 재화서,2,rar_mny
+59,레어 성장서,2,rar_exp
+60,마력석,9,Cash
+61,인쇄 티켓,2,tik_pri
+62,환상석,2,illusion
+63,레어 재화서,2,rar_mny
+64,레어 성장서,2,rar_exp
+65,SR 성장서,1,spr_exp
+66,인쇄 티켓,2,tik_pri
+67,환상석,2,illusion
+68,레어 재화서,2,rar_mny
+69,레어 성장서,2,rar_exp
+70,마력석,3,Cash
+71,인쇄 티켓,2,tik_pri
+72,환상석,2,illusion
+73,레어 재화서,2,rar_mny
+74,레어 성장서,2,rar_exp
+75,마력석,3,Cash
+76,인쇄 티켓,2,tik_pri
+77,환상석,2,illusion
+78,레어 재화서,2,rar_mny
+79,레어 성장서,2,rar_exp
+80,SR 성장서,1,spr_exp
+81,인쇄 티켓,10,tik_pri
+82,환상석,5,illusion
+83,레어 성장서,5,rar_exp
+84,레어 재화서,5,rar_mny
+85,SR 성장서,2,spr_exp
+86,인쇄 티켓,10,tik_pri
+87,환상석,5,illusion
+88,레어 성장서,5,rar_exp
+89,레어 재화서,5,rar_mny
+90,마력석,5,Cash
+91,인쇄 티켓,10,tik_pri
+92,환상석,5,illusion
+93,레어 성장서,5,rar_exp
+94,레어 재화서,5,rar_mny
+95,초차원의 파편,3,dim_p
+96,인쇄 티켓,10,tik_pri
+97,환상석,5,illusion
+98,레어 성장서,5,rar_exp
+99,레어 재화서,5,rar_mny
+100,프리미엄 SR+손상서,1,6_ran
+101,인쇄 티켓,10,tik_pri
+102,우주의 파편,4,uni_p
+103,레어 성장서,5,rar_exp
+104,시즌 탐색권,5,tik_skp
+105,SR 성장서,2,spr_exp
+106,환상석,5,illusion
+107,레어 성장서,5,rar_exp
+108,인쇄 티켓,10,tik_pri
+109,불확정의 상징물,4,sym_nor
+110,마력석,5,Cash
+111,우주의 파편,4,uni_p
+112,환상석,5,illusion
+113,인쇄 티켓,10,tik_pri
+114,레어 성장서,5,rar_exp
+115,SR 성장서,2,spr_exp
+116,정예 소환석,5,sum_eli
+117,시즌 탐색권,5,tik_skp
+118,레어 재화서,5,rar_mny
+119,환상석,5,illusion
+120,마력석,5,Cash
+121,인쇄 티켓,10,tik_pri
+122,불확정의 상징물,2,sym_nor
+123,환상석,5,illusion
+124,레어 성장서,5,rar_exp
+125,마력석,9,Cash
+126,시즌 탐색권,5,tik_skp
+127,인쇄 티켓,10,tik_pri
+128,레어 재화서,5,rar_mny
+129,환상석,5,illusion
+130,SR 성장서,2,spr_exp
+131,우주의 결정,3,uni_c
+132,환상석,5,illusion
+133,레어 성장서,5,rar_exp
+134,인쇄 티켓,10,tik_pri
+135,마력석,7,Cash
+136,시즌 탐색권,5,tik_skp
+137,인쇄 티켓,10,tik_pri
+138,레어 성장서,5,rar_exp
+139,레어 재화서,5,rar_mny
+140,SR 성장서,1,spr_exp
+141,정예 소환석,6,sum_eli
+142,환상석,6,illusion
+143,레어 성장서,6,rar_exp
+144,불확정의 상징물,6,sym_nor
+145,레어 성장서,20,rar_exp
+146,인쇄 티켓,10,tik_pri
+147,환상석,6,illusion
+148,응축된 불확정의 상징물,3,sym_con
+149,레어 성장서,6,rar_exp
+150,프리미엄 SR+손상서,1,6_ran
+151,인쇄 티켓,10,tik_pri
+152,초차원의 파편,2,dim_p
+153,환상석,7,illusion
+154,우주의 파편,5,uni_p
+155,마력석,10,Cash
+156,레어 재화서,10,rar_mny
+157,환상석,7,illusion
+158,레어 성장서,7,rar_exp
+159,시즌 탐색권,6,tik_skp
+160,우주의 결정,1,uni_c
+161,인쇄 티켓,10,tik_pri
+162,레어 성장서,7,rar_exp
+163,환상석,8,illusion
+164,불확정의 상징물,6,sym_nor
+165,SR 성장서,1,spr_exp
+166,인쇄 티켓,15,tik_pri
+167,레어 성장서,7,rar_exp
+168,우주의 파편,5,uni_p
+169,레어 재화서,10,rar_mny
+170,초차원의 파편,3,dim_p
+171,SR 성장서,1,spr_exp
+172,우주의 결정,3,uni_c
+173,환상석,8,illusion
+174,응축된 불확정의 상징물,3,sym_con
+175,SR 성장서,3,spr_exp
+176,인쇄 티켓,15,tik_pri
+177,시즌 탐색권,8,tik_skp
+178,환상석,8,illusion
+179,레어 재화서,15,rar_mny
+180,마력석,15,Cash
+181,인쇄 티켓,15,tik_pri
+182,불확정의 상징물,6,sym_nor
+183,환상석,10,illusion
+184,레어 재화서,15,rar_mny
+185,SR 성장서,4,spr_exp
+186,우주의 결정,3,uni_c
+187,시즌 탐색권,10,tik_skp
+188,정예 소환석,10,sum_eli
+189,응축된 불확정의 상징물,3,sym_con
+190,SR 성장서,4,spr_exp
+191,인쇄 티켓,15,tik_pri
+192,SR 성장서,1,spr_exp
+193,환상석,10,illusion
+194,레어 재화서,15,rar_mny
+195,마력석,15,Cash
+196,인쇄 티켓,15,tik_pri
+197,환상석,10,illusion
+198,초차원의 파편,3,dim_p
+199,SR 성장서,2,spr_exp
+200,프리미엄 SR+손상서,2,6_ran

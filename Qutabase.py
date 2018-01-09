@@ -461,13 +461,70 @@ MAX
 """
 					Adex.write(var_str_form)
 
+def func_rewards():
+    
+	reward_img = {
+		"인쇄 티켓":"tik_pri",
+		"SP 포션":"pot_sp",
+		"우정포인트":"Fp",
+		"전투 부활 포션":"pot_rev",
+		"3성 마도서":"kod_ran",
+		"4성 마도서":"kod_ran",
+		"마력석":"Cash",
+		"환상석":"illusion",
+		"정예 소환석":"sum_eli",
+		"시즌 탐색권":"tik_skp",
+		"일반 성장서":"nor_exp",
+		"일반 해석서":"nor_int",
+		"일반 재화서":"nor_mny",
+		"레어 성장서":"rar_exp",
+		"레어 해석서":"rar_int",
+		"레어 재화서":"rar_mny",
+		"지식의 파편":"kno_p",
+		"지식의 결정":"kno_c",
+		"우주의 파편":"uni_p",
+		"우주의 결정":"uni_c",
+		"초차원의 파편":"dim_p",
+		"SR 성장서":"spr_exp",
+		"프리미엄 SR손상서":"5_ran",
+		"프리미엄 SR+손상서":"6_ran",
+		"불확정의 상징물":"sym_nor",
+		"응축된 불확정의 상징물":"sym_con"
+		}
+
+	var_input = input("1. event rewards 2. inf rewards")
+
+	if var_input == '1':
+		pass
+	elif var_input == '2':
+		
+		with open('rew_infR.csv', 'rt') as qurare:
+			reader = csv.DictReader(qurare)
+			with open('rew_inf.csv', 'wt', newline='') as magic:
+				writer = csv.DictWriter(magic, fieldnames=['num', 'reward', 'quan', 'img'])
+				writer.writeheader()
+				for row in reader:
+					reward = dict(row)
+					reward['img'] = reward_img[reward['reward']]
+					writer.writerow({'num':reward['num'], 'reward':reward['reward'], 'quan':reward['quan'], 'img':reward['img']})
+
+		with open('rew_inf.csv', 'rt') as qurare:
+			reader = csv.DictReader(qurare)
+			dic_reward = {}
+			for row in reader:
+				reward = dict(row)
+				dic_reward[reward['num']] = reward
+			with open('rew_inf.json', 'wt') as Jurare:
+			    json.dump(dic_reward, Jurare, ensure_ascii=False, indent="\t")
 
 
 def func_menu():
 	var_input = input("""
-	1. get html\n
+	QUTABASE\n
+	1. get html
 	2. get data\n
 	3. get json/namu
+	4. get rewards\n
 	(name).display\n\n >>> """)
 	if var_input == '0':
 		return
@@ -479,6 +536,8 @@ def func_menu():
 		func_db_data()
 	elif var_input == '3':
 		func_aw_write()
+	elif var_input == '4':
+		func_rewards()
 	elif var_input == '123':
 		func_db_get('123')
 		func_db_skill()
