@@ -492,7 +492,7 @@ def func_rewards():
 		"응축된 불확정의 상징물":"sym_con"
 		}
 
-	var_input = input("1. event rewards 2. inf rewards")
+	var_input = input("1. event rewards 2. inf rewards\n >>> ")
 
 	if var_input == '1':
 		pass
@@ -514,6 +514,7 @@ def func_rewards():
 			for row in reader:
 				reward = dict(row)
 				dic_reward[reward['num']] = reward
+				reward['quan'] = int(reward['quan'])
 			with open('rew_inf.json', 'wt', encoding='utf-8') as Jurare:
 			    json.dump(dic_reward, Jurare, ensure_ascii=False, indent="\t")
 
