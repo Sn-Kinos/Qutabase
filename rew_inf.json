@@ -1,1201 +1,1201 @@
 {
 	"1": {
 		"num": "1",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "1",
 		"img": "tik_pri"
 	},
 	"2": {
 		"num": "2",
-		"reward": "SP Æ÷¼Ç",
+		"reward": "SP í¬ì…˜",
 		"quan": "1",
 		"img": "pot_sp"
 	},
 	"3": {
 		"num": "3",
-		"reward": "Áö½ÄÀÇ ÆÄÆí",
+		"reward": "ì§€ì‹ì˜ íŒŒí¸",
 		"quan": "1",
 		"img": "kno_p"
 	},
 	"4": {
 		"num": "4",
-		"reward": "3¼º ¸¶µµ¼­",
+		"reward": "3ì„± ë§ˆë„ì„œ",
 		"quan": "1",
 		"img": "kod_ran"
 	},
 	"5": {
 		"num": "5",
-		"reward": "¸¶·Â¼®",
+		"reward": "ë§ˆë ¥ì„",
 		"quan": "1",
 		"img": "Cash"
 	},
 	"6": {
 		"num": "6",
-		"reward": "ÀÏ¹İ ÇØ¼®¼­",
+		"reward": "ì¼ë°˜ í•´ì„ì„œ",
 		"quan": "1",
 		"img": "nor_int"
 	},
 	"7": {
 		"num": "7",
-		"reward": "Áö½ÄÀÇ ÆÄÆí",
+		"reward": "ì§€ì‹ì˜ íŒŒí¸",
 		"quan": "2",
 		"img": "kno_p"
 	},
 	"8": {
 		"num": "8",
-		"reward": "ÀÏ¹İ ÀçÈ­¼­",
+		"reward": "ì¼ë°˜ ì¬í™”ì„œ",
 		"quan": "1",
 		"img": "nor_mny"
 	},
 	"9": {
 		"num": "9",
-		"reward": "3¼º ¸¶µµ¼­",
+		"reward": "3ì„± ë§ˆë„ì„œ",
 		"quan": "1",
 		"img": "kod_ran"
 	},
 	"10": {
 		"num": "10",
-		"reward": "ÀÏ¹İ ¼ºÀå¼­",
+		"reward": "ì¼ë°˜ ì„±ì¥ì„œ",
 		"quan": "1",
 		"img": "nor_exp"
 	},
 	"11": {
 		"num": "11",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "1",
 		"img": "tik_pri"
 	},
 	"12": {
 		"num": "12",
-		"reward": "SP Æ÷¼Ç",
+		"reward": "SP í¬ì…˜",
 		"quan": "2",
 		"img": "pot_sp"
 	},
 	"13": {
 		"num": "13",
-		"reward": "Áö½ÄÀÇ ÆÄÆí",
+		"reward": "ì§€ì‹ì˜ íŒŒí¸",
 		"quan": "3",
 		"img": "kno_p"
 	},
 	"14": {
 		"num": "14",
-		"reward": "3¼º ¸¶µµ¼­",
+		"reward": "3ì„± ë§ˆë„ì„œ",
 		"quan": "1",
 		"img": "kod_ran"
 	},
 	"15": {
 		"num": "15",
-		"reward": "¸¶·Â¼®",
+		"reward": "ë§ˆë ¥ì„",
 		"quan": "1",
 		"img": "Cash"
 	},
 	"16": {
 		"num": "16",
-		"reward": "ÀÏ¹İ ÇØ¼®¼­",
+		"reward": "ì¼ë°˜ í•´ì„ì„œ",
 		"quan": "2",
 		"img": "nor_int"
 	},
 	"17": {
 		"num": "17",
-		"reward": "ÀÏ¹İ ÀçÈ­¼­",
+		"reward": "ì¼ë°˜ ì¬í™”ì„œ",
 		"quan": "2",
 		"img": "nor_mny"
 	},
 	"18": {
 		"num": "18",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "1",
 		"img": "illusion"
 	},
 	"19": {
 		"num": "19",
-		"reward": "3¼º ¸¶µµ¼­",
+		"reward": "3ì„± ë§ˆë„ì„œ",
 		"quan": "1",
 		"img": "kod_ran"
 	},
 	"20": {
 		"num": "20",
-		"reward": "ÀÏ¹İ ¼ºÀå¼­",
+		"reward": "ì¼ë°˜ ì„±ì¥ì„œ",
 		"quan": "2",
 		"img": "nor_exp"
 	},
 	"21": {
 		"num": "21",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "1",
 		"img": "tik_pri"
 	},
 	"22": {
 		"num": "22",
-		"reward": "SP Æ÷¼Ç",
+		"reward": "SP í¬ì…˜",
 		"quan": "3",
 		"img": "pot_sp"
 	},
 	"23": {
 		"num": "23",
-		"reward": "Áö½ÄÀÇ °áÁ¤",
+		"reward": "ì§€ì‹ì˜ ê²°ì •",
 		"quan": "1",
 		"img": "kno_c"
 	},
 	"24": {
 		"num": "24",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "1",
 		"img": "illusion"
 	},
 	"25": {
 		"num": "25",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "2",
 		"img": "rar_exp"
 	},
 	"26": {
 		"num": "26",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "1",
 		"img": "tik_pri"
 	},
 	"27": {
 		"num": "27",
-		"reward": "ÀüÅõ ºÎÈ° Æ÷¼Ç",
+		"reward": "ì „íˆ¬ ë¶€í™œ í¬ì…˜",
 		"quan": "1",
 		"img": "pot_rev"
 	},
 	"28": {
 		"num": "28",
-		"reward": "¿ìÁÖÀÇ ÆÄÆí",
+		"reward": "ìš°ì£¼ì˜ íŒŒí¸",
 		"quan": "1",
 		"img": "uni_p"
 	},
 	"29": {
 		"num": "29",
-		"reward": "4¼º ¸¶µµ¼­",
+		"reward": "4ì„± ë§ˆë„ì„œ",
 		"quan": "1",
 		"img": "kod_ran"
 	},
 	"30": {
 		"num": "30",
-		"reward": "¸¶·Â¼®",
+		"reward": "ë§ˆë ¥ì„",
 		"quan": "2",
 		"img": "Cash"
 	},
 	"31": {
 		"num": "31",
-		"reward": "Áö½ÄÀÇ °áÁ¤",
+		"reward": "ì§€ì‹ì˜ ê²°ì •",
 		"quan": "2",
 		"img": "kno_c"
 	},
 	"32": {
 		"num": "32",
-		"reward": "·¹¾î ÇØ¼®¼­",
+		"reward": "ë ˆì–´ í•´ì„ì„œ",
 		"quan": "1",
 		"img": "rar_int"
 	},
 	"33": {
 		"num": "33",
-		"reward": "·¹¾î ÀçÈ­¼­",
+		"reward": "ë ˆì–´ ì¬í™”ì„œ",
 		"quan": "1",
 		"img": "rar_mny"
 	},
 	"34": {
 		"num": "34",
-		"reward": "4¼º ¸¶µµ¼­",
+		"reward": "4ì„± ë§ˆë„ì„œ",
 		"quan": "1",
 		"img": "kod_ran"
 	},
 	"35": {
 		"num": "35",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "1",
 		"img": "rar_exp"
 	},
 	"36": {
 		"num": "36",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "1",
 		"img": "tik_pri"
 	},
 	"37": {
 		"num": "37",
-		"reward": "ÀüÅõ ºÎÈ° Æ÷¼Ç",
+		"reward": "ì „íˆ¬ ë¶€í™œ í¬ì…˜",
 		"quan": "2",
 		"img": "pot_rev"
 	},
 	"38": {
 		"num": "38",
-		"reward": "¿ìÁÖÀÇ ÆÄÆí",
+		"reward": "ìš°ì£¼ì˜ íŒŒí¸",
 		"quan": "2",
 		"img": "uni_p"
 	},
 	"39": {
 		"num": "39",
-		"reward": "4¼º ¸¶µµ¼­",
+		"reward": "4ì„± ë§ˆë„ì„œ",
 		"quan": "1",
 		"img": "kod_ran"
 	},
 	"40": {
 		"num": "40",
-		"reward": "¸¶·Â¼®",
+		"reward": "ë§ˆë ¥ì„",
 		"quan": "2",
 		"img": "Cash"
 	},
 	"41": {
 		"num": "41",
-		"reward": "·¹¾î ÇØ¼®¼­",
+		"reward": "ë ˆì–´ í•´ì„ì„œ",
 		"quan": "1",
 		"img": "rar_int"
 	},
 	"42": {
 		"num": "42",
-		"reward": "·¹¾î ÀçÈ­¼­",
+		"reward": "ë ˆì–´ ì¬í™”ì„œ",
 		"quan": "1",
 		"img": "rar_mny"
 	},
 	"43": {
 		"num": "43",
-		"reward": "¿ìÁÖÀÇ °áÁ¤",
+		"reward": "ìš°ì£¼ì˜ ê²°ì •",
 		"quan": "1",
 		"img": "uni_c"
 	},
 	"44": {
 		"num": "44",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "1",
 		"img": "illusion"
 	},
 	"45": {
 		"num": "45",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "2",
 		"img": "rar_exp"
 	},
 	"46": {
 		"num": "46",
-		"reward": "¸¶·Â¼®",
+		"reward": "ë§ˆë ¥ì„",
 		"quan": "6",
 		"img": "Cash"
 	},
 	"47": {
 		"num": "47",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "2",
 		"img": "tik_pri"
 	},
 	"48": {
 		"num": "48",
-		"reward": "¿ìÁÖÀÇ ÆÄÆí",
+		"reward": "ìš°ì£¼ì˜ íŒŒí¸",
 		"quan": "3",
 		"img": "uni_p"
 	},
 	"49": {
 		"num": "49",
-		"reward": "·¹¾î ÇØ¼®¼­",
+		"reward": "ë ˆì–´ í•´ì„ì„œ",
 		"quan": "2",
 		"img": "rar_int"
 	},
 	"50": {
 		"num": "50",
-		"reward": "¸¶·Â¼®",
+		"reward": "ë§ˆë ¥ì„",
 		"quan": "3",
 		"img": "Cash"
 	},
 	"51": {
 		"num": "51",
-		"reward": "ÇÁ¸®¹Ì¾ö SR¼Õ»ó¼­",
+		"reward": "í”„ë¦¬ë¯¸ì—„ SRì†ìƒì„œ",
 		"quan": "1",
 		"img": "5_ran"
 	},
 	"52": {
 		"num": "52",
-		"reward": "¿ìÁÖÀÇ °áÁ¤",
+		"reward": "ìš°ì£¼ì˜ ê²°ì •",
 		"quan": "2",
 		"img": "uni_c"
 	},
 	"53": {
 		"num": "53",
-		"reward": "·¹¾î ÀçÈ­¼­",
+		"reward": "ë ˆì–´ ì¬í™”ì„œ",
 		"quan": "2",
 		"img": "rar_mny"
 	},
 	"54": {
 		"num": "54",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "2",
 		"img": "rar_exp"
 	},
 	"55": {
 		"num": "55",
-		"reward": "ÃÊÂ÷¿øÀÇ ÆÄÆí",
+		"reward": "ì´ˆì°¨ì›ì˜ íŒŒí¸",
 		"quan": "1",
 		"img": "dim_p"
 	},
 	"56": {
 		"num": "56",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "2",
 		"img": "tik_pri"
 	},
 	"57": {
 		"num": "57",
-		"reward": "·¹¾î ÇØ¼®¼­",
+		"reward": "ë ˆì–´ í•´ì„ì„œ",
 		"quan": "2",
 		"img": "rar_int"
 	},
 	"58": {
 		"num": "58",
-		"reward": "·¹¾î ÀçÈ­¼­",
+		"reward": "ë ˆì–´ ì¬í™”ì„œ",
 		"quan": "2",
 		"img": "rar_mny"
 	},
 	"59": {
 		"num": "59",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "2",
 		"img": "rar_exp"
 	},
 	"60": {
 		"num": "60",
-		"reward": "¸¶·Â¼®",
+		"reward": "ë§ˆë ¥ì„",
 		"quan": "9",
 		"img": "Cash"
 	},
 	"61": {
 		"num": "61",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "2",
 		"img": "tik_pri"
 	},
 	"62": {
 		"num": "62",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "2",
 		"img": "illusion"
 	},
 	"63": {
 		"num": "63",
-		"reward": "·¹¾î ÀçÈ­¼­",
+		"reward": "ë ˆì–´ ì¬í™”ì„œ",
 		"quan": "2",
 		"img": "rar_mny"
 	},
 	"64": {
 		"num": "64",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "2",
 		"img": "rar_exp"
 	},
 	"65": {
 		"num": "65",
-		"reward": "SR ¼ºÀå¼­",
+		"reward": "SR ì„±ì¥ì„œ",
 		"quan": "1",
 		"img": "spr_exp"
 	},
 	"66": {
 		"num": "66",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "2",
 		"img": "tik_pri"
 	},
 	"67": {
 		"num": "67",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "2",
 		"img": "illusion"
 	},
 	"68": {
 		"num": "68",
-		"reward": "·¹¾î ÀçÈ­¼­",
+		"reward": "ë ˆì–´ ì¬í™”ì„œ",
 		"quan": "2",
 		"img": "rar_mny"
 	},
 	"69": {
 		"num": "69",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "2",
 		"img": "rar_exp"
 	},
 	"70": {
 		"num": "70",
-		"reward": "¸¶·Â¼®",
+		"reward": "ë§ˆë ¥ì„",
 		"quan": "3",
 		"img": "Cash"
 	},
 	"71": {
 		"num": "71",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "2",
 		"img": "tik_pri"
 	},
 	"72": {
 		"num": "72",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "2",
 		"img": "illusion"
 	},
 	"73": {
 		"num": "73",
-		"reward": "·¹¾î ÀçÈ­¼­",
+		"reward": "ë ˆì–´ ì¬í™”ì„œ",
 		"quan": "2",
 		"img": "rar_mny"
 	},
 	"74": {
 		"num": "74",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "2",
 		"img": "rar_exp"
 	},
 	"75": {
 		"num": "75",
-		"reward": "¸¶·Â¼®",
+		"reward": "ë§ˆë ¥ì„",
 		"quan": "3",
 		"img": "Cash"
 	},
 	"76": {
 		"num": "76",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "2",
 		"img": "tik_pri"
 	},
 	"77": {
 		"num": "77",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "2",
 		"img": "illusion"
 	},
 	"78": {
 		"num": "78",
-		"reward": "·¹¾î ÀçÈ­¼­",
+		"reward": "ë ˆì–´ ì¬í™”ì„œ",
 		"quan": "2",
 		"img": "rar_mny"
 	},
 	"79": {
 		"num": "79",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "2",
 		"img": "rar_exp"
 	},
 	"80": {
 		"num": "80",
-		"reward": "SR ¼ºÀå¼­",
+		"reward": "SR ì„±ì¥ì„œ",
 		"quan": "1",
 		"img": "spr_exp"
 	},
 	"81": {
 		"num": "81",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "10",
 		"img": "tik_pri"
 	},
 	"82": {
 		"num": "82",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "5",
 		"img": "illusion"
 	},
 	"83": {
 		"num": "83",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "5",
 		"img": "rar_exp"
 	},
 	"84": {
 		"num": "84",
-		"reward": "·¹¾î ÀçÈ­¼­",
+		"reward": "ë ˆì–´ ì¬í™”ì„œ",
 		"quan": "5",
 		"img": "rar_mny"
 	},
 	"85": {
 		"num": "85",
-		"reward": "SR ¼ºÀå¼­",
+		"reward": "SR ì„±ì¥ì„œ",
 		"quan": "2",
 		"img": "spr_exp"
 	},
 	"86": {
 		"num": "86",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "10",
 		"img": "tik_pri"
 	},
 	"87": {
 		"num": "87",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "5",
 		"img": "illusion"
 	},
 	"88": {
 		"num": "88",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "5",
 		"img": "rar_exp"
 	},
 	"89": {
 		"num": "89",
-		"reward": "·¹¾î ÀçÈ­¼­",
+		"reward": "ë ˆì–´ ì¬í™”ì„œ",
 		"quan": "5",
 		"img": "rar_mny"
 	},
 	"90": {
 		"num": "90",
-		"reward": "¸¶·Â¼®",
+		"reward": "ë§ˆë ¥ì„",
 		"quan": "5",
 		"img": "Cash"
 	},
 	"91": {
 		"num": "91",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "10",
 		"img": "tik_pri"
 	},
 	"92": {
 		"num": "92",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "5",
 		"img": "illusion"
 	},
 	"93": {
 		"num": "93",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "5",
 		"img": "rar_exp"
 	},
 	"94": {
 		"num": "94",
-		"reward": "·¹¾î ÀçÈ­¼­",
+		"reward": "ë ˆì–´ ì¬í™”ì„œ",
 		"quan": "5",
 		"img": "rar_mny"
 	},
 	"95": {
 		"num": "95",
-		"reward": "ÃÊÂ÷¿øÀÇ ÆÄÆí",
+		"reward": "ì´ˆì°¨ì›ì˜ íŒŒí¸",
 		"quan": "3",
 		"img": "dim_p"
 	},
 	"96": {
 		"num": "96",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "10",
 		"img": "tik_pri"
 	},
 	"97": {
 		"num": "97",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "5",
 		"img": "illusion"
 	},
 	"98": {
 		"num": "98",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "5",
 		"img": "rar_exp"
 	},
 	"99": {
 		"num": "99",
-		"reward": "·¹¾î ÀçÈ­¼­",
+		"reward": "ë ˆì–´ ì¬í™”ì„œ",
 		"quan": "5",
 		"img": "rar_mny"
 	},
 	"100": {
 		"num": "100",
-		"reward": "ÇÁ¸®¹Ì¾ö SR+¼Õ»ó¼­",
+		"reward": "í”„ë¦¬ë¯¸ì—„ SR+ì†ìƒì„œ",
 		"quan": "1",
 		"img": "6_ran"
 	},
 	"101": {
 		"num": "101",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "10",
 		"img": "tik_pri"
 	},
 	"102": {
 		"num": "102",
-		"reward": "¿ìÁÖÀÇ ÆÄÆí",
+		"reward": "ìš°ì£¼ì˜ íŒŒí¸",
 		"quan": "4",
 		"img": "uni_p"
 	},
 	"103": {
 		"num": "103",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "5",
 		"img": "rar_exp"
 	},
 	"104": {
 		"num": "104",
-		"reward": "½ÃÁğ Å½»ö±Ç",
+		"reward": "ì‹œì¦Œ íƒìƒ‰ê¶Œ",
 		"quan": "5",
 		"img": "tik_skp"
 	},
 	"105": {
 		"num": "105",
-		"reward": "SR ¼ºÀå¼­",
+		"reward": "SR ì„±ì¥ì„œ",
 		"quan": "2",
 		"img": "spr_exp"
 	},
 	"106": {
 		"num": "106",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "5",
 		"img": "illusion"
 	},
 	"107": {
 		"num": "107",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "5",
 		"img": "rar_exp"
 	},
 	"108": {
 		"num": "108",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "10",
 		"img": "tik_pri"
 	},
 	"109": {
 		"num": "109",
-		"reward": "ºÒÈ®Á¤ÀÇ »óÂ¡¹°",
+		"reward": "ë¶ˆí™•ì •ì˜ ìƒì§•ë¬¼",
 		"quan": "4",
 		"img": "sym_nor"
 	},
 	"110": {
 		"num": "110",
-		"reward": "¸¶·Â¼®",
+		"reward": "ë§ˆë ¥ì„",
 		"quan": "5",
 		"img": "Cash"
 	},
 	"111": {
 		"num": "111",
-		"reward": "¿ìÁÖÀÇ ÆÄÆí",
+		"reward": "ìš°ì£¼ì˜ íŒŒí¸",
 		"quan": "4",
 		"img": "uni_p"
 	},
 	"112": {
 		"num": "112",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "5",
 		"img": "illusion"
 	},
 	"113": {
 		"num": "113",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "10",
 		"img": "tik_pri"
 	},
 	"114": {
 		"num": "114",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "5",
 		"img": "rar_exp"
 	},
 	"115": {
 		"num": "115",
-		"reward": "SR ¼ºÀå¼­",
+		"reward": "SR ì„±ì¥ì„œ",
 		"quan": "2",
 		"img": "spr_exp"
 	},
 	"116": {
 		"num": "116",
-		"reward": "Á¤¿¹ ¼ÒÈ¯¼®",
+		"reward": "ì •ì˜ˆ ì†Œí™˜ì„",
 		"quan": "5",
 		"img": "sum_eli"
 	},
 	"117": {
 		"num": "117",
-		"reward": "½ÃÁğ Å½»ö±Ç",
+		"reward": "ì‹œì¦Œ íƒìƒ‰ê¶Œ",
 		"quan": "5",
 		"img": "tik_skp"
 	},
 	"118": {
 		"num": "118",
-		"reward": "·¹¾î ÀçÈ­¼­",
+		"reward": "ë ˆì–´ ì¬í™”ì„œ",
 		"quan": "5",
 		"img": "rar_mny"
 	},
 	"119": {
 		"num": "119",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "5",
 		"img": "illusion"
 	},
 	"120": {
 		"num": "120",
-		"reward": "¸¶·Â¼®",
+		"reward": "ë§ˆë ¥ì„",
 		"quan": "5",
 		"img": "Cash"
 	},
 	"121": {
 		"num": "121",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "10",
 		"img": "tik_pri"
 	},
 	"122": {
 		"num": "122",
-		"reward": "ºÒÈ®Á¤ÀÇ »óÂ¡¹°",
+		"reward": "ë¶ˆí™•ì •ì˜ ìƒì§•ë¬¼",
 		"quan": "2",
 		"img": "sym_nor"
 	},
 	"123": {
 		"num": "123",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "5",
 		"img": "illusion"
 	},
 	"124": {
 		"num": "124",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "5",
 		"img": "rar_exp"
 	},
 	"125": {
 		"num": "125",
-		"reward": "¸¶·Â¼®",
+		"reward": "ë§ˆë ¥ì„",
 		"quan": "9",
 		"img": "Cash"
 	},
 	"126": {
 		"num": "126",
-		"reward": "½ÃÁğ Å½»ö±Ç",
+		"reward": "ì‹œì¦Œ íƒìƒ‰ê¶Œ",
 		"quan": "5",
 		"img": "tik_skp"
 	},
 	"127": {
 		"num": "127",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "10",
 		"img": "tik_pri"
 	},
 	"128": {
 		"num": "128",
-		"reward": "·¹¾î ÀçÈ­¼­",
+		"reward": "ë ˆì–´ ì¬í™”ì„œ",
 		"quan": "5",
 		"img": "rar_mny"
 	},
 	"129": {
 		"num": "129",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "5",
 		"img": "illusion"
 	},
 	"130": {
 		"num": "130",
-		"reward": "SR ¼ºÀå¼­",
+		"reward": "SR ì„±ì¥ì„œ",
 		"quan": "2",
 		"img": "spr_exp"
 	},
 	"131": {
 		"num": "131",
-		"reward": "¿ìÁÖÀÇ °áÁ¤",
+		"reward": "ìš°ì£¼ì˜ ê²°ì •",
 		"quan": "3",
 		"img": "uni_c"
 	},
 	"132": {
 		"num": "132",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "5",
 		"img": "illusion"
 	},
 	"133": {
 		"num": "133",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "5",
 		"img": "rar_exp"
 	},
 	"134": {
 		"num": "134",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "10",
 		"img": "tik_pri"
 	},
 	"135": {
 		"num": "135",
-		"reward": "¸¶·Â¼®",
+		"reward": "ë§ˆë ¥ì„",
 		"quan": "7",
 		"img": "Cash"
 	},
 	"136": {
 		"num": "136",
-		"reward": "½ÃÁğ Å½»ö±Ç",
+		"reward": "ì‹œì¦Œ íƒìƒ‰ê¶Œ",
 		"quan": "5",
 		"img": "tik_skp"
 	},
 	"137": {
 		"num": "137",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "10",
 		"img": "tik_pri"
 	},
 	"138": {
 		"num": "138",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "5",
 		"img": "rar_exp"
 	},
 	"139": {
 		"num": "139",
-		"reward": "·¹¾î ÀçÈ­¼­",
+		"reward": "ë ˆì–´ ì¬í™”ì„œ",
 		"quan": "5",
 		"img": "rar_mny"
 	},
 	"140": {
 		"num": "140",
-		"reward": "SR ¼ºÀå¼­",
+		"reward": "SR ì„±ì¥ì„œ",
 		"quan": "1",
 		"img": "spr_exp"
 	},
 	"141": {
 		"num": "141",
-		"reward": "Á¤¿¹ ¼ÒÈ¯¼®",
+		"reward": "ì •ì˜ˆ ì†Œí™˜ì„",
 		"quan": "6",
 		"img": "sum_eli"
 	},
 	"142": {
 		"num": "142",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "6",
 		"img": "illusion"
 	},
 	"143": {
 		"num": "143",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "6",
 		"img": "rar_exp"
 	},
 	"144": {
 		"num": "144",
-		"reward": "ºÒÈ®Á¤ÀÇ »óÂ¡¹°",
+		"reward": "ë¶ˆí™•ì •ì˜ ìƒì§•ë¬¼",
 		"quan": "6",
 		"img": "sym_nor"
 	},
 	"145": {
 		"num": "145",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "20",
 		"img": "rar_exp"
 	},
 	"146": {
 		"num": "146",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "10",
 		"img": "tik_pri"
 	},
 	"147": {
 		"num": "147",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "6",
 		"img": "illusion"
 	},
 	"148": {
 		"num": "148",
-		"reward": "ÀÀÃàµÈ ºÒÈ®Á¤ÀÇ »óÂ¡¹°",
+		"reward": "ì‘ì¶•ëœ ë¶ˆí™•ì •ì˜ ìƒì§•ë¬¼",
 		"quan": "3",
 		"img": "sym_con"
 	},
 	"149": {
 		"num": "149",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "6",
 		"img": "rar_exp"
 	},
 	"150": {
 		"num": "150",
-		"reward": "ÇÁ¸®¹Ì¾ö SR+¼Õ»ó¼­",
+		"reward": "í”„ë¦¬ë¯¸ì—„ SR+ì†ìƒì„œ",
 		"quan": "1",
 		"img": "6_ran"
 	},
 	"151": {
 		"num": "151",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "10",
 		"img": "tik_pri"
 	},
 	"152": {
 		"num": "152",
-		"reward": "ÃÊÂ÷¿øÀÇ ÆÄÆí",
+		"reward": "ì´ˆì°¨ì›ì˜ íŒŒí¸",
 		"quan": "2",
 		"img": "dim_p"
 	},
 	"153": {
 		"num": "153",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "7",
 		"img": "illusion"
 	},
 	"154": {
 		"num": "154",
-		"reward": "¿ìÁÖÀÇ ÆÄÆí",
+		"reward": "ìš°ì£¼ì˜ íŒŒí¸",
 		"quan": "5",
 		"img": "uni_p"
 	},
 	"155": {
 		"num": "155",
-		"reward": "¸¶·Â¼®",
+		"reward": "ë§ˆë ¥ì„",
 		"quan": "10",
 		"img": "Cash"
 	},
 	"156": {
 		"num": "156",
-		"reward": "·¹¾î ÀçÈ­¼­",
+		"reward": "ë ˆì–´ ì¬í™”ì„œ",
 		"quan": "10",
 		"img": "rar_mny"
 	},
 	"157": {
 		"num": "157",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "7",
 		"img": "illusion"
 	},
 	"158": {
 		"num": "158",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "7",
 		"img": "rar_exp"
 	},
 	"159": {
 		"num": "159",
-		"reward": "½ÃÁğ Å½»ö±Ç",
+		"reward": "ì‹œì¦Œ íƒìƒ‰ê¶Œ",
 		"quan": "6",
 		"img": "tik_skp"
 	},
 	"160": {
 		"num": "160",
-		"reward": "¿ìÁÖÀÇ °áÁ¤",
+		"reward": "ìš°ì£¼ì˜ ê²°ì •",
 		"quan": "1",
 		"img": "uni_c"
 	},
 	"161": {
 		"num": "161",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "10",
 		"img": "tik_pri"
 	},
 	"162": {
 		"num": "162",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "7",
 		"img": "rar_exp"
 	},
 	"163": {
 		"num": "163",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "8",
 		"img": "illusion"
 	},
 	"164": {
 		"num": "164",
-		"reward": "ºÒÈ®Á¤ÀÇ »óÂ¡¹°",
+		"reward": "ë¶ˆí™•ì •ì˜ ìƒì§•ë¬¼",
 		"quan": "6",
 		"img": "sym_nor"
 	},
 	"165": {
 		"num": "165",
-		"reward": "SR ¼ºÀå¼­",
+		"reward": "SR ì„±ì¥ì„œ",
 		"quan": "1",
 		"img": "spr_exp"
 	},
 	"166": {
 		"num": "166",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "15",
 		"img": "tik_pri"
 	},
 	"167": {
 		"num": "167",
-		"reward": "·¹¾î ¼ºÀå¼­",
+		"reward": "ë ˆì–´ ì„±ì¥ì„œ",
 		"quan": "7",
 		"img": "rar_exp"
 	},
 	"168": {
 		"num": "168",
-		"reward": "¿ìÁÖÀÇ ÆÄÆí",
+		"reward": "ìš°ì£¼ì˜ íŒŒí¸",
 		"quan": "5",
 		"img": "uni_p"
 	},
 	"169": {
 		"num": "169",
-		"reward": "·¹¾î ÀçÈ­¼­",
+		"reward": "ë ˆì–´ ì¬í™”ì„œ",
 		"quan": "10",
 		"img": "rar_mny"
 	},
 	"170": {
 		"num": "170",
-		"reward": "ÃÊÂ÷¿øÀÇ ÆÄÆí",
+		"reward": "ì´ˆì°¨ì›ì˜ íŒŒí¸",
 		"quan": "3",
 		"img": "dim_p"
 	},
 	"171": {
 		"num": "171",
-		"reward": "SR ¼ºÀå¼­",
+		"reward": "SR ì„±ì¥ì„œ",
 		"quan": "1",
 		"img": "spr_exp"
 	},
 	"172": {
 		"num": "172",
-		"reward": "¿ìÁÖÀÇ °áÁ¤",
+		"reward": "ìš°ì£¼ì˜ ê²°ì •",
 		"quan": "3",
 		"img": "uni_c"
 	},
 	"173": {
 		"num": "173",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "8",
 		"img": "illusion"
 	},
 	"174": {
 		"num": "174",
-		"reward": "ÀÀÃàµÈ ºÒÈ®Á¤ÀÇ »óÂ¡¹°",
+		"reward": "ì‘ì¶•ëœ ë¶ˆí™•ì •ì˜ ìƒì§•ë¬¼",
 		"quan": "3",
 		"img": "sym_con"
 	},
 	"175": {
 		"num": "175",
-		"reward": "SR ¼ºÀå¼­",
+		"reward": "SR ì„±ì¥ì„œ",
 		"quan": "3",
 		"img": "spr_exp"
 	},
 	"176": {
 		"num": "176",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "15",
 		"img": "tik_pri"
 	},
 	"177": {
 		"num": "177",
-		"reward": "½ÃÁğ Å½»ö±Ç",
+		"reward": "ì‹œì¦Œ íƒìƒ‰ê¶Œ",
 		"quan": "8",
 		"img": "tik_skp"
 	},
 	"178": {
 		"num": "178",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "8",
 		"img": "illusion"
 	},
 	"179": {
 		"num": "179",
-		"reward": "·¹¾î ÀçÈ­¼­",
+		"reward": "ë ˆì–´ ì¬í™”ì„œ",
 		"quan": "15",
 		"img": "rar_mny"
 	},
 	"180": {
 		"num": "180",
-		"reward": "¸¶·Â¼®",
+		"reward": "ë§ˆë ¥ì„",
 		"quan": "15",
 		"img": "Cash"
 	},
 	"181": {
 		"num": "181",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "15",
 		"img": "tik_pri"
 	},
 	"182": {
 		"num": "182",
-		"reward": "ºÒÈ®Á¤ÀÇ »óÂ¡¹°",
+		"reward": "ë¶ˆí™•ì •ì˜ ìƒì§•ë¬¼",
 		"quan": "6",
 		"img": "sym_nor"
 	},
 	"183": {
 		"num": "183",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "10",
 		"img": "illusion"
 	},
 	"184": {
 		"num": "184",
-		"reward": "·¹¾î ÀçÈ­¼­",
+		"reward": "ë ˆì–´ ì¬í™”ì„œ",
 		"quan": "15",
 		"img": "rar_mny"
 	},
 	"185": {
 		"num": "185",
-		"reward": "SR ¼ºÀå¼­",
+		"reward": "SR ì„±ì¥ì„œ",
 		"quan": "4",
 		"img": "spr_exp"
 	},
 	"186": {
 		"num": "186",
-		"reward": "¿ìÁÖÀÇ °áÁ¤",
+		"reward": "ìš°ì£¼ì˜ ê²°ì •",
 		"quan": "3",
 		"img": "uni_c"
 	},
 	"187": {
 		"num": "187",
-		"reward": "½ÃÁğ Å½»ö±Ç",
+		"reward": "ì‹œì¦Œ íƒìƒ‰ê¶Œ",
 		"quan": "10",
 		"img": "tik_skp"
 	},
 	"188": {
 		"num": "188",
-		"reward": "Á¤¿¹ ¼ÒÈ¯¼®",
+		"reward": "ì •ì˜ˆ ì†Œí™˜ì„",
 		"quan": "10",
 		"img": "sum_eli"
 	},
 	"189": {
 		"num": "189",
-		"reward": "ÀÀÃàµÈ ºÒÈ®Á¤ÀÇ »óÂ¡¹°",
+		"reward": "ì‘ì¶•ëœ ë¶ˆí™•ì •ì˜ ìƒì§•ë¬¼",
 		"quan": "3",
 		"img": "sym_con"
 	},
 	"190": {
 		"num": "190",
-		"reward": "SR ¼ºÀå¼­",
+		"reward": "SR ì„±ì¥ì„œ",
 		"quan": "4",
 		"img": "spr_exp"
 	},
 	"191": {
 		"num": "191",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "15",
 		"img": "tik_pri"
 	},
 	"192": {
 		"num": "192",
-		"reward": "SR ¼ºÀå¼­",
+		"reward": "SR ì„±ì¥ì„œ",
 		"quan": "1",
 		"img": "spr_exp"
 	},
 	"193": {
 		"num": "193",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "10",
 		"img": "illusion"
 	},
 	"194": {
 		"num": "194",
-		"reward": "·¹¾î ÀçÈ­¼­",
+		"reward": "ë ˆì–´ ì¬í™”ì„œ",
 		"quan": "15",
 		"img": "rar_mny"
 	},
 	"195": {
 		"num": "195",
-		"reward": "¸¶·Â¼®",
+		"reward": "ë§ˆë ¥ì„",
 		"quan": "15",
 		"img": "Cash"
 	},
 	"196": {
 		"num": "196",
-		"reward": "ÀÎ¼â Æ¼ÄÏ",
+		"reward": "ì¸ì‡„ í‹°ì¼“",
 		"quan": "15",
 		"img": "tik_pri"
 	},
 	"197": {
 		"num": "197",
-		"reward": "È¯»ó¼®",
+		"reward": "í™˜ìƒì„",
 		"quan": "10",
 		"img": "illusion"
 	},
 	"198": {
 		"num": "198",
-		"reward": "ÃÊÂ÷¿øÀÇ ÆÄÆí",
+		"reward": "ì´ˆì°¨ì›ì˜ íŒŒí¸",
 		"quan": "3",
 		"img": "dim_p"
 	},
 	"199": {
 		"num": "199",
-		"reward": "SR ¼ºÀå¼­",
+		"reward": "SR ì„±ì¥ì„œ",
 		"quan": "2",
 		"img": "spr_exp"
 	},
 	"200": {
 		"num": "200",
-		"reward": "ÇÁ¸®¹Ì¾ö SR+¼Õ»ó¼­",
+		"reward": "í”„ë¦¬ë¯¸ì—„ SR+ì†ìƒì„œ",
 		"quan": "2",
 		"img": "6_ran"
 	}

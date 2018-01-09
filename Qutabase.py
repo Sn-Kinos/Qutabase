@@ -514,7 +514,7 @@ def func_rewards():
 			for row in reader:
 				reward = dict(row)
 				dic_reward[reward['num']] = reward
-			with open('rew_inf.json', 'wt') as Jurare:
+			with open('rew_inf.json', 'wt', encoding='utf-8') as Jurare:
 			    json.dump(dic_reward, Jurare, ensure_ascii=False, indent="\t")
 
 
