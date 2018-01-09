@@ -492,15 +492,12 @@ def func_rewards():
 		"응축된 불확정의 상징물":"sym_con"
 		}
 
-	var_input = input("1. event rewards 2. inf rewards\n >>> ")
+	var_input = input("1. inf rewards 2. event rewards\n >>> ")
 
-	if var_input == '1':
-		pass
-	elif var_input == '2':
-		
-		with open('rew_infR.csv', 'rt') as qurare:
+	def func_rewarder(mode):
+		with open('rew_'+mode+'R.csv', 'rt') as qurare:
 			reader = csv.DictReader(qurare)
-			with open('rew_inf.csv', 'wt', newline='') as magic:
+			with open('rew_'+mode+'.csv', 'wt', newline='') as magic:
 				writer = csv.DictWriter(magic, fieldnames=['num', 'reward', 'quan', 'img'])
 				writer.writeheader()
 				for row in reader:
@@ -508,16 +505,20 @@ def func_rewards():
 					reward['img'] = reward_img[reward['reward']]
 					writer.writerow({'num':reward['num'], 'reward':reward['reward'], 'quan':reward['quan'], 'img':reward['img']})
 
-		with open('rew_inf.csv', 'rt') as qurare:
+		with open('rew_'+mode+'.csv', 'rt') as qurare:
 			reader = csv.DictReader(qurare)
 			dic_reward = {}
 			for row in reader:
 				reward = dict(row)
 				dic_reward[reward['num']] = reward
 				reward['quan'] = int(reward['quan'])
-			with open('rew_inf.json', 'wt', encoding='utf-8') as Jurare:
+			with open('rew_'+mode+'.json', 'wt', encoding='utf-8') as Jurare:
 			    json.dump(dic_reward, Jurare, ensure_ascii=False, indent="\t")
 
+	if var_input == '1':
+		func_rewarder('inf')
+	elif var_input == '2':
+		func_rewarder('event')
 
 def func_menu():
 	var_input = input("""
