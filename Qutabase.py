@@ -154,6 +154,7 @@ def func_aw_write():
 			return maxfind(stat, level_rare)
 	
 	rarity = ['N, N+, R, R+, SR, SR+, SSR, QR', 'N', 'N+', 'R', 'R+', 'SR', 'SR+', 'SSR', 'QR']
+	maxLv = ['40, 45, 70, 75, 100, 105, 130, 130', 40, 45, 70, 75, 100, 105, 130, 130]
 	rareColor = ['BRONZE, BRONZE, SILVER, SILVER, GOLD, GOLD, RED', '#DDBC8B', '#DDBC8B', '#B6D8F5', '#B6D8F5', '#FFE746', '#FFE746', '#E10044', '#03C0DA']
 	rarefont = ['W, W, B, B, B, B, W, W', 'white', 'white', '#0A1533', '#0A1533', '#0A1533', '#0A1533', 'white', 'white']
 	roleColor = {'MAIN':'BLUE, GREEN, RED', '방어':'#264BCC', '회복':'#20AD20', '공격':'#E62E2E'}
@@ -277,13 +278,14 @@ def func_aw_write():
 				maxatk_bind[0] = maxfind('atk', level_rare)
 				maxspr_bind[0] = int((maxhp_bind[0] + maxatk_bind[0]) / 2)
 				for x in range(1, 7):
-					maxhp_bind.append(str(round(maxhp_bind[0] * (1 + x * bind[int(Kodex['rarity'])]))))
-					maxatk_bind.append(str(round(maxatk_bind[0] * (1 + x * bind[int(Kodex['rarity'])]))))
-					maxspr_bind.append(str(int(maxspr_bind[0] * (1 + x * bind[int(Kodex['rarity'])]))))
+					maxhp_bind.append(round(maxhp_bind[0] * (1 + x * bind[int(Kodex['rarity'])])))
+					maxatk_bind.append(round(maxatk_bind[0] * (1 + x * bind[int(Kodex['rarity'])])))
+					maxspr_bind.append(int(maxspr_bind[0] * (1 + x * bind[int(Kodex['rarity'])])))
 				dic_kodex[Kodex['name']] = {}
 				data = dic_kodex[Kodex['name']]
 				data['id'] = Kodex['id']
 				data['rarity'] = rarity[int(Kodex['rarity'])]
+				data['lv'] = maxLv[int(Kodex['rarity'])]
 				data['role'] = Kodex['role']
 				data['skilltype'] = Kodex['skilltype']
 				data['faction'] = Kodex['faction']
@@ -295,9 +297,11 @@ def func_aw_write():
 				data['enskill'] = enskill[Kodex['skill'][:2]]
 				data['roleColor'] = roleColor[Kodex['role']]
 				data['illustrator'] = Kodex['illustrator']
-				data['hp0'] = Kodex['hp0']
-				data['atk0'] = Kodex['atk0']
-				data['spr0'] = str(round((int(Kodex['hp0']) + int(Kodex['atk0'])) / 2))
+				data['hp0'] = int(Kodex['hp0'])
+				data['hpLv'] = (maxhp_bind[0] - data['hp0']) / (data['lv'] - 1)
+				data['atk0'] = int(Kodex['atk0'])
+				data['atkLv'] = (maxatk_bind[0] - data['atk0']) / (data['lv'] - 1)
+				data['spr0'] = round((int(Kodex['hp0']) + int(Kodex['atk0'])) / 2)
 				data['HP'] = maxhp_bind
 				data['ATK'] = maxatk_bind
 				data['SPR'] = maxspr_bind
