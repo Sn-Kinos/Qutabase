@@ -341,130 +341,130 @@ def func_aw_write():
 
 
 
-		elif var_str_input == '3':
-			for row in reader:
-				maxhp_bind = ['']
-				maxatk_bind = ['']
-				maxspr_bind = ['']
-				Kodex = dict(row)
-				maxhp_bind[0] = maxfind('hp', level_rare)
-				maxatk_bind[0] = maxfind('atk', level_rare)
-				maxspr_bind[0] = int((maxhp_bind[0] + maxatk_bind[0]) / 2)
-				for x in range(1, 6):
-					maxhp_bind.append(str(round(maxhp_bind[0] * (1 + x * bind[int(Kodex['rarity'])]))))
-					maxatk_bind.append(str(round(maxatk_bind[0] * (1 + x * bind[int(Kodex['rarity'])]))))
-					maxspr_bind.append(str(int(maxspr_bind[0] * (1 + x * bind[int(Kodex['rarity'])]))))
+#		elif var_str_input == '3123132233': # We don't use Awiki
+#			for row in reader:
+#				maxhp_bind = ['']
+#				maxatk_bind = ['']
+#				maxspr_bind = ['']
+#				Kodex = dict(row)
+#				maxhp_bind[0] = maxfind('hp', level_rare)
+#				maxatk_bind[0] = maxfind('atk', level_rare)
+#				maxspr_bind[0] = int((maxhp_bind[0] + maxatk_bind[0]) / 2)
+#				for x in range(1, 6):
+#					maxhp_bind.append(str(round(maxhp_bind[0] * (1 + x * bind[int(Kodex['rarity'])]))))
+#					maxatk_bind.append(str(round(maxatk_bind[0] * (1 + x * bind[int(Kodex['rarity'])]))))
+#					maxspr_bind.append(str(int(maxspr_bind[0] * (1 + x * bind[int(Kodex['rarity'])]))))
 
-				path = 'd:/Documents/Visual Studio 2017/Projects/Qutabase/Qutabase/Kodex/' + role[int(Kodex['role'])] + '/' + enskill[Kodex['skill'][:2]] + '/' + Kodex['rarity']
-				if not os.path.exists(path):
-					os.makedirs(path)
-				with open(path + '/' + Kodex['id'] + ' - ' + Kodex['name'] + '.txt', 'w') as Adex:
-					var_str_form = """==== """ + Kodex['name'] + """ ====
-||<:><table bgcolor=#e3e4ee><table align=center><bgcolor=""" + rareColor[int(Kodex['rarity'])] + """>{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:28px; color: """ + rarefont[int(Kodex['rarity'])] + """;">
-""" + rarity[int(Kodex['rarity'])] + """
-</span>}}}
-||||||||||||||<:><bgcolor=""" + rareColor[int(Kodex['rarity'])] + """>{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:28px; color: """ + rarefont[int(Kodex['rarity'])] + """;">
-""" + Kodex['name'] + """
-</span>}}}
-||<:><bgcolor=#FFEB3B>{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:18px; color: #273869;">
-COST<br>""" + Kodex['cost'] + """
-</span>}}}
-||
-||||||<|2><:><bgcolor=""" + roleColor[int(Kodex['role'])] + """>{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:40px; color: white;">
-""" + Kodex['skill'] + """
-</span>}}}
-||<:>{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
-역할
-</span>}}}
-||||{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
-""" + role[int(Kodex['role'])] + """
-</span>}}}
-||<:>{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
-속성
-</span>}}}
-||||{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
-""" + skilltype[int(Kodex['skilltype'])] + """
-</span>}}}
-||
-||<:>{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
-장르
-</span>}}}
-||||{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
-""" + faction[int(Kodex['faction'])] + """
-</span>}}}
-||<:>{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
-그림
-</span>}}}
-||||{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
-""" + Kodex['illustrator'] + """
-</span>}}}
-||
-||||||<:><bgcolor=#FFEB3B>{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
-NORMAL
-</span>}}}
-||||||<:><bgcolor=#FFEB3B>{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
-MAX
-</span>}}}
-||||||<:><bgcolor=#FFEB3B>{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
-MAX+
-</span>}}}
-||
-||||||[[파일:""" + Kodex['id'] + """an.jpg|width=250]]||||||[[파일:""" + Kodex['id'] + """bn.jpg|width=250]]||||||[[파일:""" + Kodex['id'] + """cn.jpg|width=250]]
-||
-||||<:><bgcolor=#5A688A>{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: white;">
-스탯
-</span>}}}
-||<:><bgcolor=#5A688A>{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:18px; color: white;">
-Lv.1
-</span>}}}
-||<:><bgcolor=#5A688A>{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:18px; color: white;">
-MAX
-</span>}}}
-||<:><bgcolor=#00B4FF>{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:18px; color: white;">
-1결속
-</span>}}}
-||<:><bgcolor=#00B4FF>{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:18px; color: white;">
-2결속
-</span>}}}
-||<:><bgcolor=#00B4FF>{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:18px; color: white;">
-3결속
-</span>}}}
-||<:><bgcolor=#00B4FF>{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:18px; color: white;">
-4결속
-</span>}}}
-||<:><bgcolor=#00B4FF>{{{#!html
-<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:18px; color: white;">
-5결속
-</span>}}}
-||
-||||<bgcolor=#5A688A>{{{#white HP}}}||<:>""" + Kodex['hp0'] + """||<:>""" + str(maxhp_bind[0]) + """||<:>""" + maxhp_bind[1] + """||<:>""" + maxhp_bind[2] + """||<:>""" + maxhp_bind[3] + """||<:>""" + maxhp_bind[4] + """||<:>""" + maxhp_bind[5] + """||
-||||<bgcolor=#5A688A>{{{#white ATK}}}||<:>""" + Kodex['atk0'] + """||<:>""" + str(maxatk_bind[0]) + """||<:>""" + maxatk_bind[1] + """||<:>""" + maxatk_bind[2] + """||<:>""" + maxatk_bind[3] + """||<:>""" + maxatk_bind[4] + """||<:>""" + maxatk_bind[5] + """||
-||||<bgcolor=#5A688A>{{{#white SPR}}}||<:>""" + str(round((int(Kodex['hp0']) + int(Kodex['atk0'])) / 2)) + """||<:>""" + str(maxspr_bind[0]) + """||<:>""" + maxspr_bind[1] + """||<:>""" + maxspr_bind[2] + """||<:>""" + maxspr_bind[3] + """||<:>""" + maxspr_bind[4] + """||<:>""" + maxspr_bind[5] + """||
+#				path = 'd:/Documents/Visual Studio 2017/Projects/Qutabase/Qutabase/Kodex/' + role[int(Kodex['role'])] + '/' + enskill[Kodex['skill'][:2]] + '/' + Kodex['rarity']
+#				if not os.path.exists(path):
+#					os.makedirs(path)
+#				with open(path + '/' + Kodex['id'] + ' - ' + Kodex['name'] + '.txt', 'w') as Adex:
+#					var_str_form = """==== """ + Kodex['name'] + """ ====
+#||<:><table bgcolor=#e3e4ee><table align=center><bgcolor=""" + rareColor[int(Kodex['rarity'])] + """>{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:28px; color: """ + rarefont[int(Kodex['rarity'])] + """;">
+#""" + rarity[int(Kodex['rarity'])] + """
+#</span>}}}
+#||||||||||||||<:><bgcolor=""" + rareColor[int(Kodex['rarity'])] + """>{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:28px; color: """ + rarefont[int(Kodex['rarity'])] + """;">
+#""" + Kodex['name'] + """
+#</span>}}}
+#||<:><bgcolor=#FFEB3B>{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:18px; color: #273869;">
+#COST<br>""" + Kodex['cost'] + """
+#</span>}}}
+#||
+#||||||<|2><:><bgcolor=""" + roleColor[int(Kodex['role'])] + """>{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:40px; color: white;">
+#""" + Kodex['skill'] + """
+#</span>}}}
+#||<:>{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
+#역할
+#</span>}}}
+#||||{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
+#""" + role[int(Kodex['role'])] + """
+#</span>}}}
+#||<:>{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
+#속성
+#</span>}}}
+#||||{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
+#""" + skilltype[int(Kodex['skilltype'])] + """
+#</span>}}}
+#||
+#||<:>{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
+#장르
+#</span>}}}
+#||||{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
+#""" + faction[int(Kodex['faction'])] + """
+#</span>}}}
+#||<:>{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
+#그림
+#</span>}}}
+#||||{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
+#""" + Kodex['illustrator'] + """
+#</span>}}}
+#||
+#||||||<:><bgcolor=#FFEB3B>{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
+#NORMAL
+#</span>}}}
+#||||||<:><bgcolor=#FFEB3B>{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
+#MAX
+#</span>}}}
+#||||||<:><bgcolor=#FFEB3B>{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: #0A1533;">
+#MAX+
+#</span>}}}
+#||
+#||||||[[파일:""" + Kodex['id'] + """an.jpg|width=250]]||||||[[파일:""" + Kodex['id'] + """bn.jpg|width=250]]||||||[[파일:""" + Kodex['id'] + """cn.jpg|width=250]]
+#||
+#||||<:><bgcolor=#5A688A>{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:21px; color: white;">
+#스탯
+#</span>}}}
+#||<:><bgcolor=#5A688A>{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:18px; color: white;">
+#Lv.1
+#</span>}}}
+#||<:><bgcolor=#5A688A>{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:18px; color: white;">
+#MAX
+#</span>}}}
+#||<:><bgcolor=#00B4FF>{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:18px; color: white;">
+#1결속
+#</span>}}}
+#||<:><bgcolor=#00B4FF>{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:18px; color: white;">
+#2결속
+#</span>}}}
+#||<:><bgcolor=#00B4FF>{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:18px; color: white;">
+#3결속
+#</span>}}}
+#||<:><bgcolor=#00B4FF>{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:18px; color: white;">
+#4결속
+#</span>}}}
+#||<:><bgcolor=#00B4FF>{{{#!html
+#<span style="font-weight: bold;font-family: '나눔스퀘어 ', '맑은 고딕' !important; font-size:18px; color: white;">
+#5결속
+#</span>}}}
+#||
+#||||<bgcolor=#5A688A>{{{#white HP}}}||<:>""" + Kodex['hp0'] + """||<:>""" + str(maxhp_bind[0]) + """||<:>""" + maxhp_bind[1] + """||<:>""" + maxhp_bind[2] + """||<:>""" + maxhp_bind[3] + """||<:>""" + maxhp_bind[4] + """||<:>""" + maxhp_bind[5] + """||
+#||||<bgcolor=#5A688A>{{{#white ATK}}}||<:>""" + Kodex['atk0'] + """||<:>""" + str(maxatk_bind[0]) + """||<:>""" + maxatk_bind[1] + """||<:>""" + maxatk_bind[2] + """||<:>""" + maxatk_bind[3] + """||<:>""" + maxatk_bind[4] + """||<:>""" + maxatk_bind[5] + """||
+#||||<bgcolor=#5A688A>{{{#white SPR}}}||<:>""" + str(round((int(Kodex['hp0']) + int(Kodex['atk0'])) / 2)) + """||<:>""" + str(maxspr_bind[0]) + """||<:>""" + maxspr_bind[1] + """||<:>""" + maxspr_bind[2] + """||<:>""" + maxspr_bind[3] + """||<:>""" + maxspr_bind[4] + """||<:>""" + maxspr_bind[5] + """||
 
-"""
-					Adex.write(var_str_form)
+#"""
+#					Adex.write(var_str_form)
 
 def func_rewards():
     
@@ -525,6 +525,37 @@ def func_rewards():
 	elif var_input == '2':
 		func_rewarder('event')
 
+def func_skill():
+	var_input = input("1. HP Skill 2. ATK Skill 3. SPR Skill\n >>> ")
+
+	def func_skiller(mode):
+		with open('skill_'+mode+'.csv', 'rt') as qurare:
+			reader = csv.DictReader(qurare)
+			dic_skill = {}
+			for row in reader:
+				skill = dict(row)
+				def floater(args):
+					if skill[args] != '':
+						skill[args] = float(skill[args])
+					else:
+					    pass
+				floater('static')
+				floater('static2')
+				floater('static3')
+				floater('dynamic')
+				floater('dynamic2')
+				floater('dynamic3')
+				dic_skill[skill['name']] = skill
+			with open('skill_'+mode+'.json', 'wt', encoding='utf-8') as Jurare:
+			    json.dump(dic_skill, Jurare, ensure_ascii=False, indent="\t")
+
+	if var_input == '1':
+		func_skiller('hp')
+	elif var_input == '2':
+		func_skiller('atk')
+	elif var_input == '3':
+		func_skiller('spr')
+
 def func_menu():
 	var_input = input("""
 	QUTABASE\n
@@ -532,6 +563,7 @@ def func_menu():
 	2. get data\n
 	3. get json/namu
 	4. get rewards\n
+	5. get skills\n
 	(name).display\n\n >>> """)
 	if var_input == '0':
 		return
@@ -545,6 +577,8 @@ def func_menu():
 		func_aw_write()
 	elif var_input == '4':
 		func_rewards()
+	elif var_input == '5':
+		func_skill()
 	elif var_input == '123':
 		func_db_get('123')
 		func_db_skill()
