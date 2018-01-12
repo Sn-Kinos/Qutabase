@@ -1,4 +1,4 @@
-﻿{
+{
 	"델핀": {
 		"id": "17006",
 		"rarity": "SSR",
@@ -61,7 +61,7 @@
 		"skill": "참회 VI",
 		"enskill": "Repent",
 		"roleColor": "#20AD20",
-		"illustrator": "-",
+		"illustrator": "송개",
 		"hp0": 647,
 		"hpLv": 30.124031007751938,
 		"atk0": 645,
@@ -31589,7 +31589,7 @@
 		"lv": 100,
 		"role": "회복",
 		"skilltype": "액티브",
-		"faction": "-",
+		"faction": "판타지",
 		"name": "마흐피야",
 		"rareColor": "#FFE746",
 		"rarefont": "#0A1533",
