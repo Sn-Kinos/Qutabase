@@ -99,7 +99,7 @@ def func_db_data():
 			writer.writerow(dic_kodex_data[i])
 
 def func_db_load(name):
-	with open('qurareasdasd.csv', 'rt') as qurare:
+	with open('qurare.csv', 'rt') as qurare:
 		cache = {}
 		reader = csv.DictReader(qurare)
 		for row in reader:
@@ -526,42 +526,40 @@ def func_rewards():
 		func_rewarder('event')
 
 def func_skill():
-	var_input = input("1. HP Skill 2. ATK Skill 3. SPR Skill\n >>> ")
 
-	def func_skiller(mode):
-		with open('skill_'+mode+'.csv', 'rt') as qurare:
-			reader = csv.DictReader(qurare)
-			dic_skill = {}
-			for row in reader:
-				skill = dict(row)
-				def floater(args):
-					if skill[args] != '':
-						skill[args] = float(skill[args])
-					else:
-					    pass
-				floater('static')
-				floater('static2')
-				floater('static3')
-				floater('dynamic')
-				floater('dynamic2')
-				floater('dynamic3')
-				dic_skill[skill['name']] = skill
-			with open('skill_'+mode+'.json', 'wt', encoding='utf-8') as Jurare:
-			    json.dump(dic_skill, Jurare, ensure_ascii=False, indent="\t")
+	with open('skill.csv', 'rt') as qurare:
+		reader = csv.DictReader(qurare)
+		dic_skill = {}
+		for row in reader:
+			skill = dict(row)
+			def floater(args):
+				if skill[args] != '' and skill[args] != 'lea':
+					skill[args] = float(skill[args])
+				else:
+					pass
+			floater('static')
+			floater('static2')
+			floater('static3')
+			floater('dynamic')
+			floater('dynamic2')
+			floater('dynamic3')
+			floater('Static')
+			floater('Static2')
+			floater('Static3')
+			floater('Dynamic')
+			floater('Dynamic2')
+			floater('Dynamic3')
+			dic_skill[skill['name']] = skill
+		with open('skill.json', 'wt', encoding='utf-8') as Jurare:
+			json.dump(dic_skill, Jurare, ensure_ascii=False, indent="\t")
 
-	if var_input == '1':
-		func_skiller('hp')
-	elif var_input == '2':
-		func_skiller('atk')
-	elif var_input == '3':
-		func_skiller('spr')
 
 def func_menu():
 	var_input = input("""
 	QUTABASE\n
 	1. get html
 	2. get data\n
-	3. get json/namu
+	3. get json/namu & move img
 	4. get rewards\n
 	5. get skills\n
 	(name).display\n\n >>> """)
