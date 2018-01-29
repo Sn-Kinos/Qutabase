@@ -1,0 +1,167 @@
+{
+	"nor": {
+		"name": "nor",
+		"disp": "마도서 일반 대미지",
+		"expression": "stat * st"
+	},
+	"Nor": {
+		"name": "Nor",
+		"disp": "덱 일반 대미지",
+		"expression": "deck_stat * (st + dy)"
+	},
+	"ski": {
+		"name": "ski",
+		"disp": "마도서 스킬 대미지",
+		"expression": "stat * st"
+	},
+	"Ski": {
+		"name": "Ski",
+		"disp": "덱 스킬 대미지",
+		"expression": "deck_stat * (st + dy)"
+	},
+	"dot": {
+		"name": "dot",
+		"disp": "마도서 도트 대미지",
+		"expression": "stat * st * dur"
+	},
+	"Dot": {
+		"name": "Dot",
+		"disp": "텍 도트 대미지",
+		"expression": "deck_stat * (st + dy) * dur"
+	},
+	"rep": {
+		"name": "rep",
+		"disp": "마도서 참회 대미지",
+		"expression": "stat * st * dur"
+	},
+	"Rep": {
+		"name": "Rep",
+		"disp": "덱 참회 대미지",
+		"expression": "deck_stat * (st + dy) * dur"
+	},
+	"sin": {
+		"name": "sin",
+		"disp": "회복량 초과 대미지",
+		"expression": "hea * (st + dy)"
+	},
+	"atk": {
+		"name": "atk",
+		"disp": "모든 공격력 증가",
+		"expression": "1 + (st + dy) / 100"
+	},
+	"ntk": {
+		"name": "ntk",
+		"disp": "일반 공격력 증가",
+		"expression": "1 + (st + dy) / 100"
+	},
+	"stk": {
+		"name": "stk",
+		"disp": "스킬 공격력 증가",
+		"expression": "1 + (st + dy) / 100"
+	},
+	"inn": {
+		"name": "inn",
+		"disp": "받는 피해 감소",
+		"expression": ""
+	},
+	"hp": {
+		"name": "hp",
+		"disp": "체력 증가",
+		"expression": ""
+	},
+	"spr": {
+		"name": "spr",
+		"disp": "정신력 증가",
+		"expression": ""
+	},
+	"hea": {
+		"name": "hea",
+		"disp": "체력 즉시 회복",
+		"expression": ""
+	},
+	"tik": {
+		"name": "tik",
+		"disp": "체력 도트 회복",
+		"expression": ""
+	},
+	"shi": {
+		"name": "shi",
+		"disp": "보호막 생성",
+		"expression": ""
+	},
+	"Atk": {
+		"name": "Atk",
+		"disp": "파티원 공격력 증가",
+		"expression": ""
+	},
+	"Hp": {
+		"name": "Hp",
+		"disp": "파티원 체력 증가",
+		"expression": ""
+	},
+	"Inn": {
+		"name": "Inn",
+		"disp": "파티원 피해 감소",
+		"expression": ""
+	},
+	"Spr": {
+		"name": "Spr",
+		"disp": "파티원 정신력 증가",
+		"expression": ""
+	},
+	"gol": {
+		"name": "gol",
+		"disp": "금서 공격력 감소",
+		"expression": ""
+	},
+	"sur": {
+		"name": "sur",
+		"disp": "금서 회복량 감소",
+		"expression": ""
+	},
+	"bun": {
+		"name": "bun",
+		"disp": "입히는 피해 증가",
+		"expression": ""
+	},
+	"bal": {
+		"name": "bal",
+		"disp": "선봉의 약탈",
+		"expression": ""
+	},
+	"bel": {
+		"name": "bel",
+		"disp": "종소리 울려라",
+		"expression": ""
+	},
+	"dra": {
+		"name": "dra",
+		"disp": "피해량 비례 회복",
+		"expression": ""
+	},
+	"rec": {
+		"name": "rec",
+		"disp": "분리수거",
+		"expression": ""
+	},
+	"arc": {
+		"name": "arc",
+		"disp": "아르카나",
+		"expression": ""
+	},
+	"fai": {
+		"name": "fai",
+		"disp": "요정의 반향",
+		"expression": ""
+	},
+	"jin": {
+		"name": "jin",
+		"disp": "징벌",
+		"expression": ""
+	},
+	"pye": {
+		"name": "pye",
+		"disp": "회복량 비례 회복",
+		"expression": ""
+	}
+}

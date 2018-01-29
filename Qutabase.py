@@ -527,31 +527,50 @@ def func_rewards():
 
 def func_skill():
 
-	with open('skill.csv', 'rt') as qurare:
-		reader = csv.DictReader(qurare)
-		dic_skill = {}
-		for row in reader:
-			skill = dict(row)
-			def floater(args):
-				if skill[args] != '' and skill[args] != 'lea':
-					skill[args] = float(skill[args])
-				else:
-					pass
-			floater('static')
-			floater('static2')
-			floater('static3')
-			floater('dynamic')
-			floater('dynamic2')
-			floater('dynamic3')
-			floater('Static')
-			floater('Static2')
-			floater('Static3')
-			floater('Dynamic')
-			floater('Dynamic2')
-			floater('Dynamic3')
-			dic_skill[skill['name']] = skill
-		with open('skill.json', 'wt', encoding='utf-8') as Jurare:
-			json.dump(dic_skill, Jurare, ensure_ascii=False, indent="\t")
+	def func_skill_skill():
+		with open('skill.csv', 'rt') as qurare:
+			reader = csv.DictReader(qurare)
+			dic_skill = {}
+			for row in reader:
+				skill = dict(row)
+				def floater(args):
+					if skill[args] != '' and skill[args] != 'lea':
+						skill[args] = float(skill[args])
+					else:
+						pass
+				floater('static')
+				floater('static2')
+				floater('static3')
+				floater('dynamic')
+				floater('dynamic2')
+				floater('dynamic3')
+				floater('Static')
+				floater('Static2')
+				floater('Static3')
+				floater('Dynamic')
+				floater('Dynamic2')
+				floater('Dynamic3')
+				dic_skill[skill['name']] = skill
+			with open('skill.json', 'wt', encoding='utf-8') as Jurare:
+				json.dump(dic_skill, Jurare, ensure_ascii=False, indent="\t")
+
+	def func_skill_effect():
+		with open('effect.csv', 'rt') as qurare:
+			reader = csv.DictReader(qurare)
+			dic_effect = {}
+			for row in reader:
+				effect = dict(row)
+				dic_effect[effect['name']] = effect
+			with open('effect.json', 'wt', encoding='utf-8') as Jurare:
+			    json.dump(dic_effect, Jurare, ensure_ascii=False, indent='\t')
+
+	var_input = input('1. skill 2. effect\n >>> ')
+
+	if var_input == '1':
+	    func_skill_skill()
+	elif var_input == '2':
+		func_skill_effect()
+
 
 
 def func_menu():
