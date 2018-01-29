@@ -538,16 +538,16 @@ def func_skill():
 						skill[args] = float(skill[args])
 					else:
 						pass
-				floater('static')
+				floater('static1')
 				floater('static2')
 				floater('static3')
-				floater('dynamic')
+				floater('dynamic1')
 				floater('dynamic2')
 				floater('dynamic3')
-				floater('Static')
+				floater('Static1')
 				floater('Static2')
 				floater('Static3')
-				floater('Dynamic')
+				floater('Dynamic1')
 				floater('Dynamic2')
 				floater('Dynamic3')
 				dic_skill[skill['name']] = skill

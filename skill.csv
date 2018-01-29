@@ -1,4 +1,4 @@
-name,skilltype,role,Basic,Bonus,static,static2,static3,dynamic,dynamic2,dynamic3,Static,Static2,Static3,Dynamic,Dynamic2,Dynamic3,probability,duration,cooltime,coolshare,effect
+name,skilltype,role,Basic,Bonus,static1,static2,static3,dynamic1,dynamic2,dynamic3,Static1,Static2,Static3,Dynamic1,Dynamic2,Dynamic3,probability,duration,cooltime,coolshare,effect
 AE36 붕괴,active,atk,"마도서 공격력의 200% 위력으로 스킬 공격하고, 8초간 1초마다 마도서 공격력의 16% 위력으로 고정 피해를 준다.","마도서 공격력의 260% 위력으로 스킬 공격하고, 8초간 1초마다 마도서 공격력의 19% 위력으로 고정 피해를 준다.",2,0.16,0,,,,2.6,0.19,0,,,,0,8,8,,ski/dot
 "Hello, world!",passive,atk,"기본 공격 시 12.5% 확률로 14초간 자신의 스킬 공격력을 ,1,% 증가시킨다.",기본 공격 시 16% 확률로 14초간 자신의 스킬 공격력을 `1`% 증가시킨다.,3.01,0,0,0.0171,,,3.22,0,0,lea,,,0.16,14,18,1,stk
 KANG-TA!,active,atk,마도서 공격력의 311% 위력으로 스킬 공격한다.,마도서 공격력의 374% 위력으로 스킬 공격한다.,3.11,0,0,,,,3.74,0,0,,,,0,,8,,ski
