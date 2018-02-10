@@ -57,37 +57,37 @@
 		"name": "atk",
 		"disp": "모든 공격력 증가",
 		"value": "-",
-		"exp1": "1 + (st + dy) / 100"
+		"exp1": "st + dy"
 	},
 	"ntk": {
 		"name": "ntk",
 		"disp": "일반 공격력 증가",
 		"value": "-",
-		"exp1": "1 + (st + dy) / 100"
+		"exp1": "st + dy"
 	},
 	"stk": {
 		"name": "stk",
 		"disp": "스킬 공격력 증가",
 		"value": "-",
-		"exp1": "1 + (st + dy) / 100"
+		"exp1": "st + dy"
 	},
 	"inn": {
 		"name": "inn",
 		"disp": "받는 피해 감소",
 		"value": "-",
-		"exp1": "1 + (st + dy) / 100"
+		"exp1": "st + dy"
 	},
 	"hp": {
 		"name": "hp",
 		"disp": "체력 증가",
 		"value": "-",
-		"exp1": "1 + (st + dy) / 100"
+		"exp1": "st + dy"
 	},
 	"spr": {
 		"name": "spr",
 		"disp": "정신력 증가",
 		"value": "-",
-		"exp1": "1 + (st + dy) / 100"
+		"exp1": "st + dy"
 	},
 	"hea": {
 		"name": "hea",
@@ -111,43 +111,43 @@
 		"name": "Atk",
 		"disp": "파티원 공격력 증가",
 		"value": "-",
-		"exp1": "1 + (st + dy) / 100"
+		"exp1": "st + dy"
 	},
 	"Hp": {
 		"name": "Hp",
 		"disp": "파티원 체력 증가",
 		"value": "-",
-		"exp1": "1 + (st + dy) / 100"
+		"exp1": "st + dy"
 	},
 	"Inn": {
 		"name": "Inn",
 		"disp": "파티원 피해 감소",
 		"value": "-",
-		"exp1": "1 + (st + dy) / 100"
+		"exp1": "st + dy"
 	},
 	"Spr": {
 		"name": "Spr",
 		"disp": "파티원 정신력 증가",
 		"value": "-",
-		"exp1": "1 + (st + dy) / 100"
+		"exp1": "st + dy"
 	},
 	"gol": {
 		"name": "gol",
 		"disp": "금서 공격력 감소",
 		"value": "-",
-		"exp1": "1 + (st + dy) / 100"
+		"exp1": "st + dy"
 	},
 	"sur": {
 		"name": "sur",
 		"disp": "금서 회복량 감소",
 		"value": "-",
-		"exp1": "st"
+		"exp1": "st * 100"
 	},
 	"bun": {
 		"name": "bun",
 		"disp": "입히는 피해 증가",
 		"value": "-",
-		"exp1": "1 + (st + dy) / 100"
+		"exp1": "st + dy"
 	},
 	"bal": {
 		"name": "bal",
