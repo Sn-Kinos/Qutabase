@@ -1,34 +1,33 @@
-name,disp,expression
-nor,마도서 일반 대미지,kodex * st
-Nor,덱 일반 대미지,deck * (st + dy)
-ski,마도서 스킬 대미지,kodex * st
-Ski,덱 스킬 대미지,deck * (st + dy)
-dot,마도서 도트 대미지,kodex * st * dur
-Dot,텍 도트 대미지,deck * (st + dy) * dur
-rep,마도서 참회 대미지,kodex * st * dur
-Rep,덱 참회 대미지,deck * (st + dy) * dur
-sin,회복량 초과 대미지,hea * (st + dy)
-atk,모든 공격력 증가,1 + (st + dy) / 100
-ntk,일반 공격력 증가,1 + (st + dy) / 100
-stk,스킬 공격력 증가,1 + (st + dy) / 100
-inn,받는 피해 감소,
-hp,체력 증가,
-spr,정신력 증가,
-hea,체력 즉시 회복,
-tik,체력 도트 회복,
-shi,보호막 생성,
-Atk,파티원 공격력 증가,
-Hp,파티원 체력 증가,
-Inn,파티원 피해 감소,
-Spr,파티원 정신력 증가,
-gol,금서 공격력 감소,
-sur,금서 회복량 감소,
-bun,입히는 피해 증가,
-bal,선봉의 약탈,
-bel,종소리 울려라,
-dra,피해량 비례 회복,
-rec,분리수거,
-arc,아르카나,
-fai,요정의 반향,
-jin,징벌,
-pye,회복량 비례 회복,
+name,disp,value,exp1
+nor,마도서 일반 대미지,kodex,val * st
+Nor,덱 일반 대미지,deck,val * (st + dy)
+ski,마도서 스킬 대미지,kodex,val * st
+Ski,덱 스킬 대미지,deck,val * (st + dy)
+dot,마도서 도트 대미지,kodex,val * st * dur
+Dot,텍 도트 대미지,deck,val * (st + dy) * dur
+rep,마도서 참회 대미지,kodex,val * st * dur
+Rep,덱 참회 대미지,deck,val * (st + dy) * dur
+sin,회복량 초과 대미지,heal,val * (st + dy)
+atk,모든 공격력 증가,-,1 + (st + dy) / 100
+ntk,일반 공격력 증가,-,1 + (st + dy) / 100
+stk,스킬 공격력 증가,-,1 + (st + dy) / 100
+inn,받는 피해 감소,-,1 + (st + dy) / 100
+hp,체력 증가,-,1 + (st + dy) / 100
+spr,정신력 증가,-,1 + (st + dy) / 100
+hea,체력 즉시 회복,kodex,val * st
+tik,체력 도트 회복,kodex,val * st * dur
+shi,보호막 생성,kodex,val * st
+Atk,파티원 공격력 증가,-,1 + (st + dy) / 100
+Hp,파티원 체력 증가,-,1 + (st + dy) / 100
+Inn,파티원 피해 감소,-,1 + (st + dy) / 100
+Spr,파티원 정신력 증가,-,1 + (st + dy) / 100
+gol,금서 공격력 감소,-,1 + (st + dy) / 100
+sur,금서 회복량 감소,-,st
+bun,입히는 피해 증가,-,1 + (st + dy) / 100
+bal,선봉의 약탈,kodex,"val * st1 , val * st2 , val * st3 , val * dy1 , val * dy2"
+dra,피해량 비례 회복,prev,val * st
+rec,분리수거,kodex,val * st
+arc,아르카나,kodex,val * st
+fai,요정의 반향,kodex,"val * st1 , val * st2 , val * st3 , val * dy1 , val * dy2 , val * dy3 , val * pd"
+jin,징벌,rep,val * (st + dy)
+pye,회복량 비례 회복,heal,val * (st + dy)
