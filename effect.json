@@ -51,7 +51,7 @@
 		"name": "sin",
 		"disp": "회복량 초과 대미지",
 		"value": "heal",
-		"exp1": "val * (st + dy)"
+		"exp1": "st + dy"
 	},
 	"atk": {
 		"name": "atk",
