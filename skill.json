@@ -3429,7 +3429,7 @@
 		"duration": "6",
 		"cooltime": "7",
 		"coolshare": "",
-		"effect": "ski"
+		"effect": "ski/sig"
 	},
 	"방어 I": {
 		"name": "방어 I",

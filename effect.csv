@@ -31,3 +31,4 @@ arc,아르카나,kodex,val * st
 fai,요정의 반향,kodex,"val * st1 , val * st2 , val * st3 , val * dy1 , val * dy2 , val * dy3 , val * pd"
 jin,징벌,rep,val * (st + dy)
 pye,회복량 비례 회복,heal,val * (st + dy)
+sig,발뭉: 불사신의 검,kodex,"val * st1 , val * st2 , 100 * st3"

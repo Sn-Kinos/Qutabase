@@ -190,5 +190,11 @@
 		"disp": "회복량 비례 회복",
 		"value": "heal",
 		"exp1": "val * (st + dy)"
+	},
+	"sig": {
+		"name": "sig",
+		"disp": "발뭉: 불사신의 검",
+		"value": "kodex",
+		"exp1": "val * st1 , val * st2 , 100 * st3"
 	}
 }
