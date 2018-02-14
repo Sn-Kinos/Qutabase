@@ -7,7 +7,7 @@ dot,마도서 도트 대미지,kodex,val * st * dur
 Dot,텍 도트 대미지,deck,val * (st + dy) * dur
 rep,마도서 참회 대미지,kodex,val * st * dur
 Rep,덱 참회 대미지,deck,val * (st + dy) * dur
-sin,회복량 초과 대미지,heal,val * (st + dy)
+sin,회복량 초과 대미지,heal,st + dy
 atk,모든 공격력 증가,-,st + dy
 ntk,일반 공격력 증가,-,st + dy
 stk,스킬 공격력 증가,-,st + dy
