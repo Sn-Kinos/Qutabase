@@ -196,5 +196,11 @@
 		"disp": "발뭉: 불사신의 검",
 		"value": "kodex",
 		"exp1": "val * st1 , val * st2 , 100 * st3"
+	},
+	"goy": {
+		"name": "goy",
+		"disp": "일반 공격력 증가",
+		"value": "kodex",
+		"exp1": "val * st"
 	}
 }

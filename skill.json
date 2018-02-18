@@ -717,7 +717,7 @@
 		"duration": "8",
 		"cooltime": "9",
 		"coolshare": "",
-		"effect": "ntk/nor/dot"
+		"effect": "goy/nor/dot"
 	},
 	"고양 III": {
 		"name": "고양 III",
@@ -741,7 +741,7 @@
 		"duration": "",
 		"cooltime": "9",
 		"coolshare": "",
-		"effect": "ntk/nor"
+		"effect": "goy/nor"
 	},
 	"고양 IV": {
 		"name": "고양 IV",
@@ -765,7 +765,7 @@
 		"duration": "",
 		"cooltime": "9",
 		"coolshare": "",
-		"effect": "ntk/nor"
+		"effect": "goy/nor"
 	},
 	"고양 V": {
 		"name": "고양 V",
@@ -789,7 +789,7 @@
 		"duration": "",
 		"cooltime": "9",
 		"coolshare": "",
-		"effect": "ntk/nor"
+		"effect": "goy/nor"
 	},
 	"고양 VI": {
 		"name": "고양 VI",
@@ -813,7 +813,7 @@
 		"duration": "",
 		"cooltime": "9",
 		"coolshare": "",
-		"effect": "ntk/nor"
+		"effect": "goy/nor"
 	},
 	"다이너마이트": {
 		"name": "다이너마이트",
