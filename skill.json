@@ -5589,7 +5589,7 @@
 		"duration": "4",
 		"cooltime": "10",
 		"coolshare": "1",
-		"effect": "rep"
+		"effect": "sur/rep"
 	},
 	"심문 IV": {
 		"name": "심문 IV",
@@ -5613,7 +5613,7 @@
 		"duration": "4",
 		"cooltime": "10",
 		"coolshare": "1",
-		"effect": "rep"
+		"effect": "sur/rep"
 	},
 	"심문 V": {
 		"name": "심문 V",
@@ -5637,7 +5637,7 @@
 		"duration": "4",
 		"cooltime": "10",
 		"coolshare": "1",
-		"effect": "rep"
+		"effect": "sur/rep"
 	},
 	"심문 VI": {
 		"name": "심문 VI",
@@ -5661,7 +5661,7 @@
 		"duration": "4",
 		"cooltime": "10",
 		"coolshare": "1",
-		"effect": "rep"
+		"effect": "sur/rep"
 	},
 	"아르카나": {
 		"name": "아르카나",

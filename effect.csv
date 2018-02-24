@@ -22,7 +22,7 @@ Hp,파티원 체력 증가,-,st + dy
 Inn,파티원 피해 감소,-,st + dy
 Spr,파티원 정신력 증가,-,st + dy
 gol,금서 공격력 감소,-,st + dy
-sur,금서 회복량 감소,-,st * 100
+sur,금서 회복량 감소,-,st
 bun,입히는 피해 증가,-,st + dy
 bal,선봉의 약탈,kodex,"val * st1 , val * st2 , val * st3 , val * dy1 , val * dy2"
 dra,피해량 비례 회복,prev,val * st

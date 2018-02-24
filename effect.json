@@ -141,7 +141,7 @@
 		"name": "sur",
 		"disp": "금서 회복량 감소",
 		"value": "-",
-		"exp1": "st * 100"
+		"exp1": "st"
 	},
 	"bun": {
 		"name": "bun",
