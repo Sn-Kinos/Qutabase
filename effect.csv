@@ -33,5 +33,5 @@ jin,징벌,rep,val * (st + dy)
 pye,회복량 비례 회복,heal,val * (st + dy)
 sig,발뭉: 불사신의 검,kodex,"val * st1 , val * st2 , 100 * st3"
 goy,일반 공격력 증가,kodex,val * st
-mim,미미가효,kodex,"st1 * 100 * 10, val * (st2 + dy2) * 10 , val * st3 , val * dy1 * dur"
+mim,미미가효,kodex,"st1 * 100 * 10, val * (st2 + dy2) * 10"
 ,스탯,kodex,val
