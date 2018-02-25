@@ -101,6 +101,12 @@
 		"value": "kodex",
 		"exp1": "val * st * dur"
 	},
+	"Tik": {
+		"name": "Tik",
+		"disp": "체력 도트 회복",
+		"value": "deck",
+		"exp1": "val * (st + dy) * dur"
+	},
 	"shi": {
 		"name": "shi",
 		"disp": "보호막 생성",

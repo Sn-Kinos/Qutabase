@@ -16,6 +16,7 @@ hp,체력 증가,-,st + dy
 spr,정신력 증가,-,st + dy
 hea,체력 즉시 회복,kodex,val * st
 tik,체력 도트 회복,kodex,val * st * dur
+Tik,체력 도트 회복,deck,val * (st + dy) * dur
 shi,보호막 생성,kodex,val * st
 Atk,파티원 공격력 증가,-,st + dy
 Hp,파티원 체력 증가,-,st + dy
