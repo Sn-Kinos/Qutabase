@@ -1677,7 +1677,7 @@
 		"duration": "",
 		"cooltime": "6",
 		"coolshare": "",
-		"effect": "nor/nor"
+		"effect": "Nor/Nor"
 	},
 	"진노 I": {
 		"name": "진노 I",
@@ -2181,7 +2181,7 @@
 		"duration": "",
 		"cooltime": "14",
 		"coolshare": "",
-		"effect": "nor"
+		"effect": "Nor"
 	},
 	"행운 II": {
 		"name": "행운 II",
@@ -2205,7 +2205,7 @@
 		"duration": "",
 		"cooltime": "14",
 		"coolshare": "",
-		"effect": "nor"
+		"effect": "Nor"
 	},
 	"행운 III": {
 		"name": "행운 III",
@@ -2229,7 +2229,7 @@
 		"duration": "",
 		"cooltime": "14",
 		"coolshare": "",
-		"effect": "nor"
+		"effect": "Nor"
 	},
 	"행운 IV": {
 		"name": "행운 IV",
@@ -2253,7 +2253,7 @@
 		"duration": "",
 		"cooltime": "14",
 		"coolshare": "",
-		"effect": "nor"
+		"effect": "Nor"
 	},
 	"행운 V": {
 		"name": "행운 V",
@@ -2277,7 +2277,7 @@
 		"duration": "",
 		"cooltime": "14",
 		"coolshare": "",
-		"effect": "nor"
+		"effect": "Nor"
 	},
 	"행운 VI": {
 		"name": "행운 VI",
@@ -2301,7 +2301,7 @@
 		"duration": "",
 		"cooltime": "14",
 		"coolshare": "",
-		"effect": "nor"
+		"effect": "Nor"
 	},
 	"흡혈 I": {
 		"name": "흡혈 I",
