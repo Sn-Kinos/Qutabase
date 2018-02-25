@@ -3477,7 +3477,7 @@
 		"duration": "6",
 		"cooltime": "7",
 		"coolshare": "",
-		"effect": "ski/sig"
+		"effect": "sig"
 	},
 	"방어 I": {
 		"name": "방어 I",
