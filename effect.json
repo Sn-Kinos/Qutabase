@@ -195,7 +195,7 @@
 		"name": "pye",
 		"disp": "회복량 비례 회복",
 		"value": "heal",
-		"exp1": "val * (st + dy)"
+		"exp1": "st + dy"
 	},
 	"sig": {
 		"name": "sig",

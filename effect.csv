@@ -31,7 +31,7 @@ rec,분리수거,kodex,val * st
 arc,공격력 · 정신력 증가,kodex,val * st
 fai,요정의 반향,kodex,"val * st1 , val * st2 , val * st3 , val * dy1 , val * dy2 , val * dy3 , val * pd"
 jin,징벌,rep,val * (st + dy)
-pye,회복량 비례 회복,heal,val * (st + dy)
+pye,회복량 비례 회복,heal,st + dy
 sig,체력 증가,kodex,val * st
 goy,일반 공격력 증가,kodex,val * st
 fr,체력 기반 공격력 증가,kodex,st + dy
