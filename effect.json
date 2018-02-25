@@ -193,9 +193,9 @@
 	},
 	"sig": {
 		"name": "sig",
-		"disp": "발뭉: 불사신의 검",
+		"disp": "체력 증가",
 		"value": "kodex",
-		"exp1": "val * st1 , val * st2 , 100 * st3"
+		"exp1": "val * st"
 	},
 	"goy": {
 		"name": "goy",
@@ -207,7 +207,13 @@
 		"name": "mim",
 		"disp": "미미가효",
 		"value": "kodex",
-		"exp1": "st1 * 100 * 10, val * (st2 + dy2) * 10"
+		"exp1": "100 * dy1 * 10 , "
+	},
+	"fr": {
+		"name": "fr",
+		"disp": "체력 기반 공격력 증가",
+		"value": "kodex",
+		"exp1": "st + dy"
 	},
 	"": {
 		"name": "",

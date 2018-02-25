@@ -31,7 +31,8 @@ arc,아르카나,kodex,val * st
 fai,요정의 반향,kodex,"val * st1 , val * st2 , val * st3 , val * dy1 , val * dy2 , val * dy3 , val * pd"
 jin,징벌,rep,val * (st + dy)
 pye,회복량 비례 회복,heal,val * (st + dy)
-sig,발뭉: 불사신의 검,kodex,"val * st1 , val * st2 , 100 * st3"
+sig,체력 증가,kodex,val * st
 goy,일반 공격력 증가,kodex,val * st
-mim,미미가효,kodex,"st1 * 100 * 10, val * (st2 + dy2) * 10"
+mim,미미가효,kodex,"100 * dy1 * 10 , "
+fr,체력 기반 공격력 증가,kodex,st + dy
 ,스탯,kodex,val
