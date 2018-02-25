@@ -4977,19 +4977,19 @@
 		"static2": 0.0175,
 		"static3": 0.0,
 		"dynamic1": 0.009856,
-		"dynamic2": "",
+		"dynamic2": 0.0,
 		"dynamic3": "",
 		"Static1": 1.72,
 		"Static2": 0.022,
 		"Static3": 0.0,
 		"Dynamic1": "lea",
-		"Dynamic2": "",
+		"Dynamic2": 0.0,
 		"Dynamic3": "",
 		"probability": "",
 		"duration": "",
 		"cooltime": "",
 		"coolshare": "",
-		"effect": "sin"
+		"effect": "sin/spr"
 	},
 	"격려 I": {
 		"name": "격려 I",
