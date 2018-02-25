@@ -1002,8 +1002,8 @@
 		"Dynamic2": "",
 		"Dynamic3": "",
 		"probability": "0",
-		"duration": "",
-		"cooltime": "",
+		"duration": "2",
+		"cooltime": "8",
 		"coolshare": "",
 		"effect": "Atk"
 	},

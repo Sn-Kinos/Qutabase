@@ -208,5 +208,11 @@
 		"disp": "미미가효",
 		"value": "kodex",
 		"exp1": "st1 * 100 , val * (st2 + dy2) , val * st3 , val * dy1 * dur"
+	},
+	"": {
+		"name": "",
+		"disp": "스탯",
+		"value": "kodex",
+		"exp1": "val"
 	}
 }
