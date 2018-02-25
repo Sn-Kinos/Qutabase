@@ -3765,7 +3765,7 @@
 		"duration": "8",
 		"cooltime": "",
 		"coolshare": "",
-		"effect": "tik"
+		"effect": "Tik"
 	},
 	"소생 II": {
 		"name": "소생 II",
@@ -3789,7 +3789,7 @@
 		"duration": "8",
 		"cooltime": "",
 		"coolshare": "",
-		"effect": "tik"
+		"effect": "Tik"
 	},
 	"소생 III": {
 		"name": "소생 III",
@@ -3813,7 +3813,7 @@
 		"duration": "8",
 		"cooltime": "",
 		"coolshare": "",
-		"effect": "tik"
+		"effect": "Tik"
 	},
 	"소생 IV": {
 		"name": "소생 IV",
@@ -3837,7 +3837,7 @@
 		"duration": "8",
 		"cooltime": "",
 		"coolshare": "",
-		"effect": "tik"
+		"effect": "Tik"
 	},
 	"소생 V": {
 		"name": "소생 V",
@@ -3861,7 +3861,7 @@
 		"duration": "8",
 		"cooltime": "",
 		"coolshare": "",
-		"effect": "tik"
+		"effect": "Tik"
 	},
 	"소생 VI": {
 		"name": "소생 VI",
@@ -3885,7 +3885,7 @@
 		"duration": "8",
 		"cooltime": "",
 		"coolshare": "",
-		"effect": "tik"
+		"effect": "Tik"
 	},
 	"수호 III": {
 		"name": "수호 III",
