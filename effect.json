@@ -175,7 +175,7 @@
 	},
 	"arc": {
 		"name": "arc",
-		"disp": "아르카나",
+		"disp": "공격력 · 정신력 증가",
 		"value": "kodex",
 		"exp1": "val * st"
 	},

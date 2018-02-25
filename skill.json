@@ -6165,7 +6165,7 @@
 		"duration": "",
 		"cooltime": "8",
 		"coolshare": "",
-		"effect": "Atk/Spr"
+		"effect": "arc"
 	},
 	"조작 IV": {
 		"name": "조작 IV",
@@ -6189,7 +6189,7 @@
 		"duration": "",
 		"cooltime": "8",
 		"coolshare": "",
-		"effect": "Atk/Spr"
+		"effect": "arc"
 	},
 	"조작 V": {
 		"name": "조작 V",
@@ -6213,7 +6213,7 @@
 		"duration": "",
 		"cooltime": "8",
 		"coolshare": "",
-		"effect": "Atk/Spr"
+		"effect": "arc"
 	},
 	"징벌 I": {
 		"name": "징벌 I",
