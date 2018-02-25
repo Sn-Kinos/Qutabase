@@ -33,6 +33,5 @@ jin,징벌,rep,val * (st + dy)
 pye,회복량 비례 회복,heal,val * (st + dy)
 sig,체력 증가,kodex,val * st
 goy,일반 공격력 증가,kodex,val * st
-mim,미미가효,kodex,"100 * dy1 * 10 , "
 fr,체력 기반 공격력 증가,kodex,st + dy
 ,스탯,kodex,val
