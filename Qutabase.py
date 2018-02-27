@@ -524,7 +524,7 @@ def func_lvUp():
 				}
 	global lvF
 	lvF		=	open('lv_inp.txt', 'r')
-	resultT	=	['RESULT TRUE', 0, 0, 0, 0, 0, 0, 0, 0]
+	resultT	=	['RESULT  TRUE', 0, 0, 0, 0, 0, 0, 0, 0]
 	resultF	=	['RESULT FALSE', 0, 0, 0, 0, 0, 0, 0, 0]
 
 	def func_lving():
@@ -532,8 +532,8 @@ def func_lvUp():
 		try:
 			dex			=	Jdex[lvF.readline()[:-1]]
 		except KeyError:
-			print(resultT)
-			print(resultF)
+			print(sum(resultT[1:]), resultT)
+			print(sum(resultF[1:]), resultF)
 			return
 		dexLv		=	int(lvF.readline())
 		dexBind		=	1	+	bind[dex['rarity']]	*	int(lvF.readline())
@@ -564,12 +564,44 @@ def func_lvUp():
 		#		continue
 		#	break
 
-		dexLvRH	=	['LEVEL RANK ON HP', 4.004, 4.004, 5.0043, 5.0055, 6.006, 6.0074, 6.006, 7.007]
-		dexLvRA	=	['LEVEL RANK ON ATK', 4.004, 4.004, 5.0043, 5.0055, 6.006, 6.0074, 6.006, 7.007]
+		#dexLvRH	=	['LEVEL RANK ON HP', 4.004, 4.004, 5.0043, 5 + 4/8/100, 6 + 5/9/100, 6 + 6/9/100, 6 + 7/9/100, 7.007]
+		#dexLvRA	=	['LEVEL RANK ON ATK', 4.004, 4.004, 5.0043, 5 + 4/8/100, 6 + 5/9/100, 6 + 6/9/100, 6 + 7/9/100, 7.007]
+
+		#resH	=	(
+		#				(
+		#					dexLvRH[rarity[dex['rarity']]]
+		#					*	(dexLv		-	1)
+		#					/	(dex['lv']	-	1)
+
+		#					+	1
+		#				)
+		#				*	dex['hp0']
+
+		#			)	*	dexBind
+		#resA	=	(
+		#				(
+		#					dexLvRA[rarity[dex['rarity']]]
+		#					*	(dexLv		-	1)
+		#					/	(dex['lv']	-	1)
+
+		#					+	1
+		#				)
+		#				*	dex['atk0']
+
+		#			)	*	dexBind
+
+		dexLvRH	=	float(
+						dex['HP'][0]
+						/	dex['hp0']
+					)
+		dexLvRA	=	float(
+						dex['ATK'][0]
+						/	dex['atk0']
+					)
 
 		resH	=	(
 						(
-							dexLvRH[rarity[dex['rarity']]]
+							(dexLvRH	-	1)
 							*	(dexLv		-	1)
 							/	(dex['lv']	-	1)
 
@@ -580,7 +612,7 @@ def func_lvUp():
 					)	*	dexBind
 		resA	=	(
 						(
-							dexLvRA[rarity[dex['rarity']]]
+							(dexLvRA	-	1)
 							*	(dexLv		-	1)
 							/	(dex['lv']	-	1)
 
