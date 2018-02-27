@@ -5,6 +5,8 @@ import csv
 import os
 import json
 import shutil
+import pprint
+import numpy as np
 
 from bs4 import BeautifulSoup as bs
 
@@ -495,6 +497,110 @@ def func_skill():
 
 
 
+def func_lvUp():
+	
+	with open('qurare.json', encoding='utf-8-sig') as Jdex:
+		Jdex	=	json.load(Jdex)
+
+	rarity	=	{
+					'N':1
+				,	'N+':2
+				,	'R':3
+				,	'R+':4
+				,	'SR':5
+				,	'SR+':6
+				,	'SSR':7
+				,	'QR':8
+				}
+	bind	=	{
+					'N':0.05
+				,	'N+':0.05
+				,	'R':0.06
+				,	'R+':0.06
+				,	'SR':0.07
+				,	'SR+':0.08
+				,	'SSR':0.09
+				,	'QR':0.08
+				}
+	global lvF
+	lvF		=	open('lv_inp.txt', 'r')
+	resultT	=	['RESULT TRUE', 0, 0, 0, 0, 0, 0, 0, 0]
+	resultF	=	['RESULT FALSE', 0, 0, 0, 0, 0, 0, 0, 0]
+
+	def func_lving():
+		global lvF
+		try:
+			dex			=	Jdex[lvF.readline()[:-1]]
+		except KeyError:
+			print(resultT)
+			print(resultF)
+			return
+		dexLv		=	int(lvF.readline())
+		dexBind		=	1	+	bind[dex['rarity']]	*	int(lvF.readline())
+		dexStat		=	lvF.readline().split()
+		dexStat[0]	=	int(dexStat[0])
+		dexStat[1]	=	int(dexStat[1])
+		
+		#while True:
+		#	var_str_input	=	input("마도서 이름을 입력 >> ")
+		#	if var_str_input == '끝':
+		#		return
+		#	try:
+		#		dex	=	Jdex[var_str_input]
+		#	except KeyError:
+		#		continue
+		#	break
+
+		#while True:
+		#	try:
+		#		dexLv	=	int(input("현재 레벨: "))
+		#	except ValueError:
+		#		continue
+		#	break
+		#while True:
+		#	try:
+		#		dexBind	=	1	+	bind[dex['rarity']]	*	int(input("결속도: "))
+		#	except ValueError:
+		#		continue
+		#	break
+
+		dexLvRH	=	['LEVEL RANK ON HP', 4.004, 4.004, 5.0043, 5.0055, 6.006, 6.0074, 6.006, 7.007]
+		dexLvRA	=	['LEVEL RANK ON ATK', 4.004, 4.004, 5.0043, 5.0055, 6.006, 6.0074, 6.006, 7.007]
+
+		resH	=	(
+						(
+							dexLvRH[rarity[dex['rarity']]]
+							*	(dexLv		-	1)
+							/	(dex['lv']	-	1)
+
+							+	1
+						)
+						*	dex['hp0']
+
+					)	*	dexBind
+		resA	=	(
+						(
+							dexLvRA[rarity[dex['rarity']]]
+							*	(dexLv		-	1)
+							/	(dex['lv']	-	1)
+
+							+	1
+						)
+						*	dex['atk0']
+
+					)	*	dexBind
+
+		res		=	np.array([resH, resA])
+		res		=	np.rint(res)
+		if list(res) == dexStat:
+			resultT[rarity[dex['rarity']]]	+= 1
+		else:
+			resultF[rarity[dex['rarity']]]	+= 1
+		func_lving()
+
+	func_lving()
+	lvF.close()
+
 def func_menu():
 	var_input = input("""
 	QUTABASE\n
@@ -503,6 +609,7 @@ def func_menu():
 	3. get json/namu & move img
 	4. get rewards\n
 	5. get skills\n
+	6. get lvl data\n
 	(name).display\n\n >>> """)
 	if var_input == '0':
 		return
@@ -518,7 +625,9 @@ def func_menu():
 		func_rewards()
 	elif var_input == '5':
 		func_skill()
-	elif var_input == '123':
+	elif var_input == '6':
+		func_lvUp()
+	elif var_input == '1233212313212123': # We didn't need inven data
 		func_db_get('123')
 		func_db_skill()
 	else:
