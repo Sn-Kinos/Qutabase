@@ -205,7 +205,7 @@
 	},
 	"goy": {
 		"name": "goy",
-		"disp": "일반 공격력 증가",
+		"disp": "공격력 증가",
 		"value": "kodex",
 		"exp1": "val * st"
 	},
