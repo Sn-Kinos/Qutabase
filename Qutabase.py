@@ -229,6 +229,8 @@ def func_aw_write():
 				data['HP'] = maxhp_bind
 				data['ATK'] = maxatk_bind
 				data['SPR'] = maxspr_bind
+				data['engname'] = Kodex['engname']
+				data['engskill'] = Kodex['engskill']
 			with open('qurare.json', 'w', encoding="utf-8") as Jurare:
 				json.dump(dic_kodex, Jurare, ensure_ascii=False, indent="\t")
 
