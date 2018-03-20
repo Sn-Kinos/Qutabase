@@ -147,13 +147,13 @@ def func_db_skill():
 
 def func_aw_write():
 
-	def maxfind(stat, lv):
-		if Kodex["max" + stat + str(lv)] != '-':
-			cachestat = Kodex['max' + stat + str(lv)]
-			return int(cachestat)
-		else:
-			level_rare = lv - 1
-			return maxfind(stat, level_rare)
+	#def maxfind(stat, lv):
+	#	if Kodex["max" + stat + str(lv)] != '-':
+	#		cachestat = Kodex['max' + stat + str(lv)]
+	#		return int(cachestat)
+	#	else:
+	#		level_rare = lv - 1
+	#		return maxfind(stat, level_rare)
 	
 	rarity = ['N, N+, R, R+, SR, SR+, SSR, QR', 'N', 'N+', 'R', 'R+', 'SR', 'SR+', 'SSR', 'QR']
 	maxLv = ['40, 45, 70, 75, 100, 105, 130, 130', 40, 45, 70, 75, 100, 105, 130, 130]
@@ -198,8 +198,8 @@ def func_aw_write():
 				maxatk_bind = ['']
 				maxspr_bind = ['']
 				Kodex = dict(row)
-				maxhp_bind[0] = maxfind('hp', level_rare)
-				maxatk_bind[0] = maxfind('atk', level_rare)
+				maxhp_bind[0] = int(Kodex['maxhp0'])
+				maxatk_bind[0] = int(Kodex['maxatk0'])
 				maxspr_bind[0] = int((maxhp_bind[0] + maxatk_bind[0]) / 2)
 				for x in range(1, 7):
 					maxhp_bind.append(round(maxhp_bind[0] * (1 + x * bind[int(Kodex['rarity'])])))
