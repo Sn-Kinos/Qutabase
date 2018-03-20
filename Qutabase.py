@@ -635,6 +635,28 @@ def func_lvUp():
 	func_lving()
 	lvF.close()
 
+
+
+def func_qtCsv():
+	
+	var_input	= input("1. qt to csv | 2. csv to qt\n >>> ")
+	var_fName	= input("Filename\n >>> ")
+	
+	def func_qtToCsv():
+		with open(var_fName, encoding='utf-8-sig') as qt:
+			mainQt	= json.load(qt)
+		mainKey		= list(mainQt[0].keys())
+		with open(var_fName[:-2] + 'csv', 'wt', encoding='utf-8-sig', newline='') as qsv:
+			writer	= csv.DictWriter(qsv, fieldnames=mainKey)
+			writer.writeheader()
+			for row in mainQt:
+				writer.writerow(row)
+					
+
+	if var_input == '1':
+	    func_qtToCsv()
+
+
 def func_menu():
 	var_input = input("""
 	QUTABASE\n
@@ -644,6 +666,7 @@ def func_menu():
 	4. get rewards\n
 	5. get skills\n
 	6. get lvl data\n
+	7. qt to csv to qt\n
 	(name).display\n\n >>> """)
 	if var_input == '0':
 		return
@@ -661,6 +684,8 @@ def func_menu():
 		func_skill()
 	elif var_input == '6':
 		func_lvUp()
+	elif var_input == '7':
+		func_qtCsv()
 	elif var_input == '1233212313212123': # We didn't need inven data
 		func_db_get('123')
 		func_db_skill()
