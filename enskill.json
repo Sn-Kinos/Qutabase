@@ -1,4 +1,11 @@
 ﻿{
+	"faction":{
+		"오리엔탈":"Oriental"
+,		"판타지":"Fantasy"
+,		"미스터리":"Mistery"
+,		"SF":"SF"
+	},
+
 	"season":{
 		"R":[1,0]
 ,		"R+":[4216,4216]
