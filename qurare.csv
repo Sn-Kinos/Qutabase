@@ -1410,3 +1410,4 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 1,방어,2,패시브,SF,레인,49,248,72,361,609,1029,프로스페로,응원 I,Prospero,Support I
 1,회복,2,액티브,판타지,2GOLD,61,309,59,299,608,1020,헤르미아,징벌 I,Hermia,Punish I
 1,회복,2,액티브,SF,죽돌이가싫어,58,291,59,299,590,1015,큐리오,치유 I,Curiosity,Heal I
+6,회복,18,액티브,판타지,나묘,430,3013,431,3022,6035,6541,홍계월,치유 V,Hong Gye-wol,Heal V

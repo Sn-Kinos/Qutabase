@@ -70548,5 +70548,55 @@
 		],
 		"engname": "Curiosity",
 		"engskill": "Heal I"
+	},
+	"홍계월": {
+		"id": "6541",
+		"rarity": "SR+",
+		"lv": 105,
+		"role": "회복",
+		"skilltype": "액티브",
+		"faction": "판타지",
+		"name": "홍계월",
+		"rareColor": "#FFE746",
+		"rarefont": "#0A1533",
+		"cost": "18",
+		"skill": "치유 V",
+		"enskill": "Heal",
+		"roleColor": "#20AD20",
+		"illustrator": "나묘",
+		"hp0": 431,
+		"hpLv": 24.91346153846154,
+		"atk0": 430,
+		"atkLv": 24.83653846153846,
+		"spr0": 430,
+		"HP": [
+			3022,
+			3264,
+			3506,
+			3747,
+			3989,
+			4231,
+			4473
+		],
+		"ATK": [
+			3013,
+			3254,
+			3495,
+			3736,
+			3977,
+			4218,
+			4459
+		],
+		"SPR": [
+			3017,
+			3258,
+			3499,
+			3741,
+			3982,
+			4223,
+			4465
+		],
+		"engname": "Hong Gye-wol",
+		"engskill": "Heal V"
 	}
 }
