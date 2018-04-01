@@ -307,6 +307,7 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 6,회복,19,액티브,SF,마신황제,434,3040,433,3031,6071,6182,계약자 모로,참회 V,Contractor Dr.Moreau,Repent V
 6,공격,17,액티브,미스터리,GUA,519,3635,345,2421,6056,6366,경비원 스카페이스,분노 V,Watchman Scarface,Enrage V
 6,공격,15,액티브,SF,hakusai,519,3634,345,2421,6055,6485,물놀이 리자,분쇄 V,Waterpark Lisa,Smash V
+6,회복,18,액티브,판타지,나묘,430,3013,431,3022,6035,6541,홍계월,치유 V,Hong Gye-wol,Heal V
 6,방어,18,액티브,판타지,송개,345,2415,517,3619,6034,6535,헨젤,재생 V,Hansel,Regenerate V
 6,방어,20,액티브,SF,H2SO4,344,2409,517,3620,6029,6097,에디슨,돌진 V,Edison,Charge V
 6,방어,15,패시브,판타지,나묘,343,2405,513,3597,6002,6311,웨딩 릿챠,소생 V,Wedding Richard,Resurrect V
@@ -452,8 +453,8 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 6,방어,17,패시브,판타지,아이작 헤인 3세,320,2244,479,3356,5600,6116,모르가나,인내 V,Morgana,Fortitude V
 6,공격,17,액티브,오리엔탈,니시타,480,3362,319,2236,5598,6102,탈해,강타 V,Talhae,Smite V
 6,회복,17,패시브,오리엔탈,니시,400,2803,399,2795,5598,6079,해변의 장자,기도 V,ZhuangZi on the Beach,Prayer V
-5,방어,15,패시브,판타지,먹는빵,319,2233,480,3361,5594,5318,신데렐라,인내 IV,Cinderella,Fortitude IV
 6,회복,16,액티브,판타지,POPQN,399,2797,399,2797,5594,6370,학교의 발쿠르,해제 V,School Valcour,Dispel V
+5,방어,15,패시브,판타지,먹는빵,319,2233,480,3361,5594,5318,신데렐라,인내 IV,Cinderella,Fortitude IV
 6,공격,17,패시브,판타지,체리노바,479,3358,319,2234,5592,6086,빅풋,격분 V,Big Foot,Frenzy V
 6,방어,17,액티브,SF,레피,320,2240,478,3352,5592,6099,링고,역습 V,Ringo,Counter V
 6,공격,16,액티브,오리엔탈,마끼아또,479,3358,319,2233,5591,6382,셰헤라자드,역행 V,Scheherazade,Regress V
@@ -500,9 +501,9 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 6,회복,15,패시브,SF,나묘,392,2748,393,2754,5502,6198,아이돌 테슬라,평안 V,Idol Tesla,Peace V
 6,방어,16,패시브,미스터리,폰단테,314,2203,471,3298,5501,6322,백설 공주,수호 V,Snow white,Guard V
 6,공격,16,패시브,미스터리,M므요,465,3255,320,2245,5500,6332,시럽아트 사서들,행운 V,Syrup-Art Librarians,Lucky V
-5,방어,13,액티브,미스터리,갱이,313,2197,471,3303,5500,5472,제시 제임스,골절 IV,Jesse James,Crack IV
 6,회복,18,액티브,SF,문어인간,393,2752,392,2748,5500,6167,메이드 히아신스,참회 V,Maid Hyacinth,Repent V
 6,회복,16,액티브,미스터리,세발문어,393,2752,392,2748,5500,6314,프로이트,치료 V,Freud,Cure V
+5,방어,13,액티브,미스터리,갱이,313,2197,471,3303,5500,5472,제시 제임스,골절 IV,Jesse James,Crack IV
 5,공격,13,패시브,판타지,카놀라유,471,3301,314,2198,5499,5436,예식의 셀라피엘,격앙 IV,Selaphiel at Ceremony,Excitement IV
 5,방어,13,패시브,SF,아리씨,314,2201,471,3298,5499,5411,개발자 테슬라,간파 IV,Dev. Tesla,Sidestep IV
 5,방어,13,패시브,판타지,선화,314,2201,471,3298,5499,5443,로즈 러들럼,근성 IV,Rose Ludlum,Endurance IV
@@ -557,8 +558,8 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 5,방어,14,패시브,판타지,카르체트,308,2158,461,3227,5385,5403,강아지귀 파프니르,응원 IV,Dog-eared Fafnir,Support IV
 6,공격,18,액티브,SF,니시,461,3231,307,2151,5382,6161,파블로프,고양 V,Pavlov,Enhance V
 5,회복,14,액티브,SF,지유미,384,2691,384,2691,5382,5435,건설왕 밴더빌트,친목 IV,Built Empire Vanderbilt,Amity IV
-5,공격,14,액티브,판타지,먹는빵,461,3229,307,2151,5380,5409,전장의 마초,고양 IV,Warfare Ma Chao,Enhance IV
 6,방어,18,액티브,미스터리,아이작 헤인 3세,307,2154,461,3226,5380,6157,폭풍식 크롬웰,역습 V,Tempest Cromwell,Counter V
+5,공격,14,액티브,판타지,먹는빵,461,3229,307,2151,5380,5409,전장의 마초,고양 IV,Warfare Ma Chao,Enhance IV
 5,회복,14,패시브,SF,세발문어,384,2691,384,2689,5380,5402,토끼귀 샤를로트,안위 IV,Rabbit-eared Sharlotte,Empower IV
 5,회복,14,액티브,판타지,92,385,2695,383,2685,5380,5417,게이머 아리스토텔레스,조작 IV,Gamer Aristotle,Manipulate IV
 5,공격,14,패시브,SF,폰단테,460,3225,307,2154,5379,5305,웨딩 테슬라,격노 IV,Wedding Tesla,Rage IV
@@ -578,8 +579,8 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 6,공격,17,액티브,미스터리,ICE,456,3194,304,2132,5326,6188,언령의 라스콜리니코프,강타 V,Kotodama Raskolnikov,Smite V
 5,방어,13,패시브,미스터리,미키,304,2132,456,3192,5324,5349,학교의 에밀리,간파 IV,School Emily,Sidestep IV
 5,공격,13,패시브,미스터리,DSmile,457,3198,303,2125,5323,5340,파우스트,진노 IV,Faust,Wrath IV
-5,회복,13,패시브,SF,후니,379,2659,380,2663,5322,5350,학교의 제너,격려 IV,School Jenner,Encourage IV
 6,회복,15,액티브,미스터리,가탄,380,2664,379,2658,5322,6098,쇼팽,해제 V,Chopin,Dispel V
+5,회복,13,패시브,SF,후니,379,2659,380,2663,5322,5350,학교의 제너,격려 IV,School Jenner,Encourage IV
 6,방어,15,액티브,판타지,Nardack,303,2123,456,3197,5320,6095,고양이귀 투명드래곤,방어 V,Nekomimi Invisible Dragon,Protection V
 5,회복,13,패시브,오리엔탈,니시,380,2660,379,2656,5316,5341,하이얀,신성 IV,Hayyan,Sacred IV
 5,공격,12,액티브,판타지,whoisshe,454,3182,303,2125,5307,5460,파티의 로엘,분쇄 IV,Lowell at Party,Smash IV
@@ -587,18 +588,18 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 6,방어,14,액티브,SF,기어,302,2118,455,3185,5303,6371,학교의 히아신스,회피 V,School Hyacinth,Evade V
 5,방어,12,패시브,SF,슬라정,303,2123,453,3176,5299,5421,® 라플라스,수호 IV,® Laplace,Guard IV
 5,방어,12,패시브,SF,인접,303,2123,453,3171,5294,5397,강아지귀 파블로프,근성 IV,Dog-eared Pavlov,Endurance IV
-5,방어,12,패시브,판타지,폰단테,302,2114,454,3177,5291,5438,예식의 아스모데우스,소생 IV,Asmodeus at Ceremony,Resurrect IV
 6,회복,13,액티브,미스터리,인접,377,2645,378,2646,5291,6422,아르콘의 골렘 - 입실론,정화 V,Archon's Gollem: Upsilon,Purify V
-5,공격,12,액티브,오리엔탈,SHIHYUN,454,3177,301,2111,5288,5429,물놀이 치우,차단 IV,Waterpark Chiyou,Cancel IV
+5,방어,12,패시브,판타지,폰단테,302,2114,454,3177,5291,5438,예식의 아스모데우스,소생 IV,Asmodeus at Ceremony,Resurrect IV
 6,방어,15,액티브,판타지,똥구,302,2118,452,3170,5288,6125,마왕,골절 V,Archenemy,Crack V
+5,공격,12,액티브,오리엔탈,SHIHYUN,454,3177,301,2111,5288,5429,물놀이 치우,차단 IV,Waterpark Chiyou,Cancel IV
 5,회복,12,액티브,판타지,zorim,378,2648,377,2640,5288,5420,® 사견궁,해제 IV,® Ophiuchus,Dispel IV
 5,회복,12,액티브,미스터리,인접,378,2648,377,2640,5288,5444,보코,회개 IV,Boko,Contrite IV
 6,방어,14,액티브,오리엔탈,Fel,302,2118,452,3169,5287,6163,루흐,도발 V,Rukh,Provoke V
 6,방어,15,패시브,SF,달랑게,302,2113,453,3174,5287,6111,할로윈 델핀,반격 V,Halloween Delphine,Retaliate V
 5,회복,12,액티브,판타지,마끼아또,377,2640,378,2646,5286,5390,결전의 드레이크,징벌 IV,Drake of the Day,Punish IV
 5,회복,12,패시브,오리엔탈,Hecks,378,2648,377,2638,5286,5374,뇌추,평안 IV,Lei Chui,Peace IV
-5,공격,12,액티브,판타지,POPQN,452,3165,302,2119,5284,5399,부하 1호 나르키소스,분쇄 IV,Servant 1. Narcissus,Smash IV
 6,방어,15,액티브,SF,NINGU,301,2111,453,3173,5284,6120,밀리터리 델핀,도발 V,Military Delphine,Provoke V
+5,공격,12,액티브,판타지,POPQN,452,3165,302,2119,5284,5399,부하 1호 나르키소스,분쇄 IV,Servant 1. Narcissus,Smash IV
 5,공격,12,액티브,판타지,망고망구,453,3172,301,2108,5280,5482,정령 운디네,분노 IV,Elemental Undine,Enrage IV
 6,공격,18,액티브,SF,STUDIO NCG,451,3163,302,2113,5276,6020,캐럴,차단 V,Carol,Cancel V
 6,회복,15,액티브,판타지,ZB,376,2634,377,2642,5276,6093,고양이귀 셀라,정화 V,Nekomimi Sella,Purify V
@@ -663,8 +664,8 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 5,회복,13,액티브,오리엔탈,ICE,361,2530,361,2527,5057,5270,시크릿 백소정,치유 IV,Secret bai Suzhen,Heal IV
 5,회복,13,액티브,미스터리,선화,361,2530,361,2527,5057,5279,십이지 양,친목 IV,12 Branches. Sheep,Amity IV
 5,방어,13,패시브,판타지,당밀,288,2021,433,3033,5054,5261,맥베스,반격 IV,Macbeth,Retaliate IV
-5,공격,15,액티브,판타지,송개,433,3033,288,2017,5050,5199,고양이귀 테미스토클레스,강타 IV,Nekomimi Themistocles,Smite IV
 6,공격,14,액티브,오리엔탈,SEAL,432,3028,289,2022,5050,6069,비취부인,역행 V,Mrs. Won-ang,Regress V
+5,공격,15,액티브,판타지,송개,433,3033,288,2017,5050,5199,고양이귀 테미스토클레스,강타 IV,Nekomimi Themistocles,Smite IV
 6,공격,12,액티브,SF,마신황제,433,3031,288,2018,5049,6203,아이돌 에디슨,폭격 V,Idol Edison,Bombard V
 5,방어,13,액티브,오리엔탈,Mirunai,287,2013,433,3032,5045,5272,시크릿 처녀귀신,도발 IV,Secret Virgin Ghost,Provoke IV
 6,방어,16,액티브,판타지,브리스카,287,2012,433,3031,5043,6117,르메이,역습 V,LeMay,Counter V
@@ -678,13 +679,13 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 6,회복,16,액티브,미스터리,inpells,358,2509,358,2512,5021,6115,레이디 인 그레이,치유 V,Lady in Grey,Heal V
 6,공격,16,패시브,오리엔탈,브리스카,430,3015,286,2005,5020,6123,도적,행운 V,Bandit,Lucky V
 6,방어,13,액티브,SF,ZB,287,2012,429,3006,5018,6065,아문센,회피 V,Amundsen,Evade V
-5,방어,12,패시브,판타지,선화,287,2011,429,3004,5015,5324,라캥,간파 IV,Raquin,Sidestep IV
 6,회복,14,액티브,미스터리,티루,358,2506,358,2509,5015,6061,교복 앨런 포,정화 V,School Uniform Allan Poe,Purify V
+5,방어,12,패시브,판타지,선화,287,2011,429,3004,5015,5324,라캥,간파 IV,Raquin,Sidestep IV
 6,공격,13,액티브,미스터리,가탄,429,3006,286,2003,5009,6091,놀부댁,분쇄 V,Nolbu's,Smash V
 6,회복,14,액티브,오리엔탈,NINGU,358,2507,357,2502,5009,6019,츠쿠요미,우정 V,Tsukuyomi,Friendship V
 5,회복,12,액티브,미스터리,인접,357,2503,357,2501,5004,5476,선댄스 키드,해제 IV,Sundance Kid,Dispel IV
-5,공격,12,액티브,판타지,xx이나xx,428,2998,286,2002,5000,5469,달타냥,역공 IV,D'Artagnan,CounterATK IV
 6,회복,15,액티브,판타지,체리핀,357,2500,357,2500,5000,6027,프레이야,해제 V,Freyja,Dispel V
+5,공격,12,액티브,판타지,xx이나xx,428,2998,286,2002,5000,5469,달타냥,역공 IV,D'Artagnan,CounterATK IV
 5,회복,14,액티브,판타지,망고망구,357,2499,356,2498,4997,5206,메이드장 에리스,우정 IV,Maid Leader Eris,Friendship IV
 6,공격,15,액티브,미스터리,NINGU,428,3000,284,1993,4993,6036,베토벤,분노 V,Beethoven,Enrage V
 5,방어,12,패시브,SF,선화,285,1999,427,2994,4993,5463,파티의 리자,간파 IV,Lisa at Party,Sidestep IV
@@ -710,8 +711,8 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 5,방어,12,패시브,미스터리,미키,284,1988,428,2996,4984,5455,죽음의 신부,인내 IV,Bride of  Death,Fortitude IV
 5,회복,12,액티브,판타지,마끼아또,356,2497,355,2487,4984,5317,세뜨,심문 IV,S?te,Interrogate IV
 5,방어,15,액티브,판타지,슬라정,285,1994,427,2989,4983,5108,해변의 플라톤,방어 IV,Plato on the Beach,Protection IV
-5,방어,14,액티브,미스터리,DSmile,284,1988,427,2994,4982,5228,아이돌 가우스,돌진 IV,Idol Gauss,Charge IV
 6,방어,13,액티브,SF,꾸엠,284,1991,427,2991,4982,6007,소유즈,돌진 V,Soyuz,Charge V
+5,방어,14,액티브,미스터리,DSmile,284,1988,427,2994,4982,5228,아이돌 가우스,돌진 IV,Idol Gauss,Charge IV
 5,회복,14,액티브,오리엔탈,키사,356,2492,355,2489,4981,5227,아이돌 해모수,치유 IV,Idol Hae Mo-su,Heal IV
 5,회복,14,액티브,오리엔탈,anco,355,2487,356,2493,4980,5211,DM 아마테라스,조작 IV,DM Amaterasu,Manipulate IV
 5,공격,14,액티브,판타지,세발문어,427,2989,284,1990,4979,5219,아이소포스,면역 IV,Aesop,Immune IV
@@ -720,8 +721,8 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 5,방어,15,액티브,판타지,히사,283,1987,426,2983,4970,5396,오딘,철벽 IV,Odin,Fortify IV
 6,방어,15,액티브,미스터리,겨울비,283,1982,426,2985,4967,6135,산타 왓슨,돌진 V,Santa Watson,Charge V
 5,공격,15,액티브,SF,카놀라유,425,2977,283,1984,4961,5394,앙리 페탱,강타 IV,Henri P?tain,Smite IV
-5,방어,15,액티브,판타지,아메라,284,1988,424,2972,4960,5379,명조,불굴 IV,Songbird,Fearless IV
 6,회복,13,액티브,판타지,HICHI,354,2479,354,2481,4960,6057,비너스,해제 V,Venus,Dispel V
+5,방어,15,액티브,판타지,아메라,284,1988,424,2972,4960,5379,명조,불굴 IV,Songbird,Fearless IV
 6,공격,15,액티브,미스터리,꾸엠,424,2972,283,1981,4953,6008,스카페이스,분노 V,Scarface,Enrage V
 5,공격,14,액티브,미스터리,니시,424,2972,283,1981,4953,5212,DM 마사키,흡혈 IV,DM Masaki,Drain IV
 5,공격,16,패시브,판타지,죽돌이가싫어,424,2969,283,1982,4951,5030,나르키소스,격분 IV,Narcissus,Frenzy IV
@@ -787,8 +788,8 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 5,방어,13,패시브,SF,eyehead,268,1882,404,2833,4715,5194,신비주의 캡틴키드,반격 IV,Mystictism Captain Kid,Retaliate IV
 5,공격,13,액티브,미스터리,NINGU,402,2814,269,1886,4700,5189,정월 까치,면역 IV,Jeong-wol Magpie,Immune IV
 5,공격,14,액티브,미스터리,"엉덩국, MORRY",401,2810,268,1882,4692,5100,스티븐 P 헌터,분쇄 IV,Steven P. Hunter,Smash IV
-5,공격,11,액티브,판타지,Mx2J,401,2810,268,1880,4690,5297,지젤,차단 IV,Giselle,Cancel IV
 6,방어,12,액티브,판타지,코코립,267,1872,402,2818,4690,6013,잭 프로스트,재생 V,Jack Frost,Regenerate V
+5,공격,11,액티브,판타지,Mx2J,401,2810,268,1880,4690,5297,지젤,차단 IV,Giselle,Cancel IV
 5,공격,11,액티브,오리엔탈,eyehead,401,2807,267,1869,4676,5262,뭄타즈,분쇄 IV,Mumtaz,Smash IV
 5,공격,14,액티브,판타지,라쿠나,400,2804,267,1872,4676,5079,벨제붑,차단 IV,Beelzebub,Cancel IV
 5,방어,11,액티브,SF,히사,266,1868,401,2807,4675,5288,오피스 피오나,역습 IV,Office Fiona,Counter IV
@@ -1069,8 +1070,8 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 5,공격,10,액티브,미스터리,영인,307,2151,203,1421,3572,5151,허클베리 핀,고양 IV,Huckleberry Finn,Enhance IV
 5,방어,10,액티브,판타지,이리,203,1426,304,2132,3558,5133,바커스,재생 IV,Bacchus,Regenerate IV
 4,회복,12,패시브,판타지,꼬리,296,1777,296,1777,3554,4177,볼바,기도 III,Volva,Prayer III
-4,방어,11,액티브,미스터리,kempin,236,1420,355,2132,3552,4185,항아,회피 III,Chang'e,Evade III
 5,회복,11,액티브,오리엔탈,ZB,253,1776,253,1776,3552,5077,스사노오,징벌 IV,Susanoo-no-Mikoto,Punish IV
+4,방어,11,액티브,미스터리,kempin,236,1420,355,2132,3552,4185,항아,회피 III,Chang'e,Evade III
 4,공격,11,액티브,판타지,GAMBE,355,2129,236,1418,3547,4188,시씨,갈취 III,Sissi,Extortion III
 4,공격,11,패시브,미스터리,Shunan,354,2124,235,1413,3537,4187,롤로,행운 III,Rollo,Lucky III
 4,방어,10,패시브,오리엔탈,슈니아,236,1417,353,2120,3537,4192,여우귀 하후돈,간파 III,Fox-eared Xiahou Dun,Sidestep III
@@ -1223,8 +1224,8 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 4,회복,8,액티브,오리엔탈,지유미,229,1377,229,1377,2754,4112,XI. 정의,해제 III,XI. Justice,Dispel III
 4,회복,8,패시브,미스터리,다군,229,1374,230,1379,2753,4098,링가두아,기도 III,Ringa Dua,Prayer III
 4,회복,8,액티브,판타지,Shunan,229,1374,229,1377,2751,4127,XVII. 별,치료 III,XVII. The Star,Cure III
-3,공격,11,패시브,SF,배씨,275,1650,182,1097,2747,3062,발터 슈미트,격분 II,Walter Schmitt,Frenzy II
 4,공격,8,패시브,판타지,DINO,275,1653,182,1094,2747,4120,XV. 악마,행운 III,XV. The Devil,Lucky III
+3,공격,11,패시브,SF,배씨,275,1650,182,1097,2747,3062,발터 슈미트,격분 II,Walter Schmitt,Frenzy II
 4,방어,8,액티브,미스터리,망르,183,1101,273,1639,2740,4064,00. 광대,도발 III,00. The Fool,Provoke III
 4,회복,9,패시브,SF,마노,228,1370,227,1363,2733,4013,에니악,안위 III,ENIAC,Empower III
 4,방어,10,액티브,미스터리,박냠,182,1091,273,1640,2731,4005,반두젠,골절 III,Van Dusen,Crack III
@@ -1364,8 +1365,8 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 1,회복,7,액티브,오리엔탈,마노,122,611,124,621,1232,1031,노지심,해제 I,Lu Zhishen,Dispel I
 2,회복,4,액티브,판타지,G마왕,121,607,121,606,1213,2026,헬레나,치료 I,Helena,Cure I
 1,방어,7,패시브,오리엔탈,RANDY,97,485,145,726,1211,1025,은각,간파 I,Silver Horn,Sidestep I
-1,공격,5,패시브,SF,나예,116,581,77,620,1201,1016,파이어 플라이,격노 I,Firefly,Rage I
 2,방어,4,액티브,판타지,체리노바,95,478,144,723,1201,2043,테스,도발 I,Tess,Provoke I
+1,공격,5,패시브,SF,나예,116,581,77,620,1201,1016,파이어 플라이,격노 I,Firefly,Rage I
 1,방어,6,액티브,오리엔탈,죽돌이가싫어,95,477,142,713,1190,1042,교복 불가사리,돌진 I,School Uniform Tremors,Charge I
 2,공격,4,액티브,SF,가탄,140,702,94,472,1174,2020,롱존실버,분쇄 I,Long John Silver,Smash I
 2,공격,4,패시브,SF,죽돌이가싫어,140,704,93,468,1172,2029,멀티백,격노 I,Muitivac,Rage I
@@ -1410,4 +1411,3 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 1,방어,2,패시브,SF,레인,49,248,72,361,609,1029,프로스페로,응원 I,Prospero,Support I
 1,회복,2,액티브,판타지,2GOLD,61,309,59,299,608,1020,헤르미아,징벌 I,Hermia,Punish I
 1,회복,2,액티브,SF,죽돌이가싫어,58,291,59,299,590,1015,큐리오,치유 I,Curiosity,Heal I
-6,회복,18,액티브,판타지,나묘,430,3013,431,3022,6035,6541,홍계월,치유 V,Hong Gye-wol,Heal V
