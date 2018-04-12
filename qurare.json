@@ -31349,6 +31349,56 @@
 		"engname": "Journalist Sainclair",
 		"engskill": "Fortitude IV"
 	},
+	"프로포즈 화성": {
+		"id": "5491",
+		"rarity": "SR",
+		"lv": 100,
+		"role": "공격",
+		"skilltype": "액티브",
+		"faction": "판타지",
+		"name": "프로포즈 화성",
+		"rareColor": "#FFE746",
+		"rarefont": "#0A1533",
+		"cost": "13",
+		"skill": "면역 IV",
+		"enskill": "Immune",
+		"roleColor": "#E62E2E",
+		"illustrator": "수산시장",
+		"hp0": 296,
+		"hpLv": 17.95959595959596,
+		"atk0": 445,
+		"atkLv": 27.01010101010101,
+		"spr0": 370,
+		"HP": [
+			2074,
+			2219,
+			2364,
+			2510,
+			2655,
+			2800,
+			2945
+		],
+		"ATK": [
+			3119,
+			3337,
+			3556,
+			3774,
+			3992,
+			4211,
+			4429
+		],
+		"SPR": [
+			2596,
+			2777,
+			2959,
+			3141,
+			3322,
+			3504,
+			3686
+		],
+		"engname": "Proposal Mars",
+		"engskill": "Immune IV"
+	},
 	"콜린": {
 		"id": "5484",
 		"rarity": "SR",

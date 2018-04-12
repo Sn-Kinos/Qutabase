@@ -626,6 +626,7 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 5,회복,13,액티브,SF,사과캬라멜,371,2602,370,2593,5195,5492,아이돌 예구디엘,보호 IV,Idol Jegudiel,Shield IV
 5,방어,13,패시브,SF,카놀라유,296,2072,446,3122,5194,5477,앤 바셋,단결 IV,Anne Bassett,Solidarity IV
 5,방어,13,패시브,판타지,GANIK,297,2080,444,3113,5193,5490,저널리스트 생클레르,인내 IV,Journalist Sainclair,Fortitude IV
+5,공격,13,액티브,판타지,수산시장,445,3119,296,2074,5193,5491,프로포즈 화성,면역 IV,Proposal Mars,Immune IV
 5,공격,13,액티브,판타지,새우초밥,445,3116,296,2076,5192,5484,콜린,갈취 IV,Choline,Extortion IV
 5,공격,13,패시브,판타지,리호,445,3121,295,2070,5191,5311,메이드 로엘,맹폭 IV,Maid Lowell,Strafe IV
 5,공격,13,액티브,SF,SHIHYUN,445,3114,296,2076,5190,5316,빨간 망토,갈취 IV,Little Red Riding Hood,Extortion IV
