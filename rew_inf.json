@@ -19,9 +19,9 @@
 	},
 	"4": {
 		"num": "4",
-		"reward": "3성 마도서",
+		"reward": "손상된 금서",
 		"quan": 1,
-		"img": "kod_ran"
+		"img": "5_ran"
 	},
 	"5": {
 		"num": "5",
@@ -49,9 +49,9 @@
 	},
 	"9": {
 		"num": "9",
-		"reward": "3성 마도서",
+		"reward": "손상된 금서",
 		"quan": 1,
-		"img": "kod_ran"
+		"img": "5_ran"
 	},
 	"10": {
 		"num": "10",
@@ -79,9 +79,9 @@
 	},
 	"14": {
 		"num": "14",
-		"reward": "3성 마도서",
+		"reward": "손상된 금서",
 		"quan": 1,
-		"img": "kod_ran"
+		"img": "5_ran"
 	},
 	"15": {
 		"num": "15",
@@ -109,9 +109,9 @@
 	},
 	"19": {
 		"num": "19",
-		"reward": "3성 마도서",
+		"reward": "손상된 금서",
 		"quan": 1,
-		"img": "kod_ran"
+		"img": "5_ran"
 	},
 	"20": {
 		"num": "20",
@@ -169,9 +169,9 @@
 	},
 	"29": {
 		"num": "29",
-		"reward": "4성 마도서",
+		"reward": "손상된 금서",
 		"quan": 1,
-		"img": "kod_ran"
+		"img": "5_ran"
 	},
 	"30": {
 		"num": "30",
@@ -199,9 +199,9 @@
 	},
 	"34": {
 		"num": "34",
-		"reward": "4성 마도서",
+		"reward": "손상된 금서",
 		"quan": 1,
-		"img": "kod_ran"
+		"img": "5_ran"
 	},
 	"35": {
 		"num": "35",
@@ -229,9 +229,9 @@
 	},
 	"39": {
 		"num": "39",
-		"reward": "4성 마도서",
+		"reward": "손상된 금서",
 		"quan": 1,
-		"img": "kod_ran"
+		"img": "5_ran"
 	},
 	"40": {
 		"num": "40",
@@ -625,15 +625,15 @@
 	},
 	"105": {
 		"num": "105",
-		"reward": "SR 성장서",
-		"quan": 2,
-		"img": "spr_exp"
+		"reward": "한정 인쇄 SR+ 손상서",
+		"quan": 1,
+		"img": "6_ran"
 	},
 	"106": {
 		"num": "106",
-		"reward": "환상석",
-		"quan": 5,
-		"img": "illusion"
+		"reward": "SR 성장서",
+		"quan": 2,
+		"img": "spr_exp"
 	},
 	"107": {
 		"num": "107",
@@ -769,15 +769,15 @@
 	},
 	"129": {
 		"num": "129",
-		"reward": "환상석",
-		"quan": 5,
-		"img": "illusion"
-	},
-	"130": {
-		"num": "130",
 		"reward": "SR 성장서",
 		"quan": 2,
 		"img": "spr_exp"
+	},
+	"130": {
+		"num": "130",
+		"reward": "한정 인쇄 SR+ 손상서",
+		"quan": 1,
+		"img": "6_ran"
 	},
 	"131": {
 		"num": "131",
@@ -895,7 +895,7 @@
 	},
 	"150": {
 		"num": "150",
-		"reward": "프리미엄 SR+손상서",
+		"reward": "한정 인쇄 SR+ 손상서",
 		"quan": 1,
 		"img": "6_ran"
 	},
@@ -1033,9 +1033,9 @@
 	},
 	"173": {
 		"num": "173",
-		"reward": "환상석",
-		"quan": 8,
-		"img": "illusion"
+		"reward": "SR 성장서",
+		"quan": 3,
+		"img": "spr_exp"
 	},
 	"174": {
 		"num": "174",
@@ -1045,9 +1045,9 @@
 	},
 	"175": {
 		"num": "175",
-		"reward": "SR 성장서",
-		"quan": 3,
-		"img": "spr_exp"
+		"reward": "한정 인쇄 SR+ 손상서",
+		"quan": 1,
+		"img": "6_ran"
 	},
 	"176": {
 		"num": "176",
@@ -1195,7 +1195,7 @@
 	},
 	"200": {
 		"num": "200",
-		"reward": "프리미엄 SR+손상서",
+		"reward": "한정 인쇄 SR+ 손상서",
 		"quan": 2,
 		"img": "6_ran"
 	}

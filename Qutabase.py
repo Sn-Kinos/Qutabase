@@ -420,7 +420,9 @@ def func_rewards():
 		"프리미엄 SR손상서":"5_ran",
 		"프리미엄 SR+손상서":"6_ran",
 		"불확정의 상징물":"sym_nor",
-		"응축된 불확정의 상징물":"sym_con"
+		"응축된 불확정의 상징물":"sym_con",
+		"손상된 금서":"5_ran",
+		"한정 인쇄 SR+ 손상서":"6_ran"
 		}
 
 	var_input = input("1. inf rewards 2. event rewards\n >>> ")

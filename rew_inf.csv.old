@@ -2,22 +2,22 @@ num,reward,quan,img
 1,인쇄 티켓,1,tik_pri
 2,SP 포션,1,pot_sp
 3,지식의 파편,1,kno_p
-4,손상된 금서,1,5_ran
+4,3성 마도서,1,kod_ran
 5,마력석,1,Cash
 6,일반 해석서,1,nor_int
 7,지식의 파편,2,kno_p
 8,일반 재화서,1,nor_mny
-9,손상된 금서,1,5_ran
+9,3성 마도서,1,kod_ran
 10,일반 성장서,1,nor_exp
 11,인쇄 티켓,1,tik_pri
 12,SP 포션,2,pot_sp
 13,지식의 파편,3,kno_p
-14,손상된 금서,1,5_ran
+14,3성 마도서,1,kod_ran
 15,마력석,1,Cash
 16,일반 해석서,2,nor_int
 17,일반 재화서,2,nor_mny
 18,환상석,1,illusion
-19,손상된 금서,1,5_ran
+19,3성 마도서,1,kod_ran
 20,일반 성장서,2,nor_exp
 21,인쇄 티켓,1,tik_pri
 22,SP 포션,3,pot_sp
@@ -27,17 +27,17 @@ num,reward,quan,img
 26,인쇄 티켓,1,tik_pri
 27,전투 부활 포션,1,pot_rev
 28,우주의 파편,1,uni_p
-29,손상된 금서,1,5_ran
+29,4성 마도서,1,kod_ran
 30,마력석,2,Cash
 31,지식의 결정,2,kno_c
 32,레어 해석서,1,rar_int
 33,레어 재화서,1,rar_mny
-34,손상된 금서,1,5_ran
+34,4성 마도서,1,kod_ran
 35,레어 성장서,1,rar_exp
 36,인쇄 티켓,1,tik_pri
 37,전투 부활 포션,2,pot_rev
 38,우주의 파편,2,uni_p
-39,손상된 금서,1,5_ran
+39,4성 마도서,1,kod_ran
 40,마력석,2,Cash
 41,레어 해석서,1,rar_int
 42,레어 재화서,1,rar_mny
@@ -103,8 +103,8 @@ num,reward,quan,img
 102,우주의 파편,4,uni_p
 103,레어 성장서,5,rar_exp
 104,시즌 탐색권,5,tik_skp
-105,한정 인쇄 SR+ 손상서,1,6_ran
-106,SR 성장서,2,spr_exp
+105,SR 성장서,2,spr_exp
+106,환상석,5,illusion
 107,레어 성장서,5,rar_exp
 108,인쇄 티켓,10,tik_pri
 109,불확정의 상징물,4,sym_nor
@@ -127,8 +127,8 @@ num,reward,quan,img
 126,시즌 탐색권,5,tik_skp
 127,인쇄 티켓,10,tik_pri
 128,레어 재화서,5,rar_mny
-129,SR 성장서,2,spr_exp
-130,한정 인쇄 SR+ 손상서,1,6_ran
+129,환상석,5,illusion
+130,SR 성장서,2,spr_exp
 131,우주의 결정,3,uni_c
 132,환상석,5,illusion
 133,레어 성장서,5,rar_exp
@@ -148,7 +148,7 @@ num,reward,quan,img
 147,환상석,6,illusion
 148,응축된 불확정의 상징물,3,sym_con
 149,레어 성장서,6,rar_exp
-150,한정 인쇄 SR+ 손상서,1,6_ran
+150,프리미엄 SR+손상서,1,6_ran
 151,인쇄 티켓,10,tik_pri
 152,초차원의 파편,2,dim_p
 153,환상석,7,illusion
@@ -171,9 +171,9 @@ num,reward,quan,img
 170,초차원의 파편,3,dim_p
 171,SR 성장서,1,spr_exp
 172,우주의 결정,3,uni_c
-173,SR 성장서,3,spr_exp
+173,환상석,8,illusion
 174,응축된 불확정의 상징물,3,sym_con
-175,한정 인쇄 SR+ 손상서,1,6_ran
+175,SR 성장서,3,spr_exp
 176,인쇄 티켓,15,tik_pri
 177,시즌 탐색권,8,tik_skp
 178,환상석,8,illusion
@@ -198,4 +198,4 @@ num,reward,quan,img
 197,환상석,10,illusion
 198,초차원의 파편,3,dim_p
 199,SR 성장서,2,spr_exp
-200,한정 인쇄 SR+ 손상서,2,6_ran
+200,프리미엄 SR+손상서,2,6_ran
