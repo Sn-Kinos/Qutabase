@@ -270,7 +270,7 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 6,회복,20,액티브,오리엔탈,송개,443,3106,445,3114,6220,6169,집사 해모수,보호 V,Butler Hae Mo-su,Shield V
 6,회복,16,액티브,오리엔탈,sabaume,443,3106,443,3104,6210,6474,® 금우궁,우정 V,® Taurus,Friendship V
 6,공격,16,액티브,SF,카놀라유,531,3717,355,2488,6205,6520,파티의 알파,폭격 V,Alpha at Party,Bombard V
-6,회복,16,패시브,판타지,JUNA,0,3097,0,3107,6204,6499,전장의 가브리엘,기도 V,Warfare Gabriel,Prayer V
+6,회복,16,패시브,판타지,JUNA,442,3097,444,3107,6204,6499,전장의 가브리엘,기도 V,Warfare Gabriel,Prayer V
 6,공격,19,액티브,미스터리,ICE,530,3713,352,2469,6182,6395,보들레르,고양 V,Baudelaire,Enhance V
 6,공격,19,액티브,미스터리,ICE,529,3704,354,2477,6181,6460,위원회 로라,고양 V,Committee Rora,Enhance V
 6,방어,21,액티브,미스터리,달랑게,352,2464,528,3700,6164,6083,해변의 미우,돌진 V,Miu on the Beach,Charge V

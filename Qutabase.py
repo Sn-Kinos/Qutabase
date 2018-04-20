@@ -262,10 +262,13 @@ def func_aw_write():
 				Kodex = dict(row)
 				for cache in list_thumb:
 					if cache[:-6] == Kodex['id']:
-						os.renames(thumb_path+cache, dest_path+enrole[Kodex['role']]+'/'+enskill[Kodex['skill'][:2]]+'/'+Kodex['rarity']+'/'+Kodex['id']+'/'+cache[:-4]+'.jpg')
+						try:
+							os.renames(thumb_path+cache, dest_path+enrole[Kodex['role']]+'/'+enskill[Kodex['skill'][:2]]+'/'+Kodex['rarity']+'/'+Kodex['id']+'/'+cache[:-4]+'.jpg')
+						except FileExistsError:
+							print(cache+" Remove")
+							os.remove(dest_path+enrole[Kodex['role']]+'/'+enskill[Kodex['skill'][:2]]+'/'+Kodex['rarity']+'/'+Kodex['id']+'/'+cache[:-4]+'.jpg')
+							os.renames(thumb_path+cache, dest_path+enrole[Kodex['role']]+'/'+enskill[Kodex['skill'][:2]]+'/'+Kodex['rarity']+'/'+Kodex['id']+'/'+cache[:-4]+'.jpg')
 						print(cache+" Done")
-
-
 
 #		elif var_str_input == '3123132233': # We don't use Awiki
 #			for row in reader:
