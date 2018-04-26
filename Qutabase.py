@@ -192,6 +192,11 @@ def func_aw_write():
 
 		elif var_str_input == '1':
 			dic_kodex = {}
+			mainDesc = {}
+			with open('CardInfoScript-dec.qt', encoding='utf-8-sig') as qt:
+				desc = list(json.load(qt))
+				for x in desc:
+					mainDesc[x['Number']] = x
 			for row in reader:
 				level_rare = 3
 				maxhp_bind = ['']
@@ -231,6 +236,7 @@ def func_aw_write():
 				data['SPR'] = maxspr_bind
 				data['engname'] = Kodex['engname']
 				data['engskill'] = Kodex['engskill']
+				data['desc'] = mainDesc[int(Kodex['id'])]['CardDesc']
 			with open('qurare.json', 'w', encoding="utf-8") as Jurare:
 				json.dump(dic_kodex, Jurare, ensure_ascii=False, indent="\t")
 
@@ -660,6 +666,7 @@ def func_qtCsv():
 
 	if var_input == '1':
 	    func_qtToCsv()
+
 
 
 def func_menu():

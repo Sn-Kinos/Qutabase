@@ -7,6 +7,7 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 7,방어,26,액티브,판타지,니시,516,3617,774,5421,9038,17051,사드,역습 VI,Sade,Counter VI
 7,공격,26,액티브,판타지,ZB,773,5417,517,3620,9037,17002,백은의 크리스,고양 VI,White Chris,Enhance VI
 7,공격,26,액티브,판타지,SHIHYUN,775,5426,515,3609,9035,17044,루크 쇼트,고양 VI,Luke Short,Enhance VI
+7,방어,26,액티브,판타지,마끼아또,515,3611,775,5424,9035,17056,테르프시코레,재생 VI,Terpsichore,Regenerate VI
 7,회복,26,액티브,판타지,whoisshe,645,4518,645,4515,9033,17049,세라,보호 VI,Sera,Shield VI
 7,방어,26,액티브,판타지,레나,516,3613,774,5419,9032,17048,오필리아,철벽 VI,Ophelia,Fortify VI
 8,방어,25,액티브,오리엔탈,망르,442,3584,664,5384,8968,7010,소미인,미미가효,XiaoMeiRen,Fantastic Dishes
@@ -69,6 +70,7 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 6,방어,23,액티브,오리엔탈,hakusai,427,2994,641,4492,7486,6367,아마쿠사 시로,역습 V,Amakusa Shiro,Counter V
 6,방어,23,액티브,미스터리,"이말년, POPQN",427,2994,641,4489,7483,6390,이말년,와장창,Zilioner,Upside DDOWN!
 6,공격,22,액티브,판타지,사과카라멜,639,4477,427,2992,7469,6509,할로윈 좀비,고양 V,Halloween Zombie,Enhance V
+6,공격,22,액티브,미스터리,먹는빵,641,4487,426,2982,7469,6549,이무기,속공 V,Imoogi,Swipe V
 6,공격,21,액티브,SF,카르체트,629,4402,418,2928,7330,6517,파티의 델핀,분노 V,Delphine at Party,Enrage V
 6,공격,21,액티브,오리엔탈,히사,628,4399,418,2930,7329,6526,나크시딜,속공 V,Naksidil,Swipe V
 7,방어,20,액티브,판타지,김보라,417,2924,627,4394,7318,17035,파티의 아리엘,방어 VI,Ariel at Party,Protection VI
@@ -323,6 +325,7 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 6,공격,16,패시브,판타지,길세,514,3598,338,2370,5968,6274,호수의 나르키소스,격노 V,Narcissus at Lake,Rage V
 6,회복,16,패시브,오리엔탈,히사,427,2992,425,2976,5968,6265,시크릿 아기 구미호,신성 V,Secret Young Nine-tailed Fox,Sacred V
 6,회복,16,패시브,미스터리,whoisshe,428,3000,424,2968,5968,6273,십이지 쥐,회개 V,12 Branches. Rat,Contrite V
+6,회복,13,액티브,판타지,Miteddy,426,2985,426,2982,5967,6550,카시니,징벌 V,Cassini,Punish V
 6,공격,16,액티브,판타지,Cu-rim,512,3583,340,2381,5964,6278,오피스 팜걸,역공 V,Office Palm Girl,CounterATK V
 6,방어,16,패시브,오리엔탈,레바,341,2388,510,3576,5964,6224,레바 티무르,단결 V,Reva Timur,Solidarity V
 6,회복,16,패시브,SF,레스,426,2985,425,2974,5959,6288,네모,기도 V,Captain Nemo,Prayer V
@@ -349,6 +352,7 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 5,방어,15,패시브,판타지,hakusai,337,2365,506,3544,5909,5474,캘러미티 제인,인내 IV,Calamity Jane,Fortitude IV
 6,방어,17,패시브,오리엔탈,솔트,338,2366,505,3537,5903,6191,무라사키,반격 V,Murasaki,Retaliate V
 5,공격,15,액티브,판타지,송개,505,3538,337,2363,5901,5392,결전의 펠리페,역행 IV,Felipe of the Day,Regress IV
+5,방어,15,액티브,미스터리,지유미,337,2362,505,3538,5900,5493,멜포메네,불굴 IV,Melpomene,Fearless IV
 5,공격,15,액티브,판타지,CTYPE,505,3537,337,2362,5899,5368,느와르 돈키호테,강타 IV,Noir. Don Quixote,Smite IV
 5,방어,15,패시브,판타지,먹는빵,337,2363,505,3535,5898,5481,세드릭,반격 IV,Cedric,Retaliate IV
 5,방어,15,액티브,오리엔탈,마신황제,338,2366,504,3532,5898,5459,파티의 나디르 샤,역습 IV,Nader Shah at Party,Counter IV
@@ -356,6 +360,7 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 6,공격,17,액티브,SF,Mittedy,505,3537,336,2355,5892,6476,물놀이 누아다&다아다,속공 V,Waterpark Nuada&Dagda,Swipe V
 6,공격,15,패시브,판타지,H2SO4,505,3537,336,2354,5891,6247,전장의 릿챠,격노 V,Warfare Richard,Rage V
 6,방어,17,액티브,오리엔탈,ZIS,337,2360,504,3529,5889,6522,무선,억압 V,Choe Museon,Suppress V
+6,공격,17,액티브,판타지,아리씨,503,3527,337,2360,5887,6547,우라니아,흡혈 V,Urania,Drain V
 6,공격,17,액티브,판타지,GUA,504,3529,336,2357,5886,6536,군느힐드,속공 V,Gunnhild,Swipe V
 6,공격,17,액티브,미스터리,ZIS,504,3534,336,2352,5886,6488,예식의 라구엘,흡혈 V,Raguel at Ceremony,Drain V
 6,방어,17,패시브,SF,갱이,336,2355,504,3531,5886,6494,민유현,수호 V,Min You-hyun,Guard V
@@ -1051,6 +1056,7 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 5,방어,9,액티브,미스터리,R.알니람,210,1471,314,2198,3669,5047,한니발,도발 IV,Hannibal,Provoke IV
 4,회복,12,액티브,미스터리,GUA,306,1836,305,1832,3668,4190,레오,치료 III,Leo,Cure III
 4,방어,11,패시브,미스터리,세발문어,244,1467,366,2198,3665,4216,화가 도리언 그레이,응원 III,Painter Dorian Grey,Support III
+4,공격,11,패시브,미스터리,KEIrare,366,2200,244,1465,3665,4217,생제르맹,행운 III,St. Germain,Lucky III
 4,회복,11,패시브,오리엔탈,롸엘,305,1834,305,1830,3664,4194,전장의 장료,기도 III,Warfare Zhang Liao,Prayer III
 5,방어,11,액티브,미스터리,STUDIO NCG,209,1462,314,2201,3663,5080,교복 뉴턴,골절 IV,School Uniform Newton,Crack IV
 4,공격,11,액티브,판타지,롸엘,366,2199,243,1458,3657,4201,루이스 웨인,역행 III,Louis Wain,Regress III
