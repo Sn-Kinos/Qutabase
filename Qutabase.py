@@ -236,7 +236,7 @@ def func_aw_write():
 				data['SPR'] = maxspr_bind
 				data['engname'] = Kodex['engname']
 				data['engskill'] = Kodex['engskill']
-				data['desc'] = mainDesc[int(Kodex['id'])]['CardDesc']
+				data['dialog'] = mainDesc[int(Kodex['id'])]['CardDesc']
 			with open('qurare.json', 'w', encoding="utf-8") as Jurare:
 				json.dump(dic_kodex, Jurare, ensure_ascii=False, indent="\t")
 
