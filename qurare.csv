@@ -1,4 +1,5 @@
 rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,name,skill,engname,engskill
+7,회복,27,액티브,판타지,0,659,4618,568,4608,9226,17057,에우테르페,참회 VI,Euterpe,Repent VI
 7,공격,27,액티브,미스터리,달랑게,790,5529,527,3692,9221,17052,에리스,강타 VI,Eris,Smite VI
 7,회복,26,액티브,SF,달랑게,647,4530,646,4525,9055,17006,델핀,참회 VI,Delphine,Repent VI
 7,회복,26,액티브,미스터리,송개,645,4518,647,4533,9051,17040,세드나,참회 VI,Sedna,Repent VI
@@ -68,7 +69,9 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 6,회복,23,액티브,미스터리,GANIK,547,3831,547,3829,7660,6533,조니 링고,치료 V,Johnny Ringo,Cure V
 6,회복,22,액티브,SF,마신황제,534,3743,535,3750,7493,6450,랫서팬더귀 피오나,치료 V,Red-panda-eared Fiona,Cure V
 6,방어,23,액티브,오리엔탈,hakusai,427,2994,641,4492,7486,6367,아마쿠사 시로,역습 V,Amakusa Shiro,Counter V
+6,방어,22,액티브,판타지,라쿠나,427,2991,642,4493,7484,6551,하피,난투 V,Harpy,Brawl V
 6,방어,23,액티브,미스터리,"이말년, POPQN",427,2994,641,4489,7483,6390,이말년,와장창,Zilioner,Upside DDOWN!
+6,공격,22,액티브,미스터리,SHIHYUN,639,4478,428,2995,7473,6552,야노슈 후냐디,분노 V,John Hunyadi,Enrage V
 6,공격,22,액티브,판타지,사과카라멜,639,4477,427,2992,7469,6509,할로윈 좀비,고양 V,Halloween Zombie,Enhance V
 6,공격,22,액티브,미스터리,먹는빵,641,4487,426,2982,7469,6549,이무기,속공 V,Imoogi,Swipe V
 6,공격,21,액티브,SF,카르체트,629,4402,418,2928,7330,6517,파티의 델핀,분노 V,Delphine at Party,Enrage V
@@ -423,6 +426,7 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 6,회복,16,액티브,미스터리,imp,408,2861,410,2873,5734,6477,물놀이 실비아,치료 V,Waterpark Sylvia,Cure V
 5,공격,15,액티브,판타지,GAMBE,491,3442,327,2290,5732,5332,무인도의 아스타로트,역행 IV,Uninhabited Astaroth,Regress IV
 5,방어,15,액티브,미스터리,히사,327,2290,491,3442,5732,5331,무인도의 다윈,재생 IV,Uninhabited Darwin,Regenerate IV
+6,회복,16,액티브,판타지,xx이나xx,410,2871,408,2861,5732,6548,므네모시네,해제 V,Mnemosyne,Dispel V
 5,공격,15,패시브,미스터리,톨렛,491,3439,327,2291,5730,5351,학교의 아서 폭스,격분 IV,School Arthur Fox,Frenzy IV
 5,방어,15,액티브,판타지,세발문어,328,2296,490,3433,5729,5334,무인도의 우르지,불굴 IV,Uninhabited Baba Aruj,Fearless IV
 5,공격,14,액티브,미스터리,아리씨,490,3434,326,2287,5721,5467,카를로,폭격 IV,Charles,Bombard IV
@@ -442,6 +446,7 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 5,공격,14,패시브,미스터리,강탄,488,3422,325,2276,5698,5473,웨슬리 하딘,격노 IV,Wesley Hardin,Rage IV
 5,방어,14,패시브,판타지,hakusai,324,2273,489,3425,5698,5391,결전의 릿챠,인내 IV,Richard of the Day,Fortitude IV
 5,회복,14,패시브,판타지,인접,406,2847,406,2842,5689,5487,민트,격려 IV,Mint,Encourage IV
+5,공격,14,패시브,판타지,Yuko,488,3416,324,2273,5689,5494,클리오,격앙 IV,Clio,Excitement IV
 5,방어,14,패시브,오리엔탈,삽우물,325,2276,487,3411,5687,5465,마샤르,간파 IV,Marshal,Sidestep IV
 5,회복,14,액티브,오리엔탈,SHIHYUN,406,2845,406,2842,5687,5458,파티의 루흐,치료 IV,Rukh at Party,Cure IV
 6,회복,13,액티브,판타지,나묘,405,2836,403,2824,5660,6320,메이드 파프니르,해제 V,Maid Fafnir,Dispel V

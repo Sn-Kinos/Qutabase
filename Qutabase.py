@@ -432,7 +432,7 @@ def func_rewards():
 		"응축된 불확정의 상징물":"sym_con",
 		"손상된 금서":"5_ran",
 		"한정 인쇄 SR+ 손상서":"6_ran"
-		}
+	}
 
 	var_input = input("1. inf rewards 2. event rewards\n >>> ")
 
@@ -655,17 +655,29 @@ def func_qtCsv():
 	
 	def func_qtToCsv():
 		with open(var_fName, encoding='utf-8-sig') as qt:
-			mainQt	= json.load(qt)
-		mainKey		= list(mainQt[0].keys())
+			mainQt	=	json.load(qt)
+		mainKey		=	list(mainQt[0].keys())
 		with open(var_fName[:-2] + 'csv', 'wt', encoding='utf-8-sig', newline='') as qsv:
-			writer	= csv.DictWriter(qsv, fieldnames=mainKey)
+			writer	=	csv.DictWriter(qsv, fieldnames=mainKey)
 			writer.writeheader()
 			for row in mainQt:
 				writer.writerow(row)
 					
+	def func_csvToQt():
+		with open(var_fName, encoding='utf-8-sig') as qt:
+			mainCsv		=	csv.DictReader(qt);
+			mainDic		=	{}
+			for row in mainCsv:
+				elem	=	dict(row)
+				mainDic[elem['Index']]	=	elem;
+			with open(var_fName[:-3] + 'qt', 'wt', encoding='utf-8-sig') as qqt:
+				json.dump(mainDic, qqt, ensure_ascii=False, indent='\t')
+
 
 	if var_input == '1':
 	    func_qtToCsv()
+	elif var_input == '2':
+		func_csvToQt()
 
 
 
