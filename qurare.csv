@@ -549,7 +549,7 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 6,방어,18,액티브,SF,xx이나xx,314,2197,470,3291,5488,6187,헤카테,억압 V,Hecate,Suppress V
 6,방어,17,액티브,오리엔탈,MORRY,313,2193,470,3294,5487,6077,위험한 문수,회피 V,Dangerous Mun-su,Evade V
 5,공격,13,패시브,미스터리,곰탕,470,3295,313,2192,5487,5486,시보프,맹폭 IV,Sivov,Strafe IV
-5,공격,13,패시브,미스터리,MORRY,392,2746,391,2741,5487,5495,휠다,기도 IV,Hwilda,Prayer IV
+5,회복,13,패시브,미스터리,MORRY,392,2746,391,2741,5487,5495,휠다,기도 IV,Hwilda,Prayer IV
 5,방어,13,패시브,판타지,피터,314,2201,469,3284,5485,5452,할로윈 시코락스,수호 IV,Halloween Sycorax,Guard IV
 6,공격,13,액티브,미스터리,히사,469,3286,314,2197,5483,6236,사타나키아,역행 V,Satanachia,Regress V
 6,회복,16,패시브,미스터리,스노우볼,391,2737,392,2746,5483,6303,웨딩 실비아,안위 V,Wedding Sylvia,Empower V
