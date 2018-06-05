@@ -681,6 +681,18 @@ def func_qtCsv():
 
 
 
+def func_mainBGM():
+	with open('mainStoryJ.qt', encoding='utf-8-sig') as qt:
+	    mainQt	=	json.load(qt)
+	with open('SmallZoneInfoScript-dec.qt', encoding='utf-8-sig') as qt:
+	    mainBGM	=	json.load(qt)
+	for x in mainQt:
+		mainQt[x]['Dialog']	=	'#BGM,'	+	mainBGM[mainQt[x]['Zone']]['BgmName']	+	',100'	+	mainQt[x]['Dialog']	+	'#BGM,'	+	mainBGM[mainQt[x]['Zone']]['BgmName']	+	',100'
+	with open('mainStoryJB.qt', 'wt', encoding='utf-8-sig') as qt:
+		json.dump(mainQt, qt, ensure_ascii=False, indent='\t')
+
+
+
 def func_menu():
 	var_input = input("""
 	QUTABASE\n
@@ -691,6 +703,7 @@ def func_menu():
 	5. get skills\n
 	6. get lvl data\n
 	7. qt to csv to qt\n
+	8. mainStory BGM
 	(name).display\n\n >>> """)
 	if var_input == '0':
 		return
@@ -710,6 +723,8 @@ def func_menu():
 		func_lvUp()
 	elif var_input == '7':
 		func_qtCsv()
+	elif var_input == '8':
+		func_mainBGM()
 	elif var_input == '1233212313212123': # We didn't need inven data
 		func_db_get('123')
 		func_db_skill()

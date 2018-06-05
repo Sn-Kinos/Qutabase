@@ -1,0 +1,1798 @@
+﻿{
+	"0": {
+		"Index": "0",
+		"BgmName": ""
+	},
+	"1": {
+		"Index": "1",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"2": {
+		"Index": "2",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"3": {
+		"Index": "3",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"4": {
+		"Index": "4",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"5": {
+		"Index": "5",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"6": {
+		"Index": "6",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"7": {
+		"Index": "7",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"16": {
+		"Index": "16",
+		"BgmName": "bgm_adv_town"
+	},
+	"17": {
+		"Index": "17",
+		"BgmName": "bgm_adv_town"
+	},
+	"18": {
+		"Index": "18",
+		"BgmName": "bgm_adv_town"
+	},
+	"19": {
+		"Index": "19",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"20": {
+		"Index": "20",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"21": {
+		"Index": "21",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"22": {
+		"Index": "22",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"23": {
+		"Index": "23",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"24": {
+		"Index": "24",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"25": {
+		"Index": "25",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"26": {
+		"Index": "26",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"27": {
+		"Index": "27",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"28": {
+		"Index": "28",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"29": {
+		"Index": "29",
+		"BgmName": "bgm_adv_gag"
+	},
+	"30": {
+		"Index": "30",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"31": {
+		"Index": "31",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"32": {
+		"Index": "32",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"33": {
+		"Index": "33",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"34": {
+		"Index": "34",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"35": {
+		"Index": "35",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"36": {
+		"Index": "36",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"37": {
+		"Index": "37",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"38": {
+		"Index": "38",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"39": {
+		"Index": "39",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"40": {
+		"Index": "40",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"41": {
+		"Index": "41",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"42": {
+		"Index": "42",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"43": {
+		"Index": "43",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"44": {
+		"Index": "44",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"45": {
+		"Index": "45",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"46": {
+		"Index": "46",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"47": {
+		"Index": "47",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"48": {
+		"Index": "48",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"49": {
+		"Index": "49",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"50": {
+		"Index": "50",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"51": {
+		"Index": "51",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"52": {
+		"Index": "52",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"53": {
+		"Index": "53",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"54": {
+		"Index": "54",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"55": {
+		"Index": "55",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"56": {
+		"Index": "56",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"57": {
+		"Index": "57",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"58": {
+		"Index": "58",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"59": {
+		"Index": "59",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"60": {
+		"Index": "60",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"61": {
+		"Index": "61",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"62": {
+		"Index": "62",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"63": {
+		"Index": "63",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"64": {
+		"Index": "64",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"65": {
+		"Index": "65",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"66": {
+		"Index": "66",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"67": {
+		"Index": "67",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"68": {
+		"Index": "68",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"69": {
+		"Index": "69",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"70": {
+		"Index": "70",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"71": {
+		"Index": "71",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"72": {
+		"Index": "72",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"73": {
+		"Index": "73",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"74": {
+		"Index": "74",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"75": {
+		"Index": "75",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"76": {
+		"Index": "76",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"77": {
+		"Index": "77",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"78": {
+		"Index": "78",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"79": {
+		"Index": "79",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"80": {
+		"Index": "80",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"81": {
+		"Index": "81",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"82": {
+		"Index": "82",
+		"BgmName": "bgm_adv_gag"
+	},
+	"83": {
+		"Index": "83",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"84": {
+		"Index": "84",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"85": {
+		"Index": "85",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"86": {
+		"Index": "86",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"87": {
+		"Index": "87",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"88": {
+		"Index": "88",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"89": {
+		"Index": "89",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"90": {
+		"Index": "90",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"91": {
+		"Index": "91",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"92": {
+		"Index": "92",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"93": {
+		"Index": "93",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"94": {
+		"Index": "94",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"95": {
+		"Index": "95",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"96": {
+		"Index": "96",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"97": {
+		"Index": "97",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"98": {
+		"Index": "98",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"99": {
+		"Index": "99",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"100": {
+		"Index": "100",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"101": {
+		"Index": "101",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"102": {
+		"Index": "102",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"103": {
+		"Index": "103",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"104": {
+		"Index": "104",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"105": {
+		"Index": "105",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"106": {
+		"Index": "106",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"107": {
+		"Index": "107",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"108": {
+		"Index": "108",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"109": {
+		"Index": "109",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"110": {
+		"Index": "110",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"111": {
+		"Index": "111",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"112": {
+		"Index": "112",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"113": {
+		"Index": "113",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"114": {
+		"Index": "114",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"115": {
+		"Index": "115",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"116": {
+		"Index": "116",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"117": {
+		"Index": "117",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"118": {
+		"Index": "118",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"119": {
+		"Index": "119",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"120": {
+		"Index": "120",
+		"BgmName": "bgm_adv_gag"
+	},
+	"121": {
+		"Index": "121",
+		"BgmName": "bgm_adv_gag"
+	},
+	"122": {
+		"Index": "122",
+		"BgmName": "bgm_adv_gag"
+	},
+	"123": {
+		"Index": "123",
+		"BgmName": "bgm_adv_gag"
+	},
+	"124": {
+		"Index": "124",
+		"BgmName": "bgm_adv_gag"
+	},
+	"125": {
+		"Index": "125",
+		"BgmName": "bgm_adv_gag"
+	},
+	"126": {
+		"Index": "126",
+		"BgmName": "bgm_adv_gag"
+	},
+	"127": {
+		"Index": "127",
+		"BgmName": "bgm_adv_gag"
+	},
+	"128": {
+		"Index": "128",
+		"BgmName": "bgm_adv_gag"
+	},
+	"129": {
+		"Index": "129",
+		"BgmName": "bgm_adv_gag"
+	},
+	"130": {
+		"Index": "130",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"131": {
+		"Index": "131",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"132": {
+		"Index": "132",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"133": {
+		"Index": "133",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"134": {
+		"Index": "134",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"135": {
+		"Index": "135",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"136": {
+		"Index": "136",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"137": {
+		"Index": "137",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"138": {
+		"Index": "138",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"139": {
+		"Index": "139",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"140": {
+		"Index": "140",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"141": {
+		"Index": "141",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"142": {
+		"Index": "142",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"143": {
+		"Index": "143",
+		"BgmName": "bgm_adv_gag"
+	},
+	"144": {
+		"Index": "144",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"145": {
+		"Index": "145",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"146": {
+		"Index": "146",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"147": {
+		"Index": "147",
+		"BgmName": "bgm_adv_gag"
+	},
+	"148": {
+		"Index": "148",
+		"BgmName": "bgm_adv_gag"
+	},
+	"149": {
+		"Index": "149",
+		"BgmName": "bgm_adv_gag"
+	},
+	"150": {
+		"Index": "150",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"151": {
+		"Index": "151",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"152": {
+		"Index": "152",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"153": {
+		"Index": "153",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"154": {
+		"Index": "154",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"155": {
+		"Index": "155",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"156": {
+		"Index": "156",
+		"BgmName": "bgm_adv_gag"
+	},
+	"157": {
+		"Index": "157",
+		"BgmName": "bgm_adv_gag"
+	},
+	"158": {
+		"Index": "158",
+		"BgmName": "bgm_adv_gag"
+	},
+	"159": {
+		"Index": "159",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"160": {
+		"Index": "160",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"161": {
+		"Index": "161",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"162": {
+		"Index": "162",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"163": {
+		"Index": "163",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"164": {
+		"Index": "164",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"165": {
+		"Index": "165",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"166": {
+		"Index": "166",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"167": {
+		"Index": "167",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"168": {
+		"Index": "168",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"169": {
+		"Index": "169",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"170": {
+		"Index": "170",
+		"BgmName": "bgm_adv_calm"
+	},
+	"171": {
+		"Index": "171",
+		"BgmName": "bgm_adv_calm"
+	},
+	"172": {
+		"Index": "172",
+		"BgmName": "bgm_adv_calm"
+	},
+	"173": {
+		"Index": "173",
+		"BgmName": "bgm_adv_calm"
+	},
+	"174": {
+		"Index": "174",
+		"BgmName": "bgm_adv_calm"
+	},
+	"180": {
+		"Index": "180",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"181": {
+		"Index": "181",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"182": {
+		"Index": "182",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"183": {
+		"Index": "183",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"184": {
+		"Index": "184",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"185": {
+		"Index": "185",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"186": {
+		"Index": "186",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"187": {
+		"Index": "187",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"188": {
+		"Index": "188",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"189": {
+		"Index": "189",
+		"BgmName": "bgm_adv_calm"
+	},
+	"190": {
+		"Index": "190",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"191": {
+		"Index": "191",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"192": {
+		"Index": "192",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"193": {
+		"Index": "193",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"194": {
+		"Index": "194",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"195": {
+		"Index": "195",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"196": {
+		"Index": "196",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"197": {
+		"Index": "197",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"198": {
+		"Index": "198",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"199": {
+		"Index": "199",
+		"BgmName": "bgm_adv_calm"
+	},
+	"200": {
+		"Index": "200",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"201": {
+		"Index": "201",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"202": {
+		"Index": "202",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"203": {
+		"Index": "203",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"204": {
+		"Index": "204",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"205": {
+		"Index": "205",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"206": {
+		"Index": "206",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"207": {
+		"Index": "207",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"208": {
+		"Index": "208",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"209": {
+		"Index": "209",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"210": {
+		"Index": "210",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"211": {
+		"Index": "211",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"212": {
+		"Index": "212",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"213": {
+		"Index": "213",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"214": {
+		"Index": "214",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"215": {
+		"Index": "215",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"216": {
+		"Index": "216",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"217": {
+		"Index": "217",
+		"BgmName": "bgm_battle_dark"
+	},
+	"218": {
+		"Index": "218",
+		"BgmName": "bgm_battle_dark"
+	},
+	"219": {
+		"Index": "219",
+		"BgmName": "bgm_battle_dark"
+	},
+	"220": {
+		"Index": "220",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"221": {
+		"Index": "221",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"222": {
+		"Index": "222",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"223": {
+		"Index": "223",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"224": {
+		"Index": "224",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"225": {
+		"Index": "225",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"226": {
+		"Index": "226",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"227": {
+		"Index": "227",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"228": {
+		"Index": "228",
+		"BgmName": "bgm_adv_sorrow"
+	},
+	"229": {
+		"Index": "229",
+		"BgmName": "bgm_adv_sorrow"
+	},
+	"230": {
+		"Index": "230",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"231": {
+		"Index": "231",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"232": {
+		"Index": "232",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"233": {
+		"Index": "233",
+		"BgmName": "bgm_battle_engage"
+	},
+	"234": {
+		"Index": "234",
+		"BgmName": "bgm_adv_pianomedley"
+	},
+	"235": {
+		"Index": "235",
+		"BgmName": "bgm_adv_pianomedley"
+	},
+	"236": {
+		"Index": "236",
+		"BgmName": "bgm_adv_pianomedley"
+	},
+	"237": {
+		"Index": "237",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"238": {
+		"Index": "238",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"239": {
+		"Index": "239",
+		"BgmName": "bgm_adv_gag"
+	},
+	"240": {
+		"Index": "240",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"241": {
+		"Index": "241",
+		"BgmName": "bgm_adv_town"
+	},
+	"242": {
+		"Index": "242",
+		"BgmName": "bgm_adv_town"
+	},
+	"243": {
+		"Index": "243",
+		"BgmName": "bgm_adv_town"
+	},
+	"244": {
+		"Index": "244",
+		"BgmName": "bgm_adv_town"
+	},
+	"245": {
+		"Index": "245",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"246": {
+		"Index": "246",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"247": {
+		"Index": "247",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"248": {
+		"Index": "248",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"249": {
+		"Index": "249",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"250": {
+		"Index": "250",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"251": {
+		"Index": "251",
+		"BgmName": "bgm_adv_mischief"
+	},
+	"252": {
+		"Index": "252",
+		"BgmName": "bgm_adv_mischief"
+	},
+	"253": {
+		"Index": "253",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"254": {
+		"Index": "254",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"255": {
+		"Index": "255",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"256": {
+		"Index": "256",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"257": {
+		"Index": "257",
+		"BgmName": "bgm_battle_engage"
+	},
+	"258": {
+		"Index": "258",
+		"BgmName": "bgm_battle_engage"
+	},
+	"259": {
+		"Index": "259",
+		"BgmName": "bgm_adv_mischief"
+	},
+	"260": {
+		"Index": "260",
+		"BgmName": "bgm_adv_mischief"
+	},
+	"261": {
+		"Index": "261",
+		"BgmName": "bgm_battle_bright"
+	},
+	"262": {
+		"Index": "262",
+		"BgmName": "bgm_battle_bright"
+	},
+	"263": {
+		"Index": "263",
+		"BgmName": "bgm_battle_bright"
+	},
+	"264": {
+		"Index": "264",
+		"BgmName": "bgm_battle_bright"
+	},
+	"265": {
+		"Index": "265",
+		"BgmName": "bgm_battle_bright"
+	},
+	"266": {
+		"Index": "266",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"267": {
+		"Index": "267",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"268": {
+		"Index": "268",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"269": {
+		"Index": "269",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"270": {
+		"Index": "270",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"271": {
+		"Index": "271",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"272": {
+		"Index": "272",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"273": {
+		"Index": "273",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"274": {
+		"Index": "274",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"275": {
+		"Index": "275",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"276": {
+		"Index": "276",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"277": {
+		"Index": "277",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"278": {
+		"Index": "278",
+		"BgmName": "bgm_adv_town"
+	},
+	"279": {
+		"Index": "279",
+		"BgmName": "bgm_adv_town"
+	},
+	"280": {
+		"Index": "280",
+		"BgmName": "bgm_adv_town"
+	},
+	"281": {
+		"Index": "281",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"282": {
+		"Index": "282",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"283": {
+		"Index": "283",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"284": {
+		"Index": "284",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"285": {
+		"Index": "285",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"286": {
+		"Index": "286",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"287": {
+		"Index": "287",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"288": {
+		"Index": "288",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"289": {
+		"Index": "289",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"290": {
+		"Index": "290",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"291": {
+		"Index": "291",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"292": {
+		"Index": "292",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"293": {
+		"Index": "293",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"294": {
+		"Index": "294",
+		"BgmName": "bgm_adv_town"
+	},
+	"295": {
+		"Index": "295",
+		"BgmName": "bgm_adv_town"
+	},
+	"296": {
+		"Index": "296",
+		"BgmName": "bgm_adv_town"
+	},
+	"297": {
+		"Index": "297",
+		"BgmName": "bgm_adv_town"
+	},
+	"298": {
+		"Index": "298",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"299": {
+		"Index": "299",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"300": {
+		"Index": "300",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"301": {
+		"Index": "301",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"302": {
+		"Index": "302",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"303": {
+		"Index": "303",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"304": {
+		"Index": "304",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"305": {
+		"Index": "305",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"306": {
+		"Index": "306",
+		"BgmName": "bgm_adv_town"
+	},
+	"307": {
+		"Index": "307",
+		"BgmName": "bgm_adv_town"
+	},
+	"308": {
+		"Index": "308",
+		"BgmName": "bgm_battle_engage"
+	},
+	"309": {
+		"Index": "309",
+		"BgmName": "bgm_battle_engage"
+	},
+	"310": {
+		"Index": "310",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"311": {
+		"Index": "311",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"312": {
+		"Index": "312",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"313": {
+		"Index": "313",
+		"BgmName": "bgm_adv_sorrow"
+	},
+	"314": {
+		"Index": "314",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"315": {
+		"Index": "315",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"316": {
+		"Index": "316",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"317": {
+		"Index": "317",
+		"BgmName": "bgm_adv_gag"
+	},
+	"318": {
+		"Index": "318",
+		"BgmName": "bgm_adv_gag"
+	},
+	"319": {
+		"Index": "319",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"320": {
+		"Index": "320",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"321": {
+		"Index": "321",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"322": {
+		"Index": "322",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"323": {
+		"Index": "323",
+		"BgmName": "bgm_battle_engage"
+	},
+	"324": {
+		"Index": "324",
+		"BgmName": "bgm_battle_engage"
+	},
+	"325": {
+		"Index": "325",
+		"BgmName": "bgm_adv_sorrow"
+	},
+	"326": {
+		"Index": "326",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"327": {
+		"Index": "327",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"328": {
+		"Index": "328",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"329": {
+		"Index": "329",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"330": {
+		"Index": "330",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"331": {
+		"Index": "331",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"332": {
+		"Index": "332",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"333": {
+		"Index": "333",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"334": {
+		"Index": "334",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"335": {
+		"Index": "335",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"336": {
+		"Index": "336",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"337": {
+		"Index": "337",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"338": {
+		"Index": "338",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"339": {
+		"Index": "339",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"340": {
+		"Index": "340",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"341": {
+		"Index": "341",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"342": {
+		"Index": "342",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"343": {
+		"Index": "343",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"344": {
+		"Index": "344",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"345": {
+		"Index": "345",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"346": {
+		"Index": "346",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"347": {
+		"Index": "347",
+		"BgmName": "bgm_battle_engage"
+	},
+	"348": {
+		"Index": "348",
+		"BgmName": "bgm_battle_engage"
+	},
+	"349": {
+		"Index": "349",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"350": {
+		"Index": "350",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"351": {
+		"Index": "351",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"352": {
+		"Index": "352",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"353": {
+		"Index": "353",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"354": {
+		"Index": "354",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"355": {
+		"Index": "355",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"356": {
+		"Index": "356",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"357": {
+		"Index": "357",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"358": {
+		"Index": "358",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"359": {
+		"Index": "359",
+		"BgmName": "bgm_adv_indoors"
+	},
+	"360": {
+		"Index": "360",
+		"BgmName": "bgm_battle_engage"
+	},
+	"361": {
+		"Index": "361",
+		"BgmName": "bgm_battle_engage"
+	},
+	"362": {
+		"Index": "362",
+		"BgmName": "bgm_battle_engage"
+	},
+	"363": {
+		"Index": "363",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"364": {
+		"Index": "364",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"365": {
+		"Index": "365",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"366": {
+		"Index": "366",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"367": {
+		"Index": "367",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"368": {
+		"Index": "368",
+		"BgmName": "bgm_adv_calm"
+	},
+	"369": {
+		"Index": "369",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"370": {
+		"Index": "370",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"371": {
+		"Index": "371",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"372": {
+		"Index": "372",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"373": {
+		"Index": "373",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"374": {
+		"Index": "374",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"375": {
+		"Index": "375",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"376": {
+		"Index": "376",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"377": {
+		"Index": "377",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"378": {
+		"Index": "378",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"379": {
+		"Index": "379",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"380": {
+		"Index": "380",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"381": {
+		"Index": "381",
+		"BgmName": "bgm_battle_engage"
+	},
+	"382": {
+		"Index": "382",
+		"BgmName": "bgm_battle_engage"
+	},
+	"383": {
+		"Index": "383",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"384": {
+		"Index": "384",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"385": {
+		"Index": "385",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"386": {
+		"Index": "386",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"387": {
+		"Index": "387",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"388": {
+		"Index": "388",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"389": {
+		"Index": "389",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"390": {
+		"Index": "390",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"391": {
+		"Index": "391",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"392": {
+		"Index": "392",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"393": {
+		"Index": "393",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"394": {
+		"Index": "394",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"395": {
+		"Index": "395",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"396": {
+		"Index": "396",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"397": {
+		"Index": "397",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"398": {
+		"Index": "398",
+		"BgmName": "bgm_battle_engage"
+	},
+	"399": {
+		"Index": "399",
+		"BgmName": "bgm_battle_engage"
+	},
+	"400": {
+		"Index": "400",
+		"BgmName": "bgm_battle_engage"
+	},
+	"401": {
+		"Index": "401",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"402": {
+		"Index": "402",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"403": {
+		"Index": "403",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"404": {
+		"Index": "404",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"405": {
+		"Index": "405",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"406": {
+		"Index": "406",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"407": {
+		"Index": "407",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"408": {
+		"Index": "408",
+		"BgmName": "bgm_adv_calm"
+	},
+	"409": {
+		"Index": "409",
+		"BgmName": "bgm_adv_calm"
+	},
+	"410": {
+		"Index": "410",
+		"BgmName": "bgm_adv_calm"
+	},
+	"411": {
+		"Index": "411",
+		"BgmName": "bgm_adv_calm"
+	},
+	"412": {
+		"Index": "412",
+		"BgmName": "bgm_adv_calm"
+	},
+	"413": {
+		"Index": "413",
+		"BgmName": "bgm_adv_calm"
+	},
+	"414": {
+		"Index": "414",
+		"BgmName": "bgm_adv_calm"
+	},
+	"415": {
+		"Index": "415",
+		"BgmName": "bgm_adv_calm"
+	},
+	"416": {
+		"Index": "416",
+		"BgmName": "bgm_adv_calm"
+	},
+	"417": {
+		"Index": "417",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"418": {
+		"Index": "418",
+		"BgmName": "bgm_battle_engage"
+	},
+	"419": {
+		"Index": "419",
+		"BgmName": "bgm_battle_engage"
+	},
+	"420": {
+		"Index": "420",
+		"BgmName": "bgm_battle_engage"
+	},
+	"421": {
+		"Index": "421",
+		"BgmName": "bgm_battle_engage"
+	},
+	"422": {
+		"Index": "422",
+		"BgmName": "bgm_battle_engage"
+	},
+	"423": {
+		"Index": "423",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"424": {
+		"Index": "424",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"425": {
+		"Index": "425",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"426": {
+		"Index": "426",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"427": {
+		"Index": "427",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"428": {
+		"Index": "428",
+		"BgmName": "bgm_adv_calm"
+	},
+	"429": {
+		"Index": "429",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"430": {
+		"Index": "430",
+		"BgmName": "bgm_battle_strategic"
+	},
+	"431": {
+		"Index": "431",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"432": {
+		"Index": "432",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"433": {
+		"Index": "433",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"434": {
+		"Index": "434",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"435": {
+		"Index": "435",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"436": {
+		"Index": "436",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"437": {
+		"Index": "437",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"438": {
+		"Index": "438",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"439": {
+		"Index": "439",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"440": {
+		"Index": "440",
+		"BgmName": "bgm_adv_wilderness"
+	},
+	"441": {
+		"Index": "441",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"442": {
+		"Index": "442",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"443": {
+		"Index": "443",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"444": {
+		"Index": "444",
+		"BgmName": "bgm_battle_default"
+	},
+	"445": {
+		"Index": "445",
+		"BgmName": "bgm_battle_default"
+	},
+	"446": {
+		"Index": "446",
+		"BgmName": "bgm_battle_default"
+	},
+	"447": {
+		"Index": "447",
+		"BgmName": "bgm_battle_default"
+	},
+	"448": {
+		"Index": "448",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"449": {
+		"Index": "449",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"450": {
+		"Index": "450",
+		"BgmName": "bgm_battle_default"
+	},
+	"451": {
+		"Index": "451",
+		"BgmName": "bgm_battle_default"
+	},
+	"452": {
+		"Index": "452",
+		"BgmName": "bgm_battle_default"
+	},
+	"453": {
+		"Index": "453",
+		"BgmName": "bgm_adv_warfare"
+	},
+	"454": {
+		"Index": "454",
+		"BgmName": "bgm_adv_outdoors"
+	},
+	"455": {
+		"Index": "455",
+		"BgmName": "bgm_finalscene"
+	},
+	"456": {
+		"Index": "456",
+		"BgmName": "bgm_finalscene"
+	},
+	"457": {
+		"Index": "457",
+		"BgmName": "bgm_finalscene"
+	},
+	"458": {
+		"Index": "458",
+		"BgmName": "bgm_adv_calm"
+	},
+	"459": {
+		"Index": "459",
+		"BgmName": "bgm_adv_town"
+	},
+	"460": {
+		"Index": "460",
+		"BgmName": "bgm_adv_town"
+	},
+	"461": {
+		"Index": "461",
+		"BgmName": "bgm_adv_town"
+	}
+}
