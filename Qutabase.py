@@ -687,7 +687,7 @@ def func_mainBGM():
 	with open('SmallZoneInfoScript-dec.qt', encoding='utf-8-sig') as qt:
 	    mainBGM	=	json.load(qt)
 	for x in mainQt:
-		mainQt[x]['Dialog']	=	'#BGM,'	+	mainBGM[mainQt[x]['Zone']]['BgmName']	+	',100'	+	mainQt[x]['Dialog']	+	'#BGM,'	+	mainBGM[mainQt[x]['Zone']]['BgmName']	+	',100'
+		mainQt[x]['Dialog']	=	'#BGM,'	+	mainBGM[mainQt[x]['Zone']]['BgmName']	+	',100'	+	mainQt[x]['Dialog']
 	with open('mainStoryJB.qt', 'wt', encoding='utf-8-sig') as qt:
 		json.dump(mainQt, qt, ensure_ascii=False, indent='\t')
 
