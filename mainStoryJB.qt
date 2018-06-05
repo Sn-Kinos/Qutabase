@@ -3,7 +3,7 @@
 		"Index": "1",
 		"Zone": "0",
 		"EventType": "SelectSmallZone",
-		"Dialog": "#BGM,,100#BACKGROUNDGROUP,1,0,1#BGM,,100"
+		"Dialog": "#BGM#BACKGROUNDGROUP,1,0,1#BGM,,100"
 	},
 	"2": {
 		"Index": "2",
