@@ -706,7 +706,16 @@ def func_uniEvt():
 	for x in range(1, 7):
 		print(x)
 		with open('CutSceneTable_Replay0'	+	str(x)	+	'Script-dec.qt', encoding='utf-8-sig') as qt:
-			qts[x]	=	json.load(qt)
+			qts.append(json.load(qt))
+	mainQt	= {}
+	count	=	1
+	for x in qts:
+		for y in x:
+			if len(y['Dialog'].split('#')) > 2:
+				mainQt[count]	=	y
+				count	+=	1
+	with open('eventStoryJ.qt', 'wt', encoding='utf-8-sig') as qt:
+	    json.dump(mainQt, qt, ensure_ascii=False, indent='\t')
 
 
 
