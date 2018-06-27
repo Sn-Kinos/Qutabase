@@ -712,6 +712,7 @@ def func_uniEvt():
 	for x in qts:
 		for y in x:
 			if len(y['Dialog'].split('#')) > 2:
+				y['Index']	=	str(count)
 				mainQt[count]	=	y
 				count	+=	1
 	with open('eventStoryJ.qt', 'wt', encoding='utf-8-sig') as qt:
