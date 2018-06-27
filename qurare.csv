@@ -1,5 +1,5 @@
 rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,name,skill,engname,engskill
-7,회복,27,액티브,판타지,00,659,4618,568,4608,9226,17057,에우테르페,참회 VI,Euterpe,Repent VI
+7,회복,27,액티브,판타지,0,659,4618,568,4608,9226,17057,에우테르페,참회 VI,Euterpe,Repent VI
 7,공격,27,액티브,미스터리,달랑게,790,5529,527,3692,9221,17052,에리스,강타 VI,Eris,Smite VI
 7,회복,26,액티브,SF,달랑게,647,4530,646,4525,9055,17006,델핀,참회 VI,Delphine,Repent VI
 7,회복,26,액티브,미스터리,송개,645,4518,647,4533,9051,17040,세드나,참회 VI,Sedna,Repent VI
@@ -484,6 +484,7 @@ rarity,role,cost,skilltype,faction,illustrator,atk0,maxatk0,hp0,maxhp0,max,id,na
 6,공격,16,액티브,오리엔탈,마끼아또,479,3358,319,2233,5591,6382,셰헤라자드,역행 V,Scheherazade,Regress V
 6,방어,16,액티브,판타지,당밀,320,2240,478,3349,5589,6358,비비안,불굴 V,Viviane,Fearless V
 6,회복,16,패시브,미스터리,"이말년, 아메라",398,2791,399,2797,5588,6383,말년의 혼세마왕,안위 V,Fan Rui of Zilioner,Empower V
+6,방어,15,패시브,판타지,xx이나xx,318,2230,479,3358,5588,6553,축융,인내 V,Zhurong,Fortitude V
 6,방어,15,액티브,미스터리,SHIHYUN,319,2234,479,3353,5587,6443,고양이귀 비헬드,회피 V,Nekomimi Viheld,Evade V
 6,공격,15,액티브,오리엔탈,Mx2J,479,3355,318,2232,5587,6452,전장의 간옹,분노 V,Warfare Jian Yong,Enrage V
 6,공격,15,액티브,오리엔탈,GUA,478,3347,320,2240,5587,6501,홀리카,분쇄 V,Holika,Smash V
