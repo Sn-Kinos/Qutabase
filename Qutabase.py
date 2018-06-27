@@ -701,6 +701,15 @@ def func_mainBGM():
 
 
 
+def func_uniEvt():
+	qts	=	[]
+	for x in range(1, 7):
+		print(x)
+		with open('CutSceneTable_Replay0'	+	str(x)	+	'Script-dec.qt', encoding='utf-8-sig') as qt:
+			qts[x]	=	json.load(qt)
+
+
+
 def func_menu():
 	var_input = input("""
 	QUTABASE\n
@@ -712,6 +721,7 @@ def func_menu():
 	6. get lvl data\n
 	7. qt to csv to qt\n
 	8. mainStory BGM
+	9. Unite Event Story\n
 	(name).display\n\n >>> """)
 	if var_input == '0':
 		return
@@ -733,6 +743,8 @@ def func_menu():
 		func_qtCsv()
 	elif var_input == '8':
 		func_mainBGM()
+	elif var_input == '9':
+		func_uniEvt()
 	elif var_input == '1233212313212123': # We didn't need inven data
 		func_db_get('123')
 		func_db_skill()
