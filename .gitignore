@@ -1,6 +1,9 @@
 Kodex/
 
-.qt
-.csv
-.json
-.xlsx
+*-dec.qt
+main*.qt
+event*.qt
+
+*-dec.csv
+*.json
+*.xlsx
