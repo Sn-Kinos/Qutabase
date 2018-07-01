@@ -681,23 +681,48 @@ def func_qtCsv():
 
 
 
-def func_mainBGM():
-	with open('mainStoryJ.qt', encoding='utf-8-sig') as qt:
-	    mainQt	=	json.load(qt)
-	with open('SmallZoneInfoScript-dec.qt', encoding='utf-8-sig') as qt:
-	    mainBGM	=	json.load(qt)
-	for x in mainQt:
-		bgmFlag	=	True;
-		for y in range(0, 5):
-			try:
-				if mainQt[x]['Dialog'].split('#')[y].split(',')[0] == 'BGM':
-					bgmFlag	=	False
-			except IndexError:
-				break
-		if bgmFlag:
-			mainQt[x]['Dialog']	=	'#BGM,'	+	mainBGM[mainQt[x]['Zone']]['BgmName']	+	',100'	+	mainQt[x]['Dialog']
-	with open('mainStoryJB.qt', 'wt', encoding='utf-8-sig') as qt:
-		json.dump(mainQt, qt, ensure_ascii=False, indent='\t')
+def func_insBGM():
+
+	var_input	=	input("1. Main Story | 2. Event Story\n >>> ")
+
+	def func_mainBGM():
+		with open('mainStoryJ.qt', encoding='utf-8-sig') as qt:
+			mainQt	=	json.load(qt)
+		with open('SmallZoneInfoScript-dec.qt', encoding='utf-8-sig') as qt:
+			mainBGM	=	json.load(qt)
+		for x in mainQt:
+			bgmFlag	=	True
+			for y in range(0, 5):
+				try:
+					if mainQt[x]['Dialog'].split('#')[y].split(',')[0] == 'BGM':
+						bgmFlag	=	False
+				except IndexError:
+					break
+			if bgmFlag:
+				mainQt[x]['Dialog']	=	'#BGM,'	+	mainBGM[mainQt[x]['Zone']]['BgmName']	+	',100'	+	mainQt[x]['Dialog']
+		with open('mainStoryJB.qt', 'wt', encoding='utf-8-sig') as qt:
+			json.dump(mainQt, qt, ensure_ascii=False, indent='\t')
+
+	def func_eventBGM():
+		with open('eventStoryJ.qt', encoding='utf-8-sig') as qt:
+			mainQt	=	json.load(qt)
+		for x in mainQt:
+			bgmFlag = True
+			for y in range(0, 5):
+				try:
+					if mainQt[x]['Dialog'].split('#')[y].split(',')[0] == 'BGM':
+						bgmFlag	=	False
+				except IndexError:
+					break
+			if bgmFlag:
+				mainQt[x]['Dialog']	=	'#BGM,bgm_adv_outdoors,100'	+	mainQt[x]['Dialog']
+		with open('eventStoryJB.qt', 'wt', encoding='utf-8-sig') as qt:
+			json.dump(mainQt, qt, ensure_ascii=False, indent='\t')
+
+	if var_input == '1':
+		func_mainBGM()
+	elif var_input == '2':
+		func_eventBGM()
 
 
 
@@ -730,7 +755,7 @@ def func_menu():
 	5. get skills\n
 	6. get lvl data\n
 	7. qt to csv to qt\n
-	8. mainStory BGM
+	8. Insert BGM into script
 	9. Unite Event Story\n
 	(name).display\n\n >>> """)
 	if var_input == '0':
@@ -752,7 +777,7 @@ def func_menu():
 	elif var_input == '7':
 		func_qtCsv()
 	elif var_input == '8':
-		func_mainBGM()
+		func_insBGM()
 	elif var_input == '9':
 		func_uniEvt()
 	elif var_input == '1233212313212123': # We didn't need inven data
