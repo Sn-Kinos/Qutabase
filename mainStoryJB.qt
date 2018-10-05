@@ -321,7 +321,7 @@
 		"Index": "54",
 		"Zone": "49",
 		"EventType": "SelectSmallZone",
-		"Dialog": "#BGM,bgm_adv_outdoors,100#BACKGROUND,BridgeWater_Battle#L,10001,EyeDown,셀라는 마도서 회수 작업 해봤어?#R,10002,wink,그, 그럼요! 몇 번이고 다녀보았어요! 이래봬도 꽤 대단한 경력을 가지고 있답니다요!#L,10001,repond,우와, 대단해. 나는 수습일 때 서고에서만 있었는데……. 굉장하다.#R,10002,EyeDown,(견학 신분으로 이름만 올린 거지만…….)#FONTSIZE,25#L,10001,EyeDown,이렇게 능력 있는 사람이 와주다니, 앞으로 잘 부탁해.#FONTSIZE,32#R,10002,smile,마, 맡겨만 주세요! 이 셀라가 다 해결해보일게요!"
+		"Dialog": "#BGM,bgm_adv_outdoors,100#BACKGROUND,BridgeWater_Battle#L,10001,EyeDown,셀라는 마도서 회수 작업 해봤어?#R,10002,wink,그, 그럼요! 몇 번이고 다녀보았어요! 이래봬도 꽤 대단한 경력을 가지고 있답니다요!#L,10001,respond,우와, 대단해. 나는 수습일 때 서고에서만 있었는데……. 굉장하다.#R,10002,EyeDown,(견학 신분으로 이름만 올린 거지만…….)#FONTSIZE,25#L,10001,EyeDown,이렇게 능력 있는 사람이 와주다니, 앞으로 잘 부탁해.#FONTSIZE,32#R,10002,smile,마, 맡겨만 주세요! 이 셀라가 다 해결해보일게요!"
 	},
 	"55": {
 		"Index": "55",
